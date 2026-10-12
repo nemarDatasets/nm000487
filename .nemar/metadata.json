@@ -1,0 +1,110 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Corentin Jacques": {
+      "orcid": "0000-0001-8917-4346"
+    },
+    "Jacques Jonas": {
+      "orcid": "0000-0002-1053-0748",
+      "affiliations": [
+        {
+          "name": "Université de Lorraine, CNRS, IMoPA"
+        },
+        {
+          "name": "Université de Lorraine, CHRU-Nancy, Service de Neurologie"
+        }
+      ]
+    },
+    "Sophie Colnat-Coulbois": {
+      "orcid": "0000-0003-1987-857X",
+      "affiliations": [
+        {
+          "name": "Université de Lorraine, CHRU-Nancy, Service de Neurochirurgie"
+        }
+      ]
+    },
+    "Bruno Rossion": {
+      "orcid": "0000-0002-1845-3935"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/2QZYM",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.7554/eLife.109640.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000487",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000487",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "s500-literature-164: Face-selective SEEG across the ventral occipito-temporal cortex in 140 participants, fast periodic visual stimulation (Jacques et al., 2025) (derivative)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "17.07 GB (421 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".lw5",
+    ".m",
+    ".mat",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Stereo-electroencephalography (SEEG) recordings from 140 patients with refractory epilepsy undergoing presurgical evaluation at the University Hospital of Nancy. Participants viewed fast periodic visual stimulation, with natural object images presented at 6 Hz and a face every fifth image (1.2 Hz). The dataset covers 22,160 intracerebral channels, most with Talairach coordinates and anatomical labels, sampling the ventral occipito-temporal cortex to study category-selective face responses. It is a BIDS derivative of the authors' minimally preprocessed Letswave 5 release.",
+  "methods_description": "Micromed TRC recordings were imported in Letswave 5, segmented into FPVS stimulation sequences (2 s before onset to 2 s after the end) and merged per participant. They were repackaged in BrainVision format with float32 values unchanged. Talairach coordinates and anatomical labels were taken from the Letswave channel locations. Files were de-identified by replacing event codes and cleaning headers.",
+  "keywords": [
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "intracerebral recordings"
+    },
+    {
+      "term": "face recognition"
+    },
+    {
+      "term": "fast periodic visual stimulation"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "ventral occipito-temporal cortex"
+    },
+    {
+      "term": "high-frequency broadband"
+    },
+    {
+      "term": "Talairach"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
+  "source_hash": "7ac76d2a1d40964c7d6966b20e9d63b46a4a1920f18f26678b40c6b9702fef13"
+}
