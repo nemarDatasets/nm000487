@@ -1,0 +1,23 @@
+{
+  "onset": {
+    "Description": "Event time in this file (sequences back-to-back)",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "0 (instantaneous Letswave event)",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Letswave event code as stored (numeric Micromed trigger codes; a leading participant-code token before '_' is replaced by 'seq'; other free-text codes by 'unk'). The README states the event codes are meaningless for most participants; stimulus onsets are periodic (6 Hz, faces at 1.2 Hz)."
+  },
+  "sequence": {
+    "Description": "Sequence (Letswave epoch) number, 1-based"
+  },
+  "latency_in_sequence": {
+    "Description": "Letswave event latency on the sequence time axis (header xstart = -2 or -1.8333 s)",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "Sample index in this file (0-based)"
+  }
+}

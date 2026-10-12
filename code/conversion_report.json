@@ -1,0 +1,7222 @@
+{
+ "files": [
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_001/P_001_ieeg.lw5",
+   "sub": "sub-001",
+   "pid": 1,
+   "sequences": 5,
+   "samples_per_sequence": 27649,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 103,
+   "n_events": 2990,
+   "types": {
+    "SEEG": 103
+   },
+   "roundtrip_ok": true,
+   "n_tal": 101,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "50",
+   "main_regions": {
+    "n/a": 21,
+    "WM": 10,
+    "MTL": 3,
+    "ATL": 20,
+    "PTL": 22,
+    "no_info": 2,
+    "OCC": 19,
+    "lesion": 6
+   },
+   "votc": {
+    "not_VOTC": 21,
+    "VOTC": 80,
+    "no_info": 2
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_002/P_002_ieeg.lw5",
+   "sub": "sub-002",
+   "pid": 2,
+   "sequences": 2,
+   "samples_per_sequence": 26624,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 121,
+   "n_events": 1196,
+   "types": {
+    "SEEG": 121
+   },
+   "roundtrip_ok": true,
+   "n_tal": 119,
+   "reference": "C'12",
+   "first_trigger_missing": "1",
+   "seq_len": "50",
+   "main_regions": {
+    "PTL": 13,
+    "OCC": 10,
+    "n/a": 67,
+    "out of VOTC": 5,
+    "nonVOTC": 1,
+    "ATL": 17,
+    "no_info": 2,
+    "MTL": 4,
+    "WM": 2
+   },
+   "votc": {
+    "VOTC": 65,
+    "not_VOTC": 54,
+    "no_info": 2
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_003/P_003_ieeg.lw5",
+   "sub": "sub-003",
+   "pid": 3,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 111,
+   "n_events": 1676,
+   "types": {
+    "SEEG": 111
+   },
+   "roundtrip_ok": true,
+   "n_tal": 109,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 59,
+    "MTL": 21,
+    "no_info": 2,
+    "PTL": 13,
+    "ATL": 15,
+    "WM": 1
+   },
+   "votc": {
+    "VOTC": 92,
+    "not_VOTC": 17,
+    "no_info": 2
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_004/P_004_ieeg.lw5",
+   "sub": "sub-004",
+   "pid": 4,
+   "sequences": 4,
+   "samples_per_sequence": 18945,
+   "sfreq": 256.0,
+   "xstart": -1.834,
+   "nch": 113,
+   "n_events": 3352,
+   "types": {
+    "SEEG": 113
+   },
+   "roundtrip_ok": true,
+   "n_tal": 109,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 6,
+    "n/a": 88,
+    "MTL": 9,
+    "ATL": 6,
+    "no_info": 4
+   },
+   "votc": {
+    "VOTC": 36,
+    "not_VOTC": 73,
+    "no_info": 4
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_005/P_005_ieeg.lw5",
+   "sub": "sub-005",
+   "pid": 5,
+   "sequences": 3,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 104,
+   "n_events": 2514,
+   "types": {
+    "SEEG": 104
+   },
+   "roundtrip_ok": true,
+   "n_tal": 93,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 23,
+    "n/a": 41,
+    "ATL": 22,
+    "WM": 4,
+    "no_info": 11,
+    "PTL": 3
+   },
+   "votc": {
+    "VOTC": 69,
+    "not_VOTC": 24,
+    "no_info": 11
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_006/P_006_ieeg.lw5",
+   "sub": "sub-006",
+   "pid": 6,
+   "sequences": 3,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 108,
+   "n_events": 1257,
+   "types": {
+    "SEEG": 108
+   },
+   "roundtrip_ok": true,
+   "n_tal": 108,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "PTL": 26,
+    "WM": 1,
+    "OCC": 27,
+    "n/a": 54
+   },
+   "votc": {
+    "VOTC": 49,
+    "not_VOTC": 59
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_007/P_007_ieeg.lw5",
+   "sub": "sub-007",
+   "pid": 7,
+   "sequences": 4,
+   "samples_per_sequence": 18945,
+   "sfreq": 256.0,
+   "xstart": -1.834,
+   "nch": 120,
+   "n_events": 2514,
+   "types": {
+    "SEEG": 120
+   },
+   "roundtrip_ok": true,
+   "n_tal": 119,
+   "reference": "A8",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 2,
+    "n/a": 53,
+    "MTL": 20,
+    "WM": 14,
+    "ATL": 17,
+    "PTL": 5,
+    "no_info": 9
+   },
+   "votc": {
+    "VOTC": 80,
+    "not_VOTC": 31,
+    "no_info": 9
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_008/P_008_ieeg.lw5",
+   "sub": "sub-008",
+   "pid": 8,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 107,
+   "n_events": 2514,
+   "types": {
+    "SEEG": 107
+   },
+   "roundtrip_ok": true,
+   "n_tal": 97,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 77,
+    "lesion": 8,
+    "no_info": 10,
+    "OCC": 11,
+    "WM": 1
+   },
+   "votc": {
+    "VOTC": 20,
+    "not_VOTC": 77,
+    "no_info": 10
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_009/P_009_ieeg.lw5",
+   "sub": "sub-009",
+   "pid": 9,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 155,
+   "n_events": 422,
+   "types": {
+    "SEEG": 155
+   },
+   "roundtrip_ok": true,
+   "n_tal": 146,
+   "reference": "Fpz",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 6,
+    "no_info": 8,
+    "MTL": 23,
+    "WM": 20,
+    "ATL": 65,
+    "n/a": 32,
+    "out of the brain": 1
+   },
+   "votc": {
+    "VOTC": 115,
+    "no_info": 8,
+    "not_VOTC": 32
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_010/P_010_ieeg.lw5",
+   "sub": "sub-010",
+   "pid": 10,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 162,
+   "n_events": 419,
+   "types": {
+    "SEEG": 162
+   },
+   "roundtrip_ok": true,
+   "n_tal": 144,
+   "reference": "W4",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 51,
+    "no_info": 16,
+    "TP": 5,
+    "MTL": 14,
+    "WM": 26,
+    "ATL": 41,
+    "PTL": 9
+   },
+   "votc": {
+    "not_VOTC": 51,
+    "no_info": 16,
+    "VOTC": 95
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_011/P_011_ieeg.lw5",
+   "sub": "sub-011",
+   "pid": 11,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 211,
+   "n_events": 422,
+   "types": {
+    "SEEG": 211
+   },
+   "roundtrip_ok": true,
+   "n_tal": 186,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 8,
+    "n/a": 121,
+    "no_info": 25,
+    "MTL": 19,
+    "WM": 10,
+    "ATL": 28
+   },
+   "votc": {
+    "VOTC": 65,
+    "not_VOTC": 121,
+    "no_info": 25
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_012/P_012_ieeg.lw5",
+   "sub": "sub-012",
+   "pid": 12,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 145,
+   "n_events": 422,
+   "types": {
+    "SEEG": 145
+   },
+   "roundtrip_ok": true,
+   "n_tal": 138,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 57,
+    "no_info": 5,
+    "MTL": 13,
+    "WM": 27,
+    "ATL": 35,
+    "TP": 8
+   },
+   "votc": {
+    "not_VOTC": 57,
+    "no_info": 5,
+    "VOTC": 83
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_013/P_013_ieeg.lw5",
+   "sub": "sub-013",
+   "pid": 13,
+   "sequences": 4,
+   "samples_per_sequence": 39001,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 165,
+   "n_events": 842,
+   "types": {
+    "SEEG": 165
+   },
+   "roundtrip_ok": true,
+   "n_tal": 151,
+   "reference": "W'5",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 117,
+    "no_info": 12,
+    "MTL": 3,
+    "WM": 7,
+    "ATL": 17,
+    "PTL": 9
+   },
+   "votc": {
+    "not_VOTC": 117,
+    "no_info": 12,
+    "VOTC": 36
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_014/P_014_ieeg.lw5",
+   "sub": "sub-014",
+   "pid": 14,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 131,
+   "n_events": 422,
+   "types": {
+    "SEEG": 131
+   },
+   "roundtrip_ok": true,
+   "n_tal": 113,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 89,
+    "no_info": 15,
+    "TP": 4,
+    "WM": 8,
+    "MTL": 6,
+    "ATL": 9
+   },
+   "votc": {
+    "not_VOTC": 89,
+    "no_info": 15,
+    "VOTC": 27
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_015/P_015_ieeg.lw5",
+   "sub": "sub-015",
+   "pid": 15,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 136,
+   "n_events": 422,
+   "types": {
+    "SEEG": 136
+   },
+   "roundtrip_ok": true,
+   "n_tal": 130,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 21,
+    "WM": 13,
+    "ATL": 40,
+    "no_info": 6,
+    "PTL": 12,
+    "n/a": 44
+   },
+   "votc": {
+    "VOTC": 86,
+    "no_info": 6,
+    "not_VOTC": 44
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_016/P_016_ieeg.lw5",
+   "sub": "sub-016",
+   "pid": 16,
+   "sequences": 2,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 105,
+   "n_events": 838,
+   "types": {
+    "SEEG": 105
+   },
+   "roundtrip_ok": true,
+   "n_tal": 101,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 55,
+    "TP": 1,
+    "MTL": 15,
+    "WM": 7,
+    "ATL": 23,
+    "no_info": 4
+   },
+   "votc": {
+    "VOTC": 68,
+    "not_VOTC": 33,
+    "no_info": 4
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_017/P_017_ieeg.lw5",
+   "sub": "sub-017",
+   "pid": 17,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 174,
+   "n_events": 842,
+   "types": {
+    "SEEG": 174
+   },
+   "roundtrip_ok": true,
+   "n_tal": 145,
+   "reference": "B7",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 24,
+    "ATL": 64,
+    "no_info": 29,
+    "WM": 17,
+    "n/a": 33,
+    "TP": 7
+   },
+   "votc": {
+    "VOTC": 112,
+    "no_info": 29,
+    "not_VOTC": 33
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p1-p18.zip.d/P_018/P_018_ieeg.lw5",
+   "sub": "sub-018",
+   "pid": 18,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 185,
+   "n_events": 422,
+   "types": {
+    "SEEG": 185
+   },
+   "roundtrip_ok": true,
+   "n_tal": 157,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 8,
+    "no_info": 28,
+    "MTL": 12,
+    "WM": 12,
+    "ATL": 23,
+    "n/a": 93,
+    "PTL": 9
+   },
+   "votc": {
+    "VOTC": 64,
+    "no_info": 28,
+    "not_VOTC": 93
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_019/P_019_ieeg.lw5",
+   "sub": "sub-019",
+   "pid": 19,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 181,
+   "n_events": 422,
+   "types": {
+    "SEEG": 181
+   },
+   "roundtrip_ok": true,
+   "n_tal": 179,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 111,
+    "TP": 9,
+    "WM": 14,
+    "ATL": 32,
+    "MTL": 13,
+    "no_info": 2
+   },
+   "votc": {
+    "not_VOTC": 111,
+    "VOTC": 68,
+    "no_info": 2
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_020/P_020_ieeg.lw5",
+   "sub": "sub-020",
+   "pid": 20,
+   "sequences": 6,
+   "samples_per_sequence": 39001,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 141,
+   "n_events": 842,
+   "types": {
+    "SEEG": 141
+   },
+   "roundtrip_ok": true,
+   "n_tal": 131,
+   "reference": "W9",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 73,
+    "ATL": 23,
+    "no_info": 9,
+    "MTL": 14,
+    "WM": 15,
+    "TP": 7
+   },
+   "votc": {
+    "not_VOTC": 73,
+    "VOTC": 59,
+    "no_info": 9
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_021/P_021_ieeg.lw5",
+   "sub": "sub-021",
+   "pid": 21,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 204,
+   "n_events": 422,
+   "types": {
+    "SEEG": 204
+   },
+   "roundtrip_ok": true,
+   "n_tal": 180,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 8,
+    "WM": 5,
+    "ATL": 12,
+    "no_info": 24,
+    "n/a": 155
+   },
+   "votc": {
+    "VOTC": 25,
+    "no_info": 24,
+    "not_VOTC": 155
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_022/P_022_ieeg.lw5",
+   "sub": "sub-022",
+   "pid": 22,
+   "sequences": 10,
+   "samples_per_sequence": 39001,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 158,
+   "n_events": 842,
+   "types": {
+    "SEEG": 158
+   },
+   "roundtrip_ok": true,
+   "n_tal": 147,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 16,
+    "WM": 28,
+    "ATL": 65,
+    "PTL": 12,
+    "no_info": 9,
+    "TP": 14,
+    "n/a": 14
+   },
+   "votc": {
+    "VOTC": 135,
+    "no_info": 9,
+    "not_VOTC": 14
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_023/P_023_ieeg.lw5",
+   "sub": "sub-023",
+   "pid": 23,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 186,
+   "n_events": 422,
+   "types": {
+    "SEEG": 186
+   },
+   "roundtrip_ok": true,
+   "n_tal": 179,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 166,
+    "no_info": 7,
+    "MTL": 6,
+    "WM": 3,
+    "ATL": 4
+   },
+   "votc": {
+    "not_VOTC": 166,
+    "no_info": 7,
+    "VOTC": 13
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_024/P_024_ieeg.lw5",
+   "sub": "sub-024",
+   "pid": 24,
+   "sequences": 8,
+   "samples_per_sequence": 39001,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 161,
+   "n_events": 842,
+   "types": {
+    "SEEG": 161
+   },
+   "roundtrip_ok": true,
+   "n_tal": 150,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 9,
+    "WM": 21,
+    "ATL": 47,
+    "no_info": 10,
+    "MTL": 16,
+    "n/a": 53,
+    "PTL": 4,
+    "out of brain": 1
+   },
+   "votc": {
+    "VOTC": 98,
+    "no_info": 10,
+    "not_VOTC": 53
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_025/P_025_ieeg.lw5",
+   "sub": "sub-025",
+   "pid": 25,
+   "sequences": 6,
+   "samples_per_sequence": 39001,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 161,
+   "n_events": 842,
+   "types": {
+    "SEEG": 161
+   },
+   "roundtrip_ok": true,
+   "n_tal": 150,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 54,
+    "ATL": 46,
+    "WM": 24,
+    "MTL": 14,
+    "no_info": 10,
+    "TP": 9,
+    "PTL": 3,
+    "out of brain": 1
+   },
+   "votc": {
+    "not_VOTC": 54,
+    "VOTC": 97,
+    "no_info": 10
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_026/P_026_ieeg.lw5",
+   "sub": "sub-026",
+   "pid": 26,
+   "sequences": 2,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 161,
+   "n_events": 422,
+   "types": {
+    "SEEG": 161
+   },
+   "roundtrip_ok": true,
+   "n_tal": 144,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 61,
+    "no_info": 16,
+    "MTL": 13,
+    "WM": 18,
+    "TP": 8,
+    "PTL": 20,
+    "n/a": 15,
+    "OCC": 10
+   },
+   "votc": {
+    "VOTC": 130,
+    "no_info": 16,
+    "not_VOTC": 15
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_027/P_027_ieeg.lw5",
+   "sub": "sub-027",
+   "pid": 27,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 160,
+   "n_events": 422,
+   "types": {
+    "SEEG": 160
+   },
+   "roundtrip_ok": true,
+   "n_tal": 158,
+   "reference": "Fpz",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 9,
+    "WM": 29,
+    "MTL": 20,
+    "ATL": 48,
+    "no_info": 2,
+    "PTL": 11,
+    "n/a": 41
+   },
+   "votc": {
+    "VOTC": 117,
+    "no_info": 2,
+    "not_VOTC": 41
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_028/P_028_ieeg.lw5",
+   "sub": "sub-028",
+   "pid": 28,
+   "sequences": 3,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 193,
+   "n_events": 423,
+   "types": {
+    "SEEG": 193
+   },
+   "roundtrip_ok": true,
+   "n_tal": 187,
+   "reference": "Fpz",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 142,
+    "ATL": 21,
+    "WM": 2,
+    "no_info": 5,
+    "PTL": 10,
+    "MTL": 3,
+    "OCC": 10
+   },
+   "votc": {
+    "not_VOTC": 142,
+    "VOTC": 46,
+    "no_info": 5
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_029/P_029_ieeg.lw5",
+   "sub": "sub-029",
+   "pid": 29,
+   "sequences": 10,
+   "samples_per_sequence": 39001,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 165,
+   "n_events": 842,
+   "types": {
+    "SEEG": 165
+   },
+   "roundtrip_ok": true,
+   "n_tal": 156,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 11,
+    "WM": 17,
+    "ATL": 29,
+    "out of brain": 1,
+    "n/a": 74,
+    "OCC": 11,
+    "no_info": 8,
+    "PTL": 14
+   },
+   "votc": {
+    "VOTC": 83,
+    "not_VOTC": 74,
+    "no_info": 8
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_030/P_030_ieeg.lw5",
+   "sub": "sub-030",
+   "pid": 30,
+   "sequences": 4,
+   "samples_per_sequence": 39001,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 156,
+   "n_events": 842,
+   "types": {
+    "SEEG": 156
+   },
+   "roundtrip_ok": true,
+   "n_tal": 124,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "PTL": 7,
+    "WM": 14,
+    "no_info": 32,
+    "TP": 8,
+    "n/a": 53,
+    "MTL": 15,
+    "ATL": 27
+   },
+   "votc": {
+    "VOTC": 71,
+    "no_info": 32,
+    "not_VOTC": 53
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_031/P_031_ieeg.lw5",
+   "sub": "sub-031",
+   "pid": 31,
+   "sequences": 8,
+   "samples_per_sequence": 39001,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 154,
+   "n_events": 842,
+   "types": {
+    "SEEG": 154
+   },
+   "roundtrip_ok": true,
+   "n_tal": 138,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 72,
+    "MTL": 18,
+    "WM": 13,
+    "ATL": 24,
+    "no_info": 16,
+    "TP": 6,
+    "PTL": 5
+   },
+   "votc": {
+    "not_VOTC": 72,
+    "VOTC": 66,
+    "no_info": 16
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_032/P_032_ieeg.lw5",
+   "sub": "sub-032",
+   "pid": 32,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 159,
+   "n_events": 422,
+   "types": {
+    "SEEG": 159
+   },
+   "roundtrip_ok": true,
+   "n_tal": 146,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 19,
+    "WM": 14,
+    "ATL": 51,
+    "no_info": 13,
+    "PTL": 10,
+    "TP": 7,
+    "n/a": 45
+   },
+   "votc": {
+    "VOTC": 101,
+    "no_info": 13,
+    "not_VOTC": 45
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_033/P_033_ieeg.lw5",
+   "sub": "sub-033",
+   "pid": 33,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 179,
+   "n_events": 422,
+   "types": {
+    "SEEG": 179
+   },
+   "roundtrip_ok": true,
+   "n_tal": 164,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 9,
+    "no_info": 15,
+    "ATL": 39,
+    "WM": 29,
+    "n/a": 68,
+    "MTL": 19
+   },
+   "votc": {
+    "VOTC": 96,
+    "no_info": 15,
+    "not_VOTC": 68
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_034/P_034_ieeg.lw5",
+   "sub": "sub-034",
+   "pid": 34,
+   "sequences": 6,
+   "samples_per_sequence": 39001,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 138,
+   "n_events": 842,
+   "types": {
+    "SEEG": 138
+   },
+   "roundtrip_ok": true,
+   "n_tal": 124,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 47,
+    "MTL": 12,
+    "WM": 16,
+    "ATL": 37,
+    "no_info": 13,
+    "TP": 8,
+    "PTL": 4,
+    "out of brain": 1
+   },
+   "votc": {
+    "not_VOTC": 47,
+    "VOTC": 78,
+    "no_info": 13
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data__p19-p35.zip.d/P_035/P_035_ieeg.lw5",
+   "sub": "sub-035",
+   "pid": 35,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 178,
+   "n_events": 422,
+   "types": {
+    "SEEG": 178
+   },
+   "roundtrip_ok": true,
+   "n_tal": 162,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 87,
+    "no_info": 16,
+    "ATL": 39,
+    "MTL": 15,
+    "WM": 21
+   },
+   "votc": {
+    "not_VOTC": 87,
+    "no_info": 16,
+    "VOTC": 75
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_036/P_036_ieeg.lw5",
+   "sub": "sub-036",
+   "pid": 36,
+   "sequences": 2,
+   "samples_per_sequence": 39001,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 160,
+   "n_events": 842,
+   "types": {
+    "SEEG": 160
+   },
+   "roundtrip_ok": true,
+   "n_tal": 144,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 16,
+    "WM": 14,
+    "ATL": 48,
+    "no_info": 16,
+    "n/a": 54,
+    "TP": 7,
+    "PTL": 5
+   },
+   "votc": {
+    "VOTC": 90,
+    "no_info": 16,
+    "not_VOTC": 54
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_037/P_037_ieeg.lw5",
+   "sub": "sub-037",
+   "pid": 37,
+   "sequences": 9,
+   "samples_per_sequence": 41501,
+   "sfreq": 500.0,
+   "xstart": -2.0,
+   "nch": 145,
+   "n_events": 1353,
+   "types": {
+    "SEEG": 145
+   },
+   "roundtrip_ok": true,
+   "n_tal": 124,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 78,
+    "ATL": 20,
+    "WM": 14,
+    "no_info": 18,
+    "MTL": 6,
+    "out of brain": 2,
+    "PTL": 7
+   },
+   "votc": {
+    "not_VOTC": 78,
+    "VOTC": 49,
+    "no_info": 18
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_038/P_038_ieeg.lw5",
+   "sub": "sub-038",
+   "pid": 38,
+   "sequences": 3,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 193,
+   "n_events": 422,
+   "types": {
+    "SEEG": 193
+   },
+   "roundtrip_ok": true,
+   "n_tal": 180,
+   "reference": "Fpz",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 92,
+    "PTL": 15,
+    "OCC": 12,
+    "WM": 12,
+    "no_info": 12,
+    "MTL": 16,
+    "ATL": 34
+   },
+   "votc": {
+    "not_VOTC": 92,
+    "VOTC": 89,
+    "no_info": 12
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_039/P_039_ieeg.lw5",
+   "sub": "sub-039",
+   "pid": 39,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 151,
+   "n_events": 423,
+   "types": {
+    "SEEG": 151
+   },
+   "roundtrip_ok": true,
+   "n_tal": 140,
+   "reference": "Fpz",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 7,
+    "WM": 15,
+    "MTL": 12,
+    "ATL": 48,
+    "no_info": 10,
+    "n/a": 57,
+    "outside the brain": 2
+   },
+   "votc": {
+    "VOTC": 84,
+    "no_info": 10,
+    "not_VOTC": 57
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_040/P_040_ieeg.lw5",
+   "sub": "sub-040",
+   "pid": 40,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 153,
+   "n_events": 422,
+   "types": {
+    "SEEG": 153
+   },
+   "roundtrip_ok": true,
+   "n_tal": 144,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 8,
+    "no_info": 7,
+    "ATL": 49,
+    "WM": 22,
+    "out of brain": 2,
+    "n/a": 50,
+    "MTL": 15
+   },
+   "votc": {
+    "VOTC": 96,
+    "no_info": 7,
+    "not_VOTC": 50
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_041/P_041_ieeg.lw5",
+   "sub": "sub-041",
+   "pid": 41,
+   "sequences": 2,
+   "samples_per_sequence": 37727,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 166,
+   "n_events": 8,
+   "types": {
+    "SEEG": 166
+   },
+   "roundtrip_ok": true,
+   "n_tal": 151,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 4,
+    "n/a": 94,
+    "out of brain": 2,
+    "no_info": 13,
+    "MTL": 11,
+    "WM": 7,
+    "ATL": 24,
+    "PTL": 11
+   },
+   "votc": {
+    "VOTC": 85,
+    "no_info": 13,
+    "not_VOTC": 68
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_042/P_042_ieeg.lw5",
+   "sub": "sub-042",
+   "pid": 42,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 170,
+   "n_events": 422,
+   "types": {
+    "SEEG": 170
+   },
+   "roundtrip_ok": true,
+   "n_tal": 150,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 53,
+    "WM": 12,
+    "no_info": 19,
+    "MTL": 16,
+    "out of brain": 1,
+    "n/a": 50,
+    "TP": 8,
+    "PTL": 10,
+    "s": 1
+   },
+   "votc": {
+    "VOTC": 99,
+    "no_info": 19,
+    "not_VOTC": 52
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_043/P_043_ieeg.lw5",
+   "sub": "sub-043",
+   "pid": 43,
+   "sequences": 2,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 110,
+   "n_events": 423,
+   "types": {
+    "SEEG": 110
+   },
+   "roundtrip_ok": true,
+   "n_tal": 102,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 74,
+    "no_info": 8,
+    "MTL": 8,
+    "ATL": 10,
+    "WM": 10
+   },
+   "votc": {
+    "not_VOTC": 74,
+    "no_info": 8,
+    "VOTC": 28
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_044/P_044_ieeg.lw5",
+   "sub": "sub-044",
+   "pid": 44,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 167,
+   "n_events": 422,
+   "types": {
+    "SEEG": 167
+   },
+   "roundtrip_ok": true,
+   "n_tal": 153,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 12,
+    "WM": 22,
+    "ATL": 30,
+    "no_info": 14,
+    "n/a": 82,
+    "TP": 7
+   },
+   "votc": {
+    "VOTC": 71,
+    "no_info": 14,
+    "not_VOTC": 82
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_045/P_045_ieeg.lw5",
+   "sub": "sub-045",
+   "pid": 45,
+   "sequences": 3,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 159,
+   "n_events": 423,
+   "types": {
+    "SEEG": 159
+   },
+   "roundtrip_ok": true,
+   "n_tal": 107,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 19,
+    "n/a": 108,
+    "no_info": 10,
+    "MTL": 4,
+    "WM": 7,
+    "PTL": 8,
+    "lesion": 3
+   },
+   "votc": {
+    "VOTC": 41,
+    "not_VOTC": 108,
+    "no_info": 10
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_046/P_046_ieeg.lw5",
+   "sub": "sub-046",
+   "pid": 46,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 141,
+   "n_events": 299,
+   "types": {
+    "SEEG": 141
+   },
+   "roundtrip_ok": true,
+   "n_tal": 128,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "no_info": 141
+   },
+   "votc": {
+    "no_info": 141
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_047/P_047_ieeg.lw5",
+   "sub": "sub-047",
+   "pid": 47,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 150,
+   "n_events": 423,
+   "types": {
+    "SEEG": 150
+   },
+   "roundtrip_ok": true,
+   "n_tal": 137,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 99,
+    "no_info": 11,
+    "MTL": 5,
+    "WM": 5,
+    "ATL": 4,
+    "OCC": 15,
+    "out of brain": 2,
+    "PTL": 9
+   },
+   "votc": {
+    "not_VOTC": 99,
+    "no_info": 11,
+    "VOTC": 40
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_048/P_048_ieeg.lw5",
+   "sub": "sub-048",
+   "pid": 48,
+   "sequences": 2,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 151,
+   "n_events": 423,
+   "types": {
+    "SEEG": 151
+   },
+   "roundtrip_ok": true,
+   "n_tal": 137,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 17,
+    "WM": 16,
+    "ATL": 47,
+    "no_info": 14,
+    "TP": 8,
+    "n/a": 39,
+    "PTL": 10
+   },
+   "votc": {
+    "VOTC": 98,
+    "no_info": 14,
+    "not_VOTC": 39
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_049/P_049_ieeg.lw5",
+   "sub": "sub-049",
+   "pid": 49,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 180,
+   "n_events": 423,
+   "types": {
+    "SEEG": 180
+   },
+   "roundtrip_ok": true,
+   "n_tal": 171,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 7,
+    "n/a": 97,
+    "MTL": 12,
+    "WM": 13,
+    "ATL": 42,
+    "no_info": 9
+   },
+   "votc": {
+    "VOTC": 74,
+    "not_VOTC": 97,
+    "no_info": 9
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_050/P_050_ieeg.lw5",
+   "sub": "sub-050",
+   "pid": 50,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 172,
+   "n_events": 423,
+   "types": {
+    "SEEG": 172
+   },
+   "roundtrip_ok": true,
+   "n_tal": 172,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 172
+   },
+   "votc": {
+    "n/a": 172
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_051/P_051_ieeg.lw5",
+   "sub": "sub-051",
+   "pid": 51,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 163,
+   "n_events": 423,
+   "types": {
+    "SEEG": 163
+   },
+   "roundtrip_ok": true,
+   "n_tal": 163,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 7,
+    "WM": 6,
+    "ATL": 34,
+    "n/a": 86,
+    "PTL": 24,
+    "OCC": 5,
+    "lesion/out of the brain": 1
+   },
+   "votc": {
+    "VOTC": 77,
+    "not_VOTC": 86
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_052/P_052_ieeg.lw5",
+   "sub": "sub-052",
+   "pid": 52,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 184,
+   "n_events": 1518,
+   "types": {
+    "SEEG": 182,
+    "MISC": 2
+   },
+   "roundtrip_ok": true,
+   "n_tal": 173,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 161,
+    "no_info": 11,
+    "MTL": 6,
+    "WM": 4,
+    "ATL": 2
+   },
+   "votc": {
+    "not_VOTC": 158,
+    "no_info": 11,
+    "VOTC": 15
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_053/P_053_ieeg.lw5",
+   "sub": "sub-053",
+   "pid": 53,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 195,
+   "n_events": 423,
+   "types": {
+    "SEEG": 195
+   },
+   "roundtrip_ok": true,
+   "n_tal": 195,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 55,
+    "n/a": 86,
+    "MTL": 16,
+    "WM": 17,
+    "TP": 9,
+    "PTL": 12
+   },
+   "votc": {
+    "VOTC": 109,
+    "not_VOTC": 86
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_054/P_054_ieeg.lw5",
+   "sub": "sub-054",
+   "pid": 54,
+   "sequences": 8,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 198,
+   "n_events": 423,
+   "types": {
+    "SEEG": 198
+   },
+   "roundtrip_ok": true,
+   "n_tal": 180,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 9,
+    "n/a": 72,
+    "ATL": 52,
+    "WM": 22,
+    "PTL": 7,
+    "no_info": 18,
+    "MTL": 18
+   },
+   "votc": {
+    "VOTC": 100,
+    "not_VOTC": 80,
+    "no_info": 18
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_055/P_055_ieeg.lw5",
+   "sub": "sub-055",
+   "pid": 55,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 104,
+   "n_events": 423,
+   "types": {
+    "SEEG": 104
+   },
+   "roundtrip_ok": true,
+   "n_tal": 102,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 82,
+    "ATL": 12,
+    "WM": 3,
+    "Lesion/out of brain": 1,
+    "no_info": 2,
+    "MTL": 4
+   },
+   "votc": {
+    "not_VOTC": 82,
+    "VOTC": 20,
+    "no_info": 2
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_056/P_056_ieeg.lw5",
+   "sub": "sub-056",
+   "pid": 56,
+   "sequences": 2,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 171,
+   "n_events": 423,
+   "types": {
+    "SEEG": 171
+   },
+   "roundtrip_ok": true,
+   "n_tal": 159,
+   "reference": "",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 7,
+    "n/a": 60,
+    "no_info": 12,
+    "MTL": 15,
+    "WM": 18,
+    "ATL": 49,
+    "PTL": 10
+   },
+   "votc": {
+    "VOTC": 99,
+    "not_VOTC": 60,
+    "no_info": 12
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_057/P_057_ieeg.lw5",
+   "sub": "sub-057",
+   "pid": 57,
+   "sequences": 2,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 167,
+   "n_events": 423,
+   "types": {
+    "SEEG": 167
+   },
+   "roundtrip_ok": true,
+   "n_tal": 147,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 124,
+    "no_info": 20,
+    "MTL": 6,
+    "ATL": 5,
+    "WM": 3,
+    "TP": 9
+   },
+   "votc": {
+    "not_VOTC": 124,
+    "no_info": 20,
+    "VOTC": 23
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_058/P_058_ieeg.lw5",
+   "sub": "sub-058",
+   "pid": 58,
+   "sequences": 2,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 122,
+   "n_events": 423,
+   "types": {
+    "SEEG": 122
+   },
+   "roundtrip_ok": true,
+   "n_tal": 112,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 102,
+    "no_info": 10,
+    "MTL": 5,
+    "WM": 3,
+    "ATL": 2
+   },
+   "votc": {
+    "not_VOTC": 102,
+    "no_info": 10,
+    "VOTC": 10
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_059/P_059_ieeg.lw5",
+   "sub": "sub-059",
+   "pid": 59,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 181,
+   "n_events": 423,
+   "types": {
+    "SEEG": 181
+   },
+   "roundtrip_ok": true,
+   "n_tal": 162,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 9,
+    "n/a": 68,
+    "ATL": 56,
+    "WM": 15,
+    "out of brain": 1,
+    "MTL": 13,
+    "no_info": 19
+   },
+   "votc": {
+    "VOTC": 94,
+    "not_VOTC": 68,
+    "no_info": 19
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_060/P_060_ieeg.lw5",
+   "sub": "sub-060",
+   "pid": 60,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 146,
+   "n_events": 3356,
+   "types": {
+    "SEEG": 144,
+    "MISC": 2
+   },
+   "roundtrip_ok": true,
+   "n_tal": 141,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 11,
+    "no_info": 4,
+    "MTL": 15,
+    "WM": 14,
+    "ATL": 39,
+    "n/a": 53,
+    "PTL": 10
+   },
+   "votc": {
+    "VOTC": 112,
+    "no_info": 4,
+    "not_VOTC": 30
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_061/P_061_ieeg.lw5",
+   "sub": "sub-061",
+   "pid": 61,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 195,
+   "n_events": 423,
+   "types": {
+    "SEEG": 195
+   },
+   "roundtrip_ok": true,
+   "n_tal": 184,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 6,
+    "n/a": 4,
+    "MTL": 18,
+    "WM": 14,
+    "ATL": 47,
+    "no_info": 71,
+    "OCC": 17,
+    "PTL": 18
+   },
+   "votc": {
+    "VOTC": 120,
+    "not_VOTC": 4,
+    "no_info": 71
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_062/P_062_ieeg.lw5",
+   "sub": "sub-062",
+   "pid": 62,
+   "sequences": 2,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 202,
+   "n_events": 423,
+   "types": {
+    "SEEG": 202
+   },
+   "roundtrip_ok": true,
+   "n_tal": 195,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "no_info": 166,
+    "PTL": 11,
+    "WM": 3,
+    "OCC": 6,
+    "n/a": 4,
+    "out of brain": 1,
+    "MTL": 2,
+    "ATL": 8,
+    "TP": 1
+   },
+   "votc": {
+    "no_info": 166,
+    "VOTC": 31,
+    "not_VOTC": 5
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_063/P_063_ieeg.lw5",
+   "sub": "sub-063",
+   "pid": 63,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 191,
+   "n_events": 423,
+   "types": {
+    "SEEG": 191
+   },
+   "roundtrip_ok": true,
+   "n_tal": 182,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 8,
+    "no_info": 64,
+    "ATL": 39,
+    "n/a": 5,
+    "MTL": 14,
+    "WM": 20,
+    "PTL": 35,
+    "out of brain": 1,
+    "OCC": 3,
+    "Lesion/out of brain": 2
+   },
+   "votc": {
+    "VOTC": 124,
+    "no_info": 64,
+    "not_VOTC": 3
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_064/P_064_ieeg.lw5",
+   "sub": "sub-064",
+   "pid": 64,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 204,
+   "n_events": 423,
+   "types": {
+    "SEEG": 204
+   },
+   "roundtrip_ok": true,
+   "n_tal": 192,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "WM": 27,
+    "PTL": 22,
+    "n/a": 73,
+    "OCC": 8,
+    "out of brain": 1,
+    "MTL": 16,
+    "ATL": 43,
+    "no_info": 12,
+    "Lesion/out of brain": 2
+   },
+   "votc": {
+    "VOTC": 119,
+    "not_VOTC": 73,
+    "no_info": 12
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_065/P_065_ieeg.lw5",
+   "sub": "sub-065",
+   "pid": 65,
+   "sequences": 2,
+   "samples_per_sequence": 37728,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 123,
+   "n_events": 1678,
+   "types": {
+    "SEEG": 123
+   },
+   "roundtrip_ok": true,
+   "n_tal": 115,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 110,
+    "no_info": 8,
+    "MTL": 5
+   },
+   "votc": {
+    "not_VOTC": 99,
+    "no_info": 8,
+    "VOTC": 16
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_066/P_066_ieeg.lw5",
+   "sub": "sub-066",
+   "pid": 66,
+   "sequences": 4,
+   "samples_per_sequence": 37889,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 198,
+   "n_events": 423,
+   "types": {
+    "SEEG": 198
+   },
+   "roundtrip_ok": true,
+   "n_tal": 182,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 54,
+    "n/a": 52,
+    "no_info": 16,
+    "MTL": 15,
+    "WM": 16,
+    "OCC": 22,
+    "out of brain": 1,
+    "PTL": 21,
+    "Lesion/out of brain": 1
+   },
+   "votc": {
+    "VOTC": 130,
+    "not_VOTC": 52,
+    "no_info": 16
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_067/P_067_ieeg.lw5",
+   "sub": "sub-067",
+   "pid": 67,
+   "sequences": 2,
+   "samples_per_sequence": 37728,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 171,
+   "n_events": 1678,
+   "types": {
+    "SEEG": 171
+   },
+   "roundtrip_ok": true,
+   "n_tal": 169,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 95,
+    "TP": 3,
+    "MTL": 18,
+    "WM": 15,
+    "ATL": 29,
+    "no_info": 1,
+    "PTL": 10
+   },
+   "votc": {
+    "VOTC": 100,
+    "not_VOTC": 70,
+    "no_info": 1
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_068/P_068_ieeg.lw5",
+   "sub": "sub-068",
+   "pid": 68,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 156,
+   "n_events": 1678,
+   "types": {
+    "SEEG": 152,
+    "MISC": 4
+   },
+   "roundtrip_ok": true,
+   "n_tal": 121,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 72,
+    "no_info": 35,
+    "ATL": 13,
+    "WM": 17,
+    "PTL": 1,
+    "TP": 8,
+    "MTL": 10
+   },
+   "votc": {
+    "not_VOTC": 61,
+    "no_info": 35,
+    "VOTC": 60
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_069/P_069_ieeg.lw5",
+   "sub": "sub-069",
+   "pid": 69,
+   "sequences": 2,
+   "samples_per_sequence": 19969,
+   "sfreq": 256.0,
+   "xstart": -1.834,
+   "nch": 117,
+   "n_events": 1676,
+   "types": {
+    "SEEG": 117
+   },
+   "roundtrip_ok": true,
+   "n_tal": 115,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 12,
+    "WM": 9,
+    "n/a": 68,
+    "ATL": 16,
+    "no_info": 2,
+    "PTL": 9,
+    "out of brain": 1
+   },
+   "votc": {
+    "VOTC": 72,
+    "no_info": 2,
+    "not_VOTC": 43
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p36-p70.zip.d/P_070/P_070_ieeg.lw5",
+   "sub": "sub-070",
+   "pid": 70,
+   "sequences": 2,
+   "samples_per_sequence": 73568,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 177,
+   "n_events": 2256,
+   "types": {
+    "SEEG": 177
+   },
+   "roundtrip_ok": true,
+   "n_tal": 167,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 11,
+    "WM": 22,
+    "n/a": 48,
+    "no_info": 9,
+    "ATL": 18,
+    "out of brain": 3,
+    "PTL": 41,
+    "outside brain": 1,
+    "OCC": 24
+   },
+   "votc": {
+    "VOTC": 131,
+    "no_info": 9,
+    "not_VOTC": 37
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_071/P_071_ieeg.lw5",
+   "sub": "sub-071",
+   "pid": 71,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 157,
+   "n_events": 1678,
+   "types": {
+    "SEEG": 157
+   },
+   "roundtrip_ok": true,
+   "n_tal": 156,
+   "reference": "B8",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "OCC": 42,
+    "n/a": 34,
+    "PTL": 23,
+    "WM": 18,
+    "ATL": 32,
+    "MTL": 7,
+    "no_info": 1
+   },
+   "votc": {
+    "VOTC": 123,
+    "not_VOTC": 33,
+    "no_info": 1
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_072/P_072_ieeg.lw5",
+   "sub": "sub-072",
+   "pid": 72,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 148,
+   "n_events": 1686,
+   "types": {
+    "SEEG": 148
+   },
+   "roundtrip_ok": true,
+   "n_tal": 129,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 17,
+    "WM": 14,
+    "ATL": 37,
+    "n/a": 52,
+    "out of brain": 2,
+    "no_info": 15,
+    "TP": 11
+   },
+   "votc": {
+    "VOTC": 97,
+    "no_info": 15,
+    "not_VOTC": 36
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_073/P_073_ieeg.lw5",
+   "sub": "sub-073",
+   "pid": 73,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 198,
+   "n_events": 1456,
+   "types": {
+    "SEEG": 198
+   },
+   "roundtrip_ok": true,
+   "n_tal": 166,
+   "reference": "B15",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 120,
+    "MTL": 16,
+    "WM": 16,
+    "ATL": 9,
+    "no_info": 32,
+    "TP": 5
+   },
+   "votc": {
+    "not_VOTC": 114,
+    "VOTC": 52,
+    "no_info": 32
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_074/P_074_ieeg.lw5",
+   "sub": "sub-074",
+   "pid": 74,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 207,
+   "n_events": 3356,
+   "types": {
+    "SEEG": 207
+   },
+   "roundtrip_ok": true,
+   "n_tal": 198,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 155,
+    "PTL": 10,
+    "no_info": 9,
+    "ATL": 5,
+    "MTL": 17,
+    "WM": 11
+   },
+   "votc": {
+    "not_VOTC": 120,
+    "VOTC": 78,
+    "no_info": 9
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_075/P_075_ieeg.lw5",
+   "sub": "sub-075",
+   "pid": 75,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 138,
+   "n_events": 1678,
+   "types": {
+    "SEEG": 138
+   },
+   "roundtrip_ok": true,
+   "n_tal": 136,
+   "reference": "W5",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 82,
+    "no_info": 2,
+    "MTL": 1,
+    "lesion": 1,
+    "WM": 18,
+    "ATL": 9,
+    "OCC": 7,
+    "PTL": 7,
+    "out of brain": 1,
+    "nonVOTC": 10
+   },
+   "votc": {
+    "not_VOTC": 88,
+    "no_info": 2,
+    "VOTC": 48
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_076/P_076_ieeg.lw5",
+   "sub": "sub-076",
+   "pid": 76,
+   "sequences": 4,
+   "samples_per_sequence": 38913,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 165,
+   "n_events": 3364,
+   "types": {
+    "SEEG": 165
+   },
+   "roundtrip_ok": true,
+   "n_tal": 157,
+   "reference": "W'10",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 81,
+    "TP": 3,
+    "ATL": 29,
+    "MTL": 20,
+    "WM": 24,
+    "no_info": 8
+   },
+   "votc": {
+    "not_VOTC": 45,
+    "VOTC": 112,
+    "no_info": 8
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_077/P_077_ieeg.lw5",
+   "sub": "sub-077",
+   "pid": 77,
+   "sequences": 2,
+   "samples_per_sequence": 38913,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 138,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 138
+   },
+   "roundtrip_ok": true,
+   "n_tal": 115,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 83,
+    "lesion": 8,
+    "OCC": 19,
+    "PTL": 5,
+    "out of brain": 3,
+    "no_info": 20
+   },
+   "votc": {
+    "not_VOTC": 88,
+    "VOTC": 30,
+    "no_info": 20
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_078/P_078_ieeg.lw5",
+   "sub": "sub-078",
+   "pid": 78,
+   "sequences": 2,
+   "samples_per_sequence": 38913,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 119,
+   "n_events": 1684,
+   "types": {
+    "SEEG": 119
+   },
+   "roundtrip_ok": true,
+   "n_tal": 112,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 4,
+    "WM": 5,
+    "ATL": 20,
+    "n/a": 67,
+    "no_info": 9,
+    "PTL": 6,
+    "OCC": 7,
+    "out of brain": 1
+   },
+   "votc": {
+    "VOTC": 44,
+    "no_info": 9,
+    "not_VOTC": 66
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_079/P_079_ieeg.lw5",
+   "sub": "sub-079",
+   "pid": 79,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 156,
+   "n_events": 1686,
+   "types": {
+    "SEEG": 156
+   },
+   "roundtrip_ok": true,
+   "n_tal": 143,
+   "reference": "O'15",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 91,
+    "no_info": 9,
+    "MTL": 9,
+    "WM": 8,
+    "ATL": 22,
+    "lesion": 4,
+    "PTL": 11,
+    "out of brain": 2
+   },
+   "votc": {
+    "not_VOTC": 92,
+    "no_info": 9,
+    "VOTC": 55
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_080/P_080_ieeg.lw5",
+   "sub": "sub-080",
+   "pid": 80,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 216,
+   "n_events": 1672,
+   "types": {
+    "SEEG": 216
+   },
+   "roundtrip_ok": true,
+   "n_tal": 202,
+   "reference": "WM",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 109,
+    "ATL": 24,
+    "no_info": 12,
+    "MTL": 27,
+    "WM": 22,
+    "PTL": 16,
+    "TP": 2,
+    "out of brain": 4
+   },
+   "votc": {
+    "not_VOTC": 81,
+    "VOTC": 123,
+    "no_info": 12
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_081/P_081_ieeg.lw5",
+   "sub": "sub-081",
+   "pid": 81,
+   "sequences": 2,
+   "samples_per_sequence": 37783,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 189,
+   "n_events": 826,
+   "types": {
+    "SEEG": 189
+   },
+   "roundtrip_ok": true,
+   "n_tal": 174,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 80,
+    "WM": 20,
+    "ATL": 39,
+    "no_info": 15,
+    "PTL": 10,
+    "MTL": 20,
+    "TP": 5
+   },
+   "votc": {
+    "not_VOTC": 41,
+    "VOTC": 133,
+    "no_info": 15
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_082/P_082_ieeg.lw5",
+   "sub": "sub-082",
+   "pid": 82,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 138,
+   "n_events": 1632,
+   "types": {
+    "SEEG": 138
+   },
+   "roundtrip_ok": true,
+   "n_tal": 135,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "WM": 10,
+    "MTL": 3,
+    "n/a": 91,
+    "no_info": 3,
+    "PTL": 10,
+    "OCC": 21
+   },
+   "votc": {
+    "VOTC": 42,
+    "no_info": 3,
+    "not_VOTC": 93
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_083/P_083_ieeg.lw5",
+   "sub": "sub-083",
+   "pid": 83,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 220,
+   "n_events": 3340,
+   "types": {
+    "SEEG": 220
+   },
+   "roundtrip_ok": true,
+   "n_tal": 216,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 159,
+    "MTL": 10,
+    "WM": 9,
+    "PTL": 11,
+    "ATL": 23,
+    "TP": 5,
+    "no_info": 3
+   },
+   "votc": {
+    "not_VOTC": 144,
+    "VOTC": 73,
+    "no_info": 3
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_084/P_084_ieeg.lw5",
+   "sub": "sub-084",
+   "pid": 84,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 194,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 194
+   },
+   "roundtrip_ok": true,
+   "n_tal": 182,
+   "reference": "Fpz",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 12,
+    "WM": 16,
+    "ATL": 32,
+    "n/a": 120,
+    "PTL": 1,
+    "no_info": 10,
+    "TP": 1,
+    "out of brain": 2
+   },
+   "votc": {
+    "VOTC": 85,
+    "no_info": 10,
+    "not_VOTC": 99
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_085/P_085_ieeg.lw5",
+   "sub": "sub-085",
+   "pid": 85,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 147,
+   "n_events": 3364,
+   "types": {
+    "SEEG": 147
+   },
+   "roundtrip_ok": true,
+   "n_tal": 132,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 16,
+    "ATL": 50,
+    "n/a": 44,
+    "PTL": 11,
+    "out of brain": 2,
+    "no_info": 11,
+    "WM": 6,
+    "TP": 7
+   },
+   "votc": {
+    "VOTC": 92,
+    "not_VOTC": 44,
+    "no_info": 11
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_086/P_086_ieeg.lw5",
+   "sub": "sub-086",
+   "pid": 86,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 197,
+   "n_events": 1672,
+   "types": {
+    "SEEG": 197
+   },
+   "roundtrip_ok": true,
+   "n_tal": 179,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 115,
+    "OCC": 11,
+    "WM": 12,
+    "ATL": 15,
+    "no_info": 18,
+    "MTL": 11,
+    "PTL": 12,
+    "TP": 3
+   },
+   "votc": {
+    "not_VOTC": 81,
+    "VOTC": 98,
+    "no_info": 18
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_087/P_087_ieeg.lw5",
+   "sub": "sub-087",
+   "pid": 87,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 126,
+   "n_events": 3364,
+   "types": {
+    "SEEG": 126
+   },
+   "roundtrip_ok": true,
+   "n_tal": 113,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 62,
+    "MTL": 16,
+    "WM": 14,
+    "ATL": 17,
+    "no_info": 12,
+    "PTL": 5
+   },
+   "votc": {
+    "not_VOTC": 43,
+    "VOTC": 71,
+    "no_info": 12
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_088/P_088_ieeg.lw5",
+   "sub": "sub-088",
+   "pid": 88,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 112,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 112
+   },
+   "roundtrip_ok": true,
+   "n_tal": 96,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 6,
+    "n/a": 71,
+    "WM": 3,
+    "no_info": 13,
+    "ATL": 5,
+    "out of the brain": 4,
+    "PTL": 8,
+    "TP": 2
+   },
+   "votc": {
+    "VOTC": 45,
+    "no_info": 13,
+    "not_VOTC": 54
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_089/P_089_ieeg.lw5",
+   "sub": "sub-089",
+   "pid": 89,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 193,
+   "n_events": 3364,
+   "types": {
+    "SEEG": 193
+   },
+   "roundtrip_ok": true,
+   "n_tal": 183,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 122,
+    "WM": 17,
+    "ATL": 25,
+    "no_info": 10,
+    "MTL": 19
+   },
+   "votc": {
+    "not_VOTC": 84,
+    "VOTC": 99,
+    "no_info": 10
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_090/P_090_ieeg.lw5",
+   "sub": "sub-090",
+   "pid": 90,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 177,
+   "n_events": 3364,
+   "types": {
+    "SEEG": 177
+   },
+   "roundtrip_ok": true,
+   "n_tal": 169,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 82,
+    "PTL": 20,
+    "MTL": 20,
+    "WM": 16,
+    "ATL": 27,
+    "no_info": 6,
+    "out of the brain": 2,
+    "TP": 4
+   },
+   "votc": {
+    "not_VOTC": 53,
+    "VOTC": 118,
+    "no_info": 6
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_091/P_091_ieeg.lw5",
+   "sub": "sub-091",
+   "pid": 91,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 172,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 172
+   },
+   "roundtrip_ok": true,
+   "n_tal": 163,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 8,
+    "WM": 4,
+    "n/a": 139,
+    "no_info": 9,
+    "TP": 5,
+    "ATL": 7
+   },
+   "votc": {
+    "VOTC": 31,
+    "no_info": 9,
+    "not_VOTC": 132
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_092/P_092_ieeg.lw5",
+   "sub": "sub-092",
+   "pid": 92,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 165,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 165
+   },
+   "roundtrip_ok": true,
+   "n_tal": 152,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 119,
+    "no_info": 13,
+    "MTL": 8,
+    "WM": 8,
+    "ATL": 8,
+    "PTL": 9
+   },
+   "votc": {
+    "not_VOTC": 111,
+    "no_info": 13,
+    "VOTC": 41
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_093/P_093_ieeg.lw5",
+   "sub": "sub-093",
+   "pid": 93,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 174,
+   "n_events": 3166,
+   "types": {
+    "SEEG": 174
+   },
+   "roundtrip_ok": true,
+   "n_tal": 164,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 109,
+    "MTL": 13,
+    "WM": 12,
+    "no_info": 8,
+    "TP": 3,
+    "ATL": 29
+   },
+   "votc": {
+    "not_VOTC": 70,
+    "VOTC": 96,
+    "no_info": 8
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_094/P_094_ieeg.lw5",
+   "sub": "sub-094",
+   "pid": 94,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 166,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 166
+   },
+   "roundtrip_ok": true,
+   "n_tal": 152,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 16,
+    "WM": 19,
+    "ATL": 24,
+    "no_info": 12,
+    "n/a": 79,
+    "PTL": 14,
+    "out of VOTC": 2
+   },
+   "votc": {
+    "VOTC": 99,
+    "no_info": 12,
+    "not_VOTC": 55
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_095/P_095_ieeg.lw5",
+   "sub": "sub-095",
+   "pid": 95,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 163,
+   "n_events": 1650,
+   "types": {
+    "SEEG": 163
+   },
+   "roundtrip_ok": true,
+   "n_tal": 153,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 20,
+    "WM": 30,
+    "ATL": 42,
+    "n/a": 46,
+    "no_info": 8,
+    "TP": 17
+   },
+   "votc": {
+    "VOTC": 124,
+    "no_info": 8,
+    "not_VOTC": 31
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_096/P_096_ieeg.lw5",
+   "sub": "sub-096",
+   "pid": 96,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 95,
+   "n_events": 2520,
+   "types": {
+    "SEEG": 95
+   },
+   "roundtrip_ok": true,
+   "n_tal": 87,
+   "reference": "Fpz",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 38,
+    "TP": 1,
+    "MTL": 12,
+    "WM": 19,
+    "out of brain": 1,
+    "no_info": 5,
+    "n/a": 19
+   },
+   "votc": {
+    "VOTC": 74,
+    "no_info": 5,
+    "not_VOTC": 16
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_097/P_097_ieeg.lw5",
+   "sub": "sub-097",
+   "pid": 97,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 116,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 116
+   },
+   "roundtrip_ok": true,
+   "n_tal": 102,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 9,
+    "WM": 20,
+    "ATL": 31,
+    "PTL": 7,
+    "OCC": 5,
+    "no_info": 14,
+    "TP": 8,
+    "n/a": 22
+   },
+   "votc": {
+    "VOTC": 80,
+    "no_info": 14,
+    "not_VOTC": 22
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_098/P_098_ieeg.lw5",
+   "sub": "sub-098",
+   "pid": 98,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 161,
+   "n_events": 1644,
+   "types": {
+    "SEEG": 161
+   },
+   "roundtrip_ok": true,
+   "n_tal": 157,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 63,
+    "PTL": 16,
+    "WM": 14,
+    "no_info": 4,
+    "OCC": 18,
+    "ATL": 37,
+    "MTL": 9
+   },
+   "votc": {
+    "not_VOTC": 54,
+    "VOTC": 103,
+    "no_info": 4
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_099/P_099_ieeg.lw5",
+   "sub": "sub-099",
+   "pid": 99,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 151,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 151
+   },
+   "roundtrip_ok": true,
+   "n_tal": 131,
+   "reference": "Fpz",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 11,
+    "WM": 11,
+    "n/a": 58,
+    "no_info": 12,
+    "PTL": 24,
+    "out of the brain": 8,
+    "TP": 1,
+    "ATL": 8,
+    "OCC": 18
+   },
+   "votc": {
+    "VOTC": 107,
+    "no_info": 12,
+    "not_VOTC": 32
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_100/P_100_ieeg.lw5",
+   "sub": "sub-100",
+   "pid": 100,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 197,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 197
+   },
+   "roundtrip_ok": true,
+   "n_tal": 193,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 93,
+    "out of VOTC": 19,
+    "PTL": 11,
+    "OCC": 17,
+    "MTL": 12,
+    "WM": 18,
+    "ATL": 24,
+    "out of the brain": 1,
+    "no_info": 2
+   },
+   "votc": {
+    "not_VOTC": 107,
+    "VOTC": 88,
+    "no_info": 2
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_101/P_101_ieeg.lw5",
+   "sub": "sub-101",
+   "pid": 101,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 124,
+   "n_events": 1652,
+   "types": {
+    "SEEG": 124
+   },
+   "roundtrip_ok": true,
+   "n_tal": 112,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 13,
+    "ATL": 27,
+    "WM": 23,
+    "n/a": 34,
+    "TP": 13,
+    "no_info": 8,
+    "PTL": 4,
+    "out of VOTC": 2
+   },
+   "votc": {
+    "VOTC": 101,
+    "no_info": 8,
+    "not_VOTC": 15
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_102/P_102_ieeg.lw5",
+   "sub": "sub-102",
+   "pid": 102,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 167,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 167
+   },
+   "roundtrip_ok": true,
+   "n_tal": 159,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 98,
+    "MTL": 10,
+    "WM": 18,
+    "ATL": 5,
+    "no_info": 7,
+    "PTL": 11,
+    "out of VOTC": 1,
+    "TP": 5,
+    "OCC": 12
+   },
+   "votc": {
+    "not_VOTC": 56,
+    "VOTC": 104,
+    "no_info": 7
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_103/P_103_ieeg.lw5",
+   "sub": "sub-103",
+   "pid": 103,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 145,
+   "n_events": 1626,
+   "types": {
+    "SEEG": 145
+   },
+   "roundtrip_ok": true,
+   "n_tal": 140,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 62,
+    "TP": 7,
+    "MTL": 14,
+    "WM": 13,
+    "ATL": 33,
+    "no_info": 5,
+    "out of brain": 1,
+    "PTL": 10
+   },
+   "votc": {
+    "not_VOTC": 47,
+    "VOTC": 93,
+    "no_info": 5
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_104/P_104_ieeg.lw5",
+   "sub": "sub-104",
+   "pid": 104,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 126,
+   "n_events": 1678,
+   "types": {
+    "SEEG": 126
+   },
+   "roundtrip_ok": true,
+   "n_tal": 115,
+   "reference": "WM",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 8,
+    "n/a": 71,
+    "WM": 9,
+    "no_info": 11,
+    "ATL": 10,
+    "Lesion": 3,
+    "lesion": 4,
+    "PTL": 10
+   },
+   "votc": {
+    "VOTC": 67,
+    "no_info": 11,
+    "not_VOTC": 48
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p70-p105.zip.d/P_105/P_105_ieeg.lw5",
+   "sub": "sub-105",
+   "pid": 105,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 150,
+   "n_events": 3364,
+   "types": {
+    "SEEG": 150
+   },
+   "roundtrip_ok": true,
+   "n_tal": 138,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 101,
+    "no_info": 11,
+    "ATL": 20,
+    "WM": 9,
+    "TP": 1,
+    "MTL": 8
+   },
+   "votc": {
+    "not_VOTC": 73,
+    "no_info": 11,
+    "VOTC": 66
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_106/P_106_ieeg.lw5",
+   "sub": "sub-106",
+   "pid": 106,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 171,
+   "n_events": 3364,
+   "types": {
+    "SEEG": 171
+   },
+   "roundtrip_ok": true,
+   "n_tal": 156,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 107,
+    "no_info": 15,
+    "TP": 1,
+    "ATL": 13,
+    "MTL": 17,
+    "WM": 13,
+    "PTL": 5
+   },
+   "votc": {
+    "not_VOTC": 73,
+    "no_info": 15,
+    "VOTC": 83
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_107/P_107_ieeg.lw5",
+   "sub": "sub-107",
+   "pid": 107,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 143,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 143
+   },
+   "roundtrip_ok": true,
+   "n_tal": 128,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "PTL": 16,
+    "WM": 16,
+    "OCC": 4,
+    "MTL": 11,
+    "ATL": 10,
+    "n/a": 71,
+    "no_info": 15
+   },
+   "votc": {
+    "VOTC": 85,
+    "no_info": 15,
+    "not_VOTC": 43
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_108/P_108_ieeg.lw5",
+   "sub": "sub-108",
+   "pid": 108,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 95,
+   "n_events": 3364,
+   "types": {
+    "SEEG": 95
+   },
+   "roundtrip_ok": true,
+   "n_tal": 93,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 64,
+    "PTL": 6,
+    "WM": 9,
+    "MTL": 10,
+    "ATL": 4,
+    "no_info": 2
+   },
+   "votc": {
+    "not_VOTC": 58,
+    "VOTC": 35,
+    "no_info": 2
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_109/P_109_ieeg.lw5",
+   "sub": "sub-109",
+   "pid": 109,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 157,
+   "n_events": 3364,
+   "types": {
+    "SEEG": 157
+   },
+   "roundtrip_ok": true,
+   "n_tal": 148,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 27,
+    "WM": 25,
+    "n/a": 66,
+    "no_info": 8,
+    "MTL": 20,
+    "out of the brain": 1,
+    "TP": 4,
+    "PTL": 6
+   },
+   "votc": {
+    "VOTC": 113,
+    "no_info": 8,
+    "not_VOTC": 36
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_110/P_110_ieeg.lw5",
+   "sub": "sub-110",
+   "pid": 110,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 133,
+   "n_events": 1682,
+   "types": {
+    "SEEG": 133
+   },
+   "roundtrip_ok": true,
+   "n_tal": 122,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 15,
+    "WM": 22,
+    "n/a": 51,
+    "no_info": 10,
+    "ATL": 23,
+    "out of brain": 1,
+    "TP": 6,
+    "antMTG": 5
+   },
+   "votc": {
+    "VOTC": 86,
+    "no_info": 10,
+    "not_VOTC": 37
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_111/P_111_ieeg.lw5",
+   "sub": "sub-111",
+   "pid": 111,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 182,
+   "n_events": 3364,
+   "types": {
+    "SEEG": 182
+   },
+   "roundtrip_ok": true,
+   "n_tal": 178,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 18,
+    "WM": 15,
+    "ATL": 12,
+    "n/a": 130,
+    "no_info": 4,
+    "TP": 3
+   },
+   "votc": {
+    "VOTC": 79,
+    "not_VOTC": 99,
+    "no_info": 4
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_112/P_112_ieeg.lw5",
+   "sub": "sub-112",
+   "pid": 112,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 183,
+   "n_events": 848,
+   "types": {
+    "SEEG": 183
+   },
+   "roundtrip_ok": true,
+   "n_tal": 179,
+   "reference": "FPZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 88,
+    "OCC": 11,
+    "WM": 16,
+    "MTL": 10,
+    "ATL": 33,
+    "PTL": 14,
+    "TP": 7,
+    "no_info": 2,
+    "out of the brain": 2
+   },
+   "votc": {
+    "not_VOTC": 82,
+    "VOTC": 99,
+    "no_info": 2
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_113/P_113_ieeg.lw5",
+   "sub": "sub-113",
+   "pid": 113,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 150,
+   "n_events": 423,
+   "types": {
+    "SEEG": 150
+   },
+   "roundtrip_ok": true,
+   "n_tal": 141,
+   "reference": "Fpz",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 95,
+    "no_info": 8,
+    "MTL": 9,
+    "WM": 11,
+    "ATL": 6,
+    "PTL": 13,
+    "OCC": 7,
+    "out of the brain": 1
+   },
+   "votc": {
+    "not_VOTC": 82,
+    "no_info": 8,
+    "VOTC": 60
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_114/P_114_ieeg.lw5",
+   "sub": "sub-114",
+   "pid": 114,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 176,
+   "n_events": 848,
+   "types": {
+    "SEEG": 176
+   },
+   "roundtrip_ok": true,
+   "n_tal": 158,
+   "reference": "Fpz",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 64,
+    "MTL": 27,
+    "ATL": 36,
+    "WM": 26,
+    "no_info": 17,
+    "TP": 6
+   },
+   "votc": {
+    "not_VOTC": 47,
+    "VOTC": 112,
+    "no_info": 17
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_115/P_115_ieeg.lw5",
+   "sub": "sub-115",
+   "pid": 115,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 167,
+   "n_events": 848,
+   "types": {
+    "SEEG": 167
+   },
+   "roundtrip_ok": true,
+   "n_tal": 152,
+   "reference": "Fpz",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 123,
+    "no_info": 15,
+    "ATL": 8,
+    "WM": 4,
+    "OCC": 11,
+    "PTL": 5,
+    "IOG": 1
+   },
+   "votc": {
+    "not_VOTC": 123,
+    "no_info": 15,
+    "VOTC": 29
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_116/P_116_ieeg.lw5",
+   "sub": "sub-116",
+   "pid": 116,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 164,
+   "n_events": 424,
+   "types": {
+    "SEEG": 164
+   },
+   "roundtrip_ok": true,
+   "n_tal": 149,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 75,
+    "MTL": 15,
+    "WM": 18,
+    "no_info": 15,
+    "TP": 2,
+    "ATL": 21,
+    "PTL": 14,
+    "OCC": 4
+   },
+   "votc": {
+    "not_VOTC": 41,
+    "VOTC": 108,
+    "no_info": 15
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_117/P_117_ieeg.lw5",
+   "sub": "sub-117",
+   "pid": 117,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 146,
+   "n_events": 1696,
+   "types": {
+    "SEEG": 146
+   },
+   "roundtrip_ok": true,
+   "n_tal": 131,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 105,
+    "no_info": 14,
+    "MTL": 8,
+    "WM": 7,
+    "ATL": 11,
+    "out of the brain": 1
+   },
+   "votc": {
+    "not_VOTC": 86,
+    "no_info": 14,
+    "VOTC": 46
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_118/P_118_ieeg.lw5",
+   "sub": "sub-118",
+   "pid": 118,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 162,
+   "n_events": 1667,
+   "types": {
+    "SEEG": 162
+   },
+   "roundtrip_ok": true,
+   "n_tal": 146,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 99,
+    "no_info": 14,
+    "ATL": 13,
+    "WM": 11,
+    "MTL": 20,
+    "PTL": 3,
+    "out of the brain": 2
+   },
+   "votc": {
+    "VOTC": 83,
+    "no_info": 14,
+    "not_VOTC": 65
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_119/P_119_ieeg.lw5",
+   "sub": "sub-119",
+   "pid": 119,
+   "sequences": 4,
+   "samples_per_sequence": 38401,
+   "sfreq": 512.0,
+   "xstart": -3.0,
+   "nch": 141,
+   "n_events": 423,
+   "types": {
+    "SEEG": 141
+   },
+   "roundtrip_ok": true,
+   "n_tal": 136,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 16,
+    "WM": 17,
+    "ATL": 28,
+    "out of brain": 3,
+    "out of the brain": 4,
+    "PTL": 4,
+    "n/a": 59,
+    "no_info": 1,
+    "TP": 9
+   },
+   "votc": {
+    "VOTC": 91,
+    "not_VOTC": 49,
+    "no_info": 1
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_120/P_120_ieeg.lw5",
+   "sub": "sub-120",
+   "pid": 120,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 208,
+   "n_events": 809,
+   "types": {
+    "SEEG": 208
+   },
+   "roundtrip_ok": true,
+   "n_tal": 192,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 128,
+    "no_info": 15,
+    "TP": 7,
+    "out of brain": 1,
+    "MTL": 15,
+    "WM": 14,
+    "ATL": 28
+   },
+   "votc": {
+    "not_VOTC": 105,
+    "no_info": 15,
+    "VOTC": 88
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_121/P_121_ieeg.lw5",
+   "sub": "sub-121",
+   "pid": 121,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 137,
+   "n_events": 848,
+   "types": {
+    "SEEG": 137
+   },
+   "roundtrip_ok": true,
+   "n_tal": 126,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 83,
+    "no_info": 11,
+    "PTL": 10,
+    "OCC": 10,
+    "MTL": 16,
+    "lesion": 2,
+    "ATL": 5
+   },
+   "votc": {
+    "not_VOTC": 73,
+    "no_info": 11,
+    "VOTC": 53
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_122/P_122_ieeg.lw5",
+   "sub": "sub-122",
+   "pid": 122,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 184,
+   "n_events": 1016,
+   "types": {
+    "SEEG": 184
+   },
+   "roundtrip_ok": true,
+   "n_tal": 170,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 7,
+    "ATL": 42,
+    "out of the brain": 7,
+    "WM": 22,
+    "nonVOTC": 1,
+    "no_info": 5,
+    "MTL": 20,
+    "n/a": 57,
+    "out of brain": 3,
+    "PTL": 17,
+    "OCC": 3
+   },
+   "votc": {
+    "VOTC": 122,
+    "not_VOTC": 57,
+    "no_info": 5
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_123/P_123_ieeg.lw5",
+   "sub": "sub-123",
+   "pid": 123,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 178,
+   "n_events": 423,
+   "types": {
+    "SEEG": 178
+   },
+   "roundtrip_ok": true,
+   "n_tal": 171,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 14,
+    "n/a": 95,
+    "TP": 5,
+    "PTL": 24,
+    "OCC": 6,
+    "MTL": 11,
+    "WM": 17,
+    "no_info": 6
+   },
+   "votc": {
+    "VOTC": 100,
+    "not_VOTC": 72,
+    "no_info": 6
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_124/P_124_ieeg.lw5",
+   "sub": "sub-124",
+   "pid": 124,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 185,
+   "n_events": 423,
+   "types": {
+    "SEEG": 185
+   },
+   "roundtrip_ok": true,
+   "n_tal": 174,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 117,
+    "no_info": 10,
+    "MTL": 14,
+    "WM": 12,
+    "PTL": 9,
+    "out of the brain": 2,
+    "ATL": 21
+   },
+   "votc": {
+    "not_VOTC": 72,
+    "no_info": 10,
+    "VOTC": 103
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_125/P_125_ieeg.lw5",
+   "sub": "sub-125",
+   "pid": 125,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 198,
+   "n_events": 1016,
+   "types": {
+    "SEEG": 198
+   },
+   "roundtrip_ok": true,
+   "n_tal": 174,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 127,
+    "no_info": 24,
+    "TP": 6,
+    "MTL": 20,
+    "WM": 8,
+    "ATL": 7,
+    "PTL": 6
+   },
+   "votc": {
+    "not_VOTC": 85,
+    "no_info": 24,
+    "VOTC": 89
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_126/P_126_ieeg.lw5",
+   "sub": "sub-126",
+   "pid": 126,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 181,
+   "n_events": 1016,
+   "types": {
+    "SEEG": 181
+   },
+   "roundtrip_ok": true,
+   "n_tal": 138,
+   "reference": "Fpz",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 61,
+    "ATL": 26,
+    "WM": 15,
+    "no_info": 41,
+    "MTL": 16,
+    "PTL": 9,
+    "out of the brain": 3,
+    "TP": 10
+   },
+   "votc": {
+    "not_VOTC": 45,
+    "VOTC": 95,
+    "no_info": 41
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_127/P_127_ieeg.lw5",
+   "sub": "sub-127",
+   "pid": 127,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 136,
+   "n_events": 928,
+   "types": {
+    "SEEG": 136
+   },
+   "roundtrip_ok": true,
+   "n_tal": 117,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 3,
+    "n/a": 46,
+    "no_info": 12,
+    "ATL": 29,
+    "WM": 9,
+    "PTL": 13,
+    "out of brain": 6,
+    "MTL": 16,
+    "out of the brain": 2
+   },
+   "votc": {
+    "VOTC": 87,
+    "no_info": 12,
+    "not_VOTC": 37
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_128/P_128_ieeg.lw5",
+   "sub": "sub-128",
+   "pid": 128,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 171,
+   "n_events": 1696,
+   "types": {
+    "SEEG": 171
+   },
+   "roundtrip_ok": true,
+   "n_tal": 156,
+   "reference": "G'8",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "TP": 9,
+    "no_info": 16,
+    "MTL": 17,
+    "WM": 13,
+    "n/a": 102,
+    "ATL": 7,
+    "PTL": 7
+   },
+   "votc": {
+    "not_VOTC": 81,
+    "no_info": 16,
+    "VOTC": 74
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_129/P_129_ieeg.lw5",
+   "sub": "sub-129",
+   "pid": 129,
+   "sequences": 3,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 199,
+   "n_events": 423,
+   "types": {
+    "SEEG": 199
+   },
+   "roundtrip_ok": true,
+   "n_tal": 180,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 32,
+    "n/a": 79,
+    "PTL": 9,
+    "OCC": 14,
+    "MTL": 18,
+    "WM": 20,
+    "TP": 8,
+    "no_info": 18,
+    "out of brain": 1
+   },
+   "votc": {
+    "VOTC": 121,
+    "not_VOTC": 60,
+    "no_info": 18
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_130/P_130_ieeg.lw5",
+   "sub": "sub-130",
+   "pid": 130,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 156,
+   "n_events": 6728,
+   "types": {
+    "SEEG": 156
+   },
+   "roundtrip_ok": true,
+   "n_tal": 133,
+   "reference": "FpZ",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 45,
+    "PTL": 3,
+    "WM": 37,
+    "n/a": 27,
+    "TP": 15,
+    "no_info": 5,
+    "out of brain": 1,
+    "MTL": 23
+   },
+   "votc": {
+    "VOTC": 125,
+    "not_VOTC": 26,
+    "no_info": 5
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_131/P_131_ieeg.lw5",
+   "sub": "sub-131",
+   "pid": 131,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 120,
+   "n_events": 2,
+   "types": {
+    "SEEG": 120
+   },
+   "roundtrip_ok": true,
+   "n_tal": 107,
+   "reference": "G5",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 13,
+    "WM": 11,
+    "ATL": 36,
+    "no_info": 13,
+    "PTL": 5,
+    "n/a": 42
+   },
+   "votc": {
+    "VOTC": 65,
+    "no_info": 13,
+    "not_VOTC": 42
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_132/P_132_ieeg.lw5",
+   "sub": "sub-132",
+   "pid": 132,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 166,
+   "n_events": 422,
+   "types": {
+    "SEEG": 166
+   },
+   "roundtrip_ok": true,
+   "n_tal": 162,
+   "reference": "L'5",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 17,
+    "ATL": 19,
+    "WM": 15,
+    "n/a": 92,
+    "PTL": 11,
+    "no_info": 4,
+    "TP": 8
+   },
+   "votc": {
+    "VOTC": 72,
+    "not_VOTC": 90,
+    "no_info": 4
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_133/P_133_ieeg.lw5",
+   "sub": "sub-133",
+   "pid": 133,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 121,
+   "n_events": 422,
+   "types": {
+    "SEEG": 121
+   },
+   "roundtrip_ok": true,
+   "n_tal": 115,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 34,
+    "ATL": 42,
+    "MTL": 13,
+    "WM": 9,
+    "no_info": 3,
+    "PTL": 20
+   },
+   "votc": {
+    "not_VOTC": 25,
+    "VOTC": 93,
+    "no_info": 3
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_134/P_134_ieeg.lw5",
+   "sub": "sub-134",
+   "pid": 134,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 182,
+   "n_events": 848,
+   "types": {
+    "SEEG": 182
+   },
+   "roundtrip_ok": true,
+   "n_tal": 179,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 119,
+    "PTL": 10,
+    "MTL": 5,
+    "WM": 13,
+    "ATL": 17,
+    "OCC": 16,
+    "no_info": 2
+   },
+   "votc": {
+    "not_VOTC": 119,
+    "VOTC": 61,
+    "no_info": 2
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_135/P_135_ieeg.lw5",
+   "sub": "sub-135",
+   "pid": 135,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 115,
+   "n_events": 422,
+   "types": {
+    "SEEG": 115
+   },
+   "roundtrip_ok": true,
+   "n_tal": 103,
+   "reference": "",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 10,
+    "ATL": 38,
+    "WM": 7,
+    "no_info": 8,
+    "PTL": 5,
+    "out of the brain": 4,
+    "n/a": 33,
+    "TP": 10
+   },
+   "votc": {
+    "VOTC": 75,
+    "no_info": 8,
+    "not_VOTC": 32
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_136/P_136_ieeg.lw5",
+   "sub": "sub-136",
+   "pid": 136,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 113,
+   "n_events": 422,
+   "types": {
+    "SEEG": 113
+   },
+   "roundtrip_ok": true,
+   "n_tal": 108,
+   "reference": "W'8",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 13,
+    "ATL": 37,
+    "no_info": 3,
+    "n/a": 46,
+    "WM": 6,
+    "TP": 8
+   },
+   "votc": {
+    "VOTC": 62,
+    "no_info": 3,
+    "not_VOTC": 48
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_137/P_137_ieeg.lw5",
+   "sub": "sub-137",
+   "pid": 137,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 169,
+   "n_events": 422,
+   "types": {
+    "SEEG": 169
+   },
+   "roundtrip_ok": true,
+   "n_tal": 161,
+   "reference": "W'8",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 16,
+    "WM": 21,
+    "n/a": 83,
+    "no_info": 8,
+    "PTL": 11,
+    "ATL": 20,
+    "OCC": 10
+   },
+   "votc": {
+    "VOTC": 126,
+    "no_info": 8,
+    "not_VOTC": 35
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_138/P_138_ieeg.lw5",
+   "sub": "sub-138",
+   "pid": 138,
+   "sequences": 4,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 168,
+   "n_events": 422,
+   "types": {
+    "SEEG": 168
+   },
+   "roundtrip_ok": true,
+   "n_tal": 163,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "ATL": 43,
+    "n/a": 68,
+    "MTL": 21,
+    "WM": 19,
+    "no_info": 4,
+    "PTL": 11,
+    "OCC": 2
+   },
+   "votc": {
+    "VOTC": 103,
+    "not_VOTC": 61,
+    "no_info": 4
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_139/P_139_ieeg.lw5",
+   "sub": "sub-139",
+   "pid": 139,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -2.0,
+   "nch": 162,
+   "n_events": 848,
+   "types": {
+    "SEEG": 162
+   },
+   "roundtrip_ok": true,
+   "n_tal": 149,
+   "reference": "FpZ",
+   "first_trigger_missing": "0",
+   "seq_len": "70",
+   "main_regions": {
+    "n/a": 70,
+    "no_info": 12,
+    "WM": 11,
+    "TP": 7,
+    "ATL": 42,
+    "MTL": 11,
+    "out of the brain": 1,
+    "PTL": 8
+   },
+   "votc": {
+    "not_VOTC": 53,
+    "no_info": 12,
+    "VOTC": 97
+   }
+  },
+  {
+   "file": "_x/seeg_data/seeg_data_p106-p140.zip.d/P_140/P_140_ieeg.lw5",
+   "sub": "sub-140",
+   "pid": 140,
+   "sequences": 2,
+   "samples_per_sequence": 39937,
+   "sfreq": 512.0,
+   "xstart": -1.834,
+   "nch": 118,
+   "n_events": 2,
+   "types": {
+    "SEEG": 118
+   },
+   "roundtrip_ok": true,
+   "n_tal": 108,
+   "reference": "W'5",
+   "first_trigger_missing": "1",
+   "seq_len": "70",
+   "main_regions": {
+    "MTL": 5,
+    "WM": 19,
+    "ATL": 31,
+    "no_info": 10,
+    "n/a": 31,
+    "TP": 7,
+    "PTL": 9,
+    "OCC": 6
+   },
+   "votc": {
+    "VOTC": 78,
+    "no_info": 10,
+    "not_VOTC": 30
+   }
+  }
+ ],
+ "sourcedata": [
+  [
+   "P_001/P_001_ieeg.lw5",
+   25704,
+   "66bd6a09d6192273e54926a9189cb7cf8476ebf5c2a14817dfaab14b577125c1",
+   "3b46ad1d574d248e781b96777364f0d0c0180f2fb6c618155466c2830cd15b10",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_001/P_001_ieeg.mat",
+   30714327,
+   "7ed8346e86db5ea7424dd7227ccb94076fecb193fc2dcde8174225c12ed85ff2",
+   "e9bf5073a737167640145c68baada92e90bc1033ff539e1c16b364779f6cd576",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_002/P_002_ieeg.lw5",
+   11300,
+   "8e7ca5ee23e86fb0405d8cc3ecb438a0dbd007e0e93c224ea5c7a319d7c3e549",
+   "cb655672d455aaf0cf850bd129c53c4d50b3d25e8f90b4cf6effcdc941671667",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_002/P_002_ieeg.mat",
+   14020576,
+   "e3556f79afa3a18687c92cce6c4f3952053c78d5d4f61e17a198919567db9ed8",
+   "b07418e00039e34514b784221d26d877f9e590464267309bdbddfc9cc02f6e92",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_003/P_003_ieeg.lw5",
+   15668,
+   "e4afc08ecf9ee04d5058ffdb6e43509de4e3b4967916fa63254647a8bc3f36e0",
+   "1e29b27e3cad3855a1fa8cc57e5c903b7ad747ea93593d9895721ffffa531784",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_003/P_003_ieeg.mat",
+   41452334,
+   "2925d3fbd4aecfd8acb2762bedf63d81be269551c513a90b3d5d26a7eadaf312",
+   "9e9bc291946d2cfc2c9e95f2d3f0730914024dff063d63af84faad9bc43f8bc3",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_004/P_004_ieeg.lw5",
+   28057,
+   "1fd4733c29e2a87e53bc4a79fa06d29adecad1ffb489a1ab585e1202efda0a36",
+   "c5081839bbe907eb075b6041c2fd795bd2a0330628dcebd07dab9ad5fcdaef48",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_004/P_004_ieeg.mat",
+   20782469,
+   "5bc708907e018e6a56f2310c20236cf9c7c1b2aa700c422cdd8cf8a7f14c7172",
+   "ca026fce80937095bbb5cd752bb583ef6925f046190b86514bd019f391c3d56d",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_005/P_005_ieeg.lw5",
+   22318,
+   "24cf9522183f10fe796d5c781d81e910d2ec20503871d3b8bdec8cc1d616f1e9",
+   "d46cd833c9350639f33a6fa5845d449154123eb1ed2b06ebcb7c954e6507e24e",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_005/P_005_ieeg.mat",
+   26561676,
+   "4f29fe5841c8fac9dbc8b69bb714f977acadeb5554289136473e2b964e45ee0e",
+   "2ca4c206255878795adc64e01d7f32a0595bdaab41ffeab6c0f37eedda6b728a",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_006/P_006_ieeg.lw5",
+   12174,
+   "b673bb6c37007291b5f0b06a31421e2c4a0852a1532c2c3957b6f4d9539b5732",
+   "d9ca1caaf689b4421ac1e053252c0813e63e83d03355c76ddb0f5a2aaeb2d3b7",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_006/P_006_ieeg.mat",
+   27800172,
+   "f462c7ea715175744b96e6f786814fc8d35413824c157dc5fc67f21a2e517577",
+   "6fee416f0a0c0a112d7eb0736f547e70e87fce301933921f420a972aaa82fd4d",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_007/P_007_ieeg.lw5",
+   24442,
+   "ac1587dee83b8a0e0b7b7704b8bfc4abe6ad30ac315fe143f2b695b80c7f3b4f",
+   "7e51eec5dac8d345c298a818a70dc8f895a9bd6b8c1e6137bddb70c9a3ba0c6c",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_007/P_007_ieeg.mat",
+   20972818,
+   "27117e72559621abc2f8dd3a4dbe3c4bfca87117d584eb2f23a2ff384debe4e7",
+   "65d58488f957ade19a59624d469c1946a71fa1d01ad98b1fdace695e2f876e64",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_008/P_008_ieeg.lw5",
+   22063,
+   "136debc09a61d124107ae101a712f1eb36e6adee8bf0c919590ca91787aa4798",
+   "56e92a0cf7574da9de577537753c1396c153b591f43c048e872bc7f1b83f91a2",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_008/P_008_ieeg.mat",
+   35529437,
+   "0b086960818e08899f800bfccf56b38f46ec1afd8af319dd23ca514f494201ec",
+   "836987ad6c9d552666c1c27ba9958b13bfdb02a99306c909b65fdd67cf5e249a",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_009/P_009_ieeg.lw5",
+   5777,
+   "b527816f9456e348f0b03afcab9eda8aeefcb30141a70996ae4fadddcbfdc8f1",
+   "794d065d165820e20d7712932f68e53bbf64cfe9c046f6d6063b7f9c66c9a255",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_009/P_009_ieeg.mat",
+   57876753,
+   "14133ba25746f4f61fe00334c5cdca8e2ea791e25deb7006fa47f58d11b11b0a",
+   "5e35402acfaabe6feff7353af0413d5315ef55c17eade5864cd28825914ba092",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_010/P_010_ieeg.lw5",
+   9131,
+   "441bc07f14843a671d23520389d3254e85441aed8313ddadcd03bfb40e867543",
+   "d80f0f2114b29760c2ba16c2564a39bb1a8997fbe15752b85383a5afa7d00134",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_010/P_010_ieeg.mat",
+   60893001,
+   "e1b40291a7068590665787adb1b4ddd1da3d6dd87d5cf0d06aeaeb4e54265763",
+   "6b29935eff60bd8d91a7af933cf7cbcb0ba5372f75d3309e520c0fe978f4a8d9",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_011/P_011_ieeg.lw5",
+   10583,
+   "5a3fba175dbd5e8b47975623f25a7657b2f64aa8748bfd65295942d67c86e87a",
+   "52fbd15ed840b628947f46297e8a24fe0e5b0043736766be4b39209292a613de",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_011/P_011_ieeg.mat",
+   73418773,
+   "688cd97c37b917f45a7cbe48022ed761265d102f2481e2abef983eafafc6a712",
+   "66a625d323182bb738f7f62125a0b07a8d03439e6938e4887222cbeee1004ef1",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_012/P_012_ieeg.lw5",
+   8486,
+   "805fc7235473a796635858f98222ddf8af72414b46b450c86a154d7e2a23f266",
+   "878f23f74fc9a9e74f9b85511c18575d9583c54411a0c77b3b77b9acd5b57262",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_012/P_012_ieeg.mat",
+   25634828,
+   "8124e0477a355ce1f0b1a55f203e1984bdb2eaf210ff61d705b7d33c2eea7ea2",
+   "d8aaa21f87b439a43238874c84441e04f8c4a222d94ef311df8aff2bf3a0ca90",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_013/P_013_ieeg.lw5",
+   22074,
+   "292c30f4a515dc9eb2c171dfd6ace4f36e77b15f7dac08652cccca7afb13282a",
+   "069d94422c052660ae4b4400f11d9cb274307dbecbef68738bdf4a840ece3d12",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_013/P_013_ieeg.mat",
+   95996274,
+   "be5638683a33495f82d11920f246c25d8d44a3d2cd7a3222a949d9020cac4207",
+   "291fea6a7a2c31ecfd42065829cee5cc13ee42ef535956f6d4e0dbbf54f01281",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_014/P_014_ieeg.lw5",
+   7853,
+   "5ceba98cfd76bb662ba290272bff73f195ed8a977e88b0fb2fe0b067097c2e9f",
+   "751cedb2ad7812ee6a96c9d2c139c9ba3f796b3dcb0b40ceaf0fefd998b103e1",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_014/P_014_ieeg.mat",
+   24628020,
+   "4c47edf659ba31d854d9776e7dbc5fcdc11098c445aac26c731da54aee3de123",
+   "b10a46f4d7c63c4b2cfac7e91d67dfc2e614551a80f52ced6384e5f91793b65d",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_015/P_015_ieeg.lw5",
+   8244,
+   "982c397015e245d8e4c33e22ce10713fbeded56d59ddd31ed3b6acf292a93546",
+   "13fa5d354b930de71078a050489ed5e8d89daae453eeb00e3fba09d57f2a1818",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_015/P_015_ieeg.mat",
+   53565039,
+   "3faafa556bf4fef175e337024bb617a74452ba8c8f4a20c1442a711a66e49624",
+   "6c5812c577ac155bd0585e933bfebedbffaef48dc6bac1950ef5061b11ff2358",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_016/P_016_ieeg.lw5",
+   9048,
+   "16c9439b13519fce22062ed2f1377f4cadd36aaaa1e6d5a27eeaedcaf6af78dc",
+   "eb63103d497ad9ffe022e1a6cad00ae7d1ffd2f6fc6cf06c0e3f334f99b3f94e",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_016/P_016_ieeg.mat",
+   17539696,
+   "32f162db5980ed5968328eae25b1f3675731b01cec1fb38f15c29ef7aac6dda7",
+   "87071e27115bce4cf9dd1eb6293a2b55d6c52396212af41f7461278ce420788a",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_017/P_017_ieeg.lw5",
+   22249,
+   "ba6377fdccfbd2c1471d762758ff12132371b788ebe2b7690a2fbfc5098f6ab1",
+   "d6edd674151db5fc074e79b57efbb6cae1c0d31b6fb6c6c9d020a2eb3acadb18",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_017/P_017_ieeg.mat",
+   92636936,
+   "1c9ec4081e0f983fbc155d8000a662449b14633d35b029073ddc03e109ff3635",
+   "281bd900b521c8ea4d253c5ec557a0efde3e5498f955cc515bc02821cfcf352b",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_018/P_018_ieeg.lw5",
+   9557,
+   "122ea59d437d816295c0582a2ac8e604dd30cb61777b5d893ba47384ce58f3da",
+   "86b5890f17bb1476a85415e68bbf7801134c62a59cb1ce4ba604c59713aeaa35",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_018/P_018_ieeg.mat",
+   34041900,
+   "ded774086cfe3a02f0973f8334118432693e49731dd3d2c3bb9acf5145a24886",
+   "b964407dc98ef95562b0f53b1c0365e942304167ff69715a029816b224f992c1",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_019/P_019_ieeg.lw5",
+   10109,
+   "d0d8f10325ad0d1f2fb39c688800989f961e1bbffaa2d0e1a5acab2b552a7853",
+   "ee17d74775b0c63b8cb50bbdf6247fbec256b75757d5dc7f60ec511d518a8a1f",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_019/P_019_ieeg.mat",
+   66210504,
+   "4a39572425f3ce87b00022a667d0a384d2366ff9886e68a0365dd3cbb0a67e2b",
+   "a6bb43844b1b3f7dd07d0a4eb3e307fe5468504a177b0863fe813af8fced8696",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_020/P_020_ieeg.lw5",
+   21372,
+   "521b5cd86c293daea8dbe541645000713bf2a9385a3120c2b614e9d678104263",
+   "1d70d8869caa41839068d096732d09c10e61a3b878374eb4732aaea537a79658",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_020/P_020_ieeg.mat",
+   122974096,
+   "0e793cf8f34bcdb4029316590bda0944abbb974700d7c942725362068ba01cf3",
+   "0ab9191e37bf21536597fcacddf96f3bdce3380163101ad5de47e446492ca688",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_021/P_021_ieeg.lw5",
+   10211,
+   "1b7070306ce0ad15d20f5d7e80bd46a6d58487f885815c8c1a988e2827a1328c",
+   "4d078fd3587b0a1ead19c9b14d26ff26d253d063556422fe2d5901e3725c3dd1",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_021/P_021_ieeg.mat",
+   34888659,
+   "05652be83412e243531248de16367a170a40edf8ff33dad68b28f96e9683daa7",
+   "ec37518f44a81afb2fca6b71c9d88ff0b80185802d1477c56c3e5db490b31faa",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_022/P_022_ieeg.lw5",
+   22041,
+   "c0e936ef1b41e622202c0c6c9fb8b748ce194c06123273f0eab39b7ed14379fb",
+   "bcafd10f1f319994c8c4cc37fd27ce53e11ee6aa0312fe1dea00348f659c0625",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_022/P_022_ieeg.mat",
+   229646120,
+   "903afe1391ad2ab1b6f99992e1f7433e9314bbf77872d6485ffe210113449fa8",
+   "61e34a421dbb316f00a8cae75eb0831337dfa34c21cfd77773c2bdd6f1b2197e",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_023/P_023_ieeg.lw5",
+   9908,
+   "00dbe0132c33818dd66b09c87d8c330069ef47d33b6848c063e5c53dfba1cc5a",
+   "83f2343b354b93417d67927150f19bdf5d4b56ecc4f402665a7514ef4cb92071",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_023/P_023_ieeg.mat",
+   33537808,
+   "18617f841f9cec099e145681a8834e9813fcee181bac09add30cc92ff1d39841",
+   "91888fd9203627a074e3c049d460937fec03e8e3160b2ad69766e70ad004fe1b",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_024/P_024_ieeg.lw5",
+   21990,
+   "01f56111f639faca9ffd47eb051eee23c58d1af49a3eaab956a2091d9a6de3c8",
+   "3f96cb62844a0172234977c0b01eb82fc16b9742537dac5865457359f2157dc2",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_024/P_024_ieeg.mat",
+   187890688,
+   "4ecb5474dc564a4770983b5657cbffe2ee9d0bf08c70905211134d241778f9c6",
+   "52d80c4b33b31ce663b4fc6be2c0a7ea1fe63c11ce9467eaeaab3613bb80c4bb",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_025/P_025_ieeg.lw5",
+   22030,
+   "3da6f48a69fb15f81d22800655aa3610b1bbf2f179155b63b3e19f6799c7cc32",
+   "bbc75c540267f4cfb1663798f13012bbe6e6873f3c7ad2b5a31a16409ffa5b6d",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_025/P_025_ieeg.mat",
+   140556118,
+   "b8498a9a492b951386cf52fed015effd84a95dc1e0e167c5b461f8d4ea9f56b4",
+   "710c26f67d0b1fd257755288879710f567c4858af0faaa8e78366cf8b6f31065",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_026/P_026_ieeg.lw5",
+   8951,
+   "e82a506c6041289311a7c722348d3706a2c20d20cacf934b8fa8365d1103b9bf",
+   "4aee40382d1a09fb6d35c8c0e873dfcf814a8ef576fd59715d90b296db0868d0",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_026/P_026_ieeg.mat",
+   28832907,
+   "e134ec56951766ae709ca993fe50449e7a79cc11f6f01a3b78e5eb0094b8f8a9",
+   "bb00c689387f8e91840bf2ded1ecea2f4465ade259c83d779d30a49adb656ab2",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_027/P_027_ieeg.lw5",
+   9331,
+   "84d32d92f4ed92defec6670702c4de8719ab5337f26d3b83c2f0836ef5177abd",
+   "7f26e80ae063e74679a593bba1f4aa577be98e00d600f54424cda77423609325",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_027/P_027_ieeg.mat",
+   61203722,
+   "4ae15a79a1622716d808084357bfb996551bad9ab5d0d499efb94366df71684b",
+   "e077d92ca8ecaf365044e57806b20218117bf6e2e06b9233ce01617b2c75d65b",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_028/P_028_ieeg.lw5",
+   10139,
+   "9973e02fa3859150dce5d891ab3542781fb5f0fa3c7692279aa4c87da21b727e",
+   "c70ec2a0e6a79d626ceb32a55fe8d2b7599a5542a5101ce7a2e3400c7188d046",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_028/P_028_ieeg.mat",
+   50871526,
+   "136dfadf2157e568519225b50834faba4aaefc5e3922a65a3aea6013f94f433a",
+   "629fa0d24190245696436066803119a5a13fc123a539f75fd267f0935d650925",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_029/P_029_ieeg.lw5",
+   22134,
+   "2b909e810f89c9681eda7a2aa5822c057c424470ec8a29c9385f35c5b0221c5b",
+   "86be21da716af1f0de0893d6f0f345351246a1d69d2e7071f1a5c4a1e6907f77",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_029/P_029_ieeg.mat",
+   240866662,
+   "c598305ff689908010923fb91a3f5e23b017d493f5765843686fa125ae66e151",
+   "10eddf84865366f695d8c478572c6552d0b94d77698c21ec4adcc8eda9fdc9de",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_030/P_030_ieeg.lw5",
+   21356,
+   "1728fcf0531cb69c0ccb7ce0b50cf4024e50c8d37f9f7d213b9eb3975e8c3c74",
+   "f8d012aa216d1a77ca860d89a946b74ce69de0138f898bb36eb80c9621b355bc",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_030/P_030_ieeg.mat",
+   91143615,
+   "f4ad2eefcc23c714d56ba6343c5f6f5fde76036a3e45b64684af4fb3f689cfa2",
+   "d8e0e115dff34a006558ed847746b5f7e878522ada92fb30d2009596dbe32d43",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_031/P_031_ieeg.lw5",
+   21584,
+   "9f415a49271da37a01481040e80708458939801127358105aedbf32183dd9958",
+   "044f6bb57c7b2241baec1e564ec7b45eb9f659b2fc60bc687e7906e9c641aa96",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_031/P_031_ieeg.mat",
+   177284928,
+   "2507c554caa92a5c2e0a4878815c410450e36bfc3c737f3e1e1517e94edba19e",
+   "35129a5a3d2d98fd020add5b19bc24c31cd77825c2c40a1e1580b2871b5d452e",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_032/P_032_ieeg.lw5",
+   8985,
+   "8e022fc68aecc35555e2b9fba4775cafd1718463af4d11cdc5182bba558be76b",
+   "1be28fc623fe8a1aa6437f3e68151f0d42287dc381a43a06db6a3902ce139f09",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_032/P_032_ieeg.mat",
+   60005155,
+   "31d9260e51f31e035d8cf2f51bedf5b0aa55779546bf4fc6aadffcd5e3aa5f41",
+   "c47d444a0dcc8847f616c0d428612d263e559a0c900cc5e87b1ede1a5d11ccbb",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_033/P_033_ieeg.lw5",
+   9817,
+   "7dfdd4ef6f1c1d09df80757c349042706a815c858285defcad5ac0b6e3d4b92c",
+   "a52d8c5fc72f219fd0337ad6cdf531e387819f37a047cf785f7c3fefd2736db5",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_033/P_033_ieeg.mat",
+   66227701,
+   "435b9a2db4ac7b33039d5ace4c34b158bd89b39b6c06e63038f656c8d816450d",
+   "5a50fbf7146dacdcfb2fe8777a37d9db051ebb3230d5d0c1231a2b89be3b8c3a",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_034/P_034_ieeg.lw5",
+   21035,
+   "b6d158e827f752fd3f884da9b57f43203cf701dffdab01d72940b498d266c446",
+   "1d6ada447be5bf30710ee86cd73bd6c2bd251771f3e44724c36a6fddad7a5867",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_034/P_034_ieeg.mat",
+   120341348,
+   "91e40261d8afc1326911cebac4e2b9ef90bf3e1721fa2af2bc66da93b7e79a6d",
+   "c10c1c16779c607ee02fba2eb798d8d19d97adf311cd38b9b9e83a4df6a3649a",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_035/P_035_ieeg.lw5",
+   9679,
+   "774fab199cf169e9aaff4f32d50684eded1feee32a8c8a0607c52574abc4c4d1",
+   "bb1f09ead2bd8a7f7147bd2ea93c11edf18e683d80b78cf601e94afb7bec0b5d",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_035/P_035_ieeg.mat",
+   33581276,
+   "28e7181076d3d5ea1782c2c7a139a9123480c2cbf568d0f6f2760604cae93276",
+   "9b4cac30405e60be0b94b02d588d7d89ea6dc8c40b8109f73c9e688cb5fa1614",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_036/P_036_ieeg.lw5",
+   21947,
+   "827ae2f9c48190e55493be79304269d5823902e0ca0ffd164ff59fe615ceb040",
+   "4c70f33c13566ed3127885132c2b02b9640b014d3f1f0031cb272244df557d8a",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_036/P_036_ieeg.mat",
+   46650674,
+   "57623dbab8c743abc57e98a4de743efcfe3d6ad0b676a1f3d135d4c39b4b860d",
+   "50f7bfff0611e22ea2f2a6e138d7f9fca2bff8f159514f51cac11b2a14ee4765",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_037/P_037_ieeg.lw5",
+   39633,
+   "8ad74bbdff724b52dffa5f1b6d6bdbeb5c9d1ba9695f4ac06761c570ca82265e",
+   "ddfa7597f76dc0bc19df961b43943bcedce284d447027b5963eb812e58dcf568",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_037/P_037_ieeg.mat",
+   200841600,
+   "10980a17ba13e41cae901bd174111ca5159be0cf371b8cedce60523255e868a1",
+   "e9210af11fd4433059879566e859b5161accfd39ba97a7c573ba6fcf54c05801",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_038/P_038_ieeg.lw5",
+   10116,
+   "604b55d1607fc84953964b50c9bb516411870d0478bed5d8d4862b4a4499da0c",
+   "e48ff3e5cbfd3dcce9359ad568db372e6fb5447a973916bf918323ca1ae74558",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_038/P_038_ieeg.mat",
+   81398207,
+   "c77499a02014ac2bfff8ca579643eacb0d102c46450fc891c306003bb290962a",
+   "d7608e609832cfb41906b75ec3fa156f121d46cafd65fb21885b636b70cb9dff",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_039/P_039_ieeg.lw5",
+   8759,
+   "06d80511e330a1369b33bf510f0b67f183ef9c49db487a858d965ce244855c41",
+   "0dc58d8a0d2f110cc6c011bb318417f6f70559f1d81b86d99c97151fa431a8c6",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_039/P_039_ieeg.mat",
+   53944580,
+   "a1d5166c1f0cb225bf808cf688f98ccb37894ba5422220995b67981c10798b30",
+   "4cc7983810d65874f17f957589907fe08495d860e8bbd4c7bf0f804a83586698",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_040/P_040_ieeg.lw5",
+   9191,
+   "7c216b1283ba8e0588e1b21e53e5df5e8db5128878c3af2eea2d26332f0c6111",
+   "9fdaad6a6885688b558a6fd059e022539adae5611009ac51b7d1a1ebc855e3c6",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_040/P_040_ieeg.mat",
+   26636985,
+   "962f8797f35662edb6b969d6deecd76f15f0acec0bb729a357a9f15070374e1d",
+   "675be334515579d478dca08cb53e3084f5d46b0bce54c4a4795711b8d81a3e56",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_041/P_041_ieeg.lw5",
+   3700,
+   "94f045540bf60187994cc05324b6a70b6115862942dd57171cbf22f279e1ddca",
+   "93d9eb517b79c25e68b777add9d62786f893b48c84029711a01dd289fe78d9d0",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_041/P_041_ieeg.mat",
+   27492438,
+   "ee18055b99d624042f504cf221af3d5824a190db03bbf258eb3808954ee3e4c5",
+   "bc2248069b6e882785eafd607e21688464c69453e6e6e71969b8c045c808b497",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_042/P_042_ieeg.lw5",
+   9397,
+   "931b814cee917785114fd382ba104fd6f6364aad622913ee7b8d970f274c9838",
+   "d1834ee83a14b369521e1adae0d73824383e612863f83a5ad69451ccf058bcef",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_042/P_042_ieeg.mat",
+   59170643,
+   "5eec2489369cf54bb9427ee3637d049b70953dc156ca6f26a614ce1b6eccdc92",
+   "f207b707b4ebaeab2b66170c3eb646411435546504c3191ed7eef887b9c65ca9",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_043/P_043_ieeg.lw5",
+   7159,
+   "dcf4f1b2b30976f4b5c9584b8a056cb60399e76f9959c829051b90499bb1b688",
+   "012ff6dbf4ebb43f1914a941b48913d76f354f6b47657f76c9ce447523f87e72",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_043/P_043_ieeg.mat",
+   18097093,
+   "01f12a8d24ac3dab434b79ab27abaf5afbd7ffd8db70fb322a7a351da895ae17",
+   "f7edbb23453f647d448eca3577ad0129ad7a6020c8ff6c2b9c0c3bdbbe85da1c",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_044/P_044_ieeg.lw5",
+   9373,
+   "c851bfb069e60c3b464a7b010cb5edae7250f92db6eea97005fadb639111fbef",
+   "55112b8a349ca2b5a1f38ed4baea6c43865718648dcdc3c65a61460e990f06cf",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_044/P_044_ieeg.mat",
+   56019121,
+   "8602a05bc20b9dc400c1cae5f4dcd95b2bd5cec9b42c1f3fc326123246a89363",
+   "d0c115989cbc1f443ec1c4eeb53ea71ed5941fe21106aba544b9dbbd3a2bcc96",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_045/P_045_ieeg.lw5",
+   8148,
+   "d065726da9e5b89733ca8e2068e27121d19384b222ab3c72d3f364fdf5bb9360",
+   "2043a84353dc0980620fc85f7667a257195d353d2e465cc7085065304aebabfd",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_045/P_045_ieeg.mat",
+   41085316,
+   "ed6aed6f8db31b0ea125017ef39b73f67137664f05007a27537113e4921252bc",
+   "cf1c046f19e3c6b43846c026d39f6cbaddd9166285f270f8ca691f13dc78af06",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_046/P_046_ieeg.lw5",
+   7391,
+   "315d2a011727c7cfddd3f5be58d878ffa7aaf80eef37d77d2a2441ea9324f546",
+   "469aa7f51012740dc94024e50c9992b9dd64419c388f726b5e954e172cf18868",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_046/P_046_ieeg.mat",
+   45706304,
+   "0a562b8284c9f1936d8577596b77ede691e97f2b88001258e13bd98048862bbc",
+   "f8ae9e1f77cbc6a96f4e82dbcba31ce097e3a8990ea3fe3164b873b6ef971771",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_047/P_047_ieeg.lw5",
+   8728,
+   "80b6692e64d8405a7ecc7b2c7dd907b848f03d8e52c539c3546b96227f78378e",
+   "679548a88389b2643c806d2902f879daad67fcff54b252b6328b5435e653874c",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_047/P_047_ieeg.mat",
+   53502981,
+   "8851eedea07ac4e804db4e8303424bea246c5e08db57e7c986078a31f5489d95",
+   "f8f180a97b21fe6ea8000cdab00c65055363e5ec280f8e2c9cbca92c1867f0b0",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_048/P_048_ieeg.lw5",
+   8902,
+   "db87b7498628d8cb614b269881590e914d69862970edc90e4990ff997fa01a06",
+   "fd6b130e4ce6ec8d064ddc5a3a4cfd6f1a2f50e0941c660ff9ad9f7840302753",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_048/P_048_ieeg.mat",
+   24672002,
+   "87c1a9ce63a58046624ed45040509019d044c4b57ace6e7f0e0aa8f442598c95",
+   "87a882d606fc7c8b58d31087ea1582cb73ac0a48802930a0cadd151773972630",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_049/P_049_ieeg.lw5",
+   10043,
+   "3827115625c41e4b1f30b6d062de204e827558203f0675c4c4df6cd98597e0c2",
+   "c392d393fe54a51c16ba1f67f9046b98c65ffada2d2255ad04f9bb26b568a791",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_049/P_049_ieeg.mat",
+   59271175,
+   "6cc13b8e933f011e3118857569c71c811c8c59d5ca0154afe658d784e53e35bb",
+   "9ae0c33c8ae7c9e242059d2bc0dc8902b2ea282f2e2b272611619e8cbd1b30b6",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_050/P_050_ieeg.lw5",
+   9195,
+   "76c5c384b006e45a342ea768f3c5667836bcebd72fcbfde0712e5d997992b173",
+   "a54b4b8f1ba9f2e71688af7bc39b7f1b46253d16224f66deb3419e1dc845ea43",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_050/P_050_ieeg.mat",
+   57124187,
+   "312d51dfa2401adbc50594f20c090e7eda47033473f46202b9f77f9a899bf85d",
+   "1f688ea1fb3935222ae2dee7beda166829e636fb9a04fa56170a6953bf1c7878",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_051/P_051_ieeg.lw5",
+   9542,
+   "1fdc438d7cc5e67567169482fdcdad68d68baa05516721328325e93312686b86",
+   "8b7454ad8130b6dc1d93c4e1a7d1f48366d70f04faf4769df83c593ce8d095cc",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_051/P_051_ieeg.mat",
+   54817008,
+   "1e6416e4f53cefe3bac0b87eb127df289440a96e9a41fb17eafc5850be767264",
+   "157461cce32c3178ba38979b001e4919236b739af02f18a59c3e7c02f49ab922",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_052/P_052_ieeg.lw5",
+   15216,
+   "3b94026daa671ec1d11535d96d925d24c281cb729f66c18481f1c0889cd7f6b7",
+   "e14d1dbec983e9048ca0b15e7a419cf3124aa5b477d8c0d80cada95daa284ac8",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_052/P_052_ieeg.mat",
+   37104354,
+   "df07a273eeb51fd1459923b83f6eb78a12e88fea73ba898736e80d3b9ebb85fc",
+   "0833b43c3a150fd5961193d21c1881b766ab1b707625905f1b9ec337980879fc",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_053/P_053_ieeg.lw5",
+   10808,
+   "38b7583822a49719c772ae70cd14e1bdd8632a5f25582952353758c5967f8f71",
+   "241f7aeee84a2960805b191fb80f953f421d483e0a5a9bb382d2823aeb04888c",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_053/P_053_ieeg.mat",
+   66871026,
+   "748219774048c5ea94e6003918de10cb4f0e13c7dc6df925aa7c5e473099abeb",
+   "da31a0e5d947492e3790acb903b7eceeb6add8a069a6443775dfeab73e460e53",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_054/P_054_ieeg.lw5",
+   10497,
+   "ddd5d1c117f76ab50c54ac70a5942a469b20fc460ae764f6da9f3b7cba8694ea",
+   "f60ea92e72495cda1217c356ceba870de5abc2c251ece82ad1cce19a29f50ea9",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_054/P_054_ieeg.mat",
+   146350520,
+   "5043644ad781939b3d50461fea924bed9dba693dbc6317efd8002929f67f7394",
+   "27177fefa23f193a0240edad335cdb1b2469fed4291af7162b673a93a5972f8d",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_055/P_055_ieeg.lw5",
+   7327,
+   "f64c24738b2d3ad39dafa9c4eb4533672752ce5f8ed4d596149c818a9c80d9a8",
+   "737d5a2e1831b3c16ca3023c7c23349a3cd276be8a4517e7674cdf27c9e8f7dd",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_055/P_055_ieeg.mat",
+   34282179,
+   "e320eb6622457df805f7993729d64aceb7239c91a90bba83ee8670a5a1c5cc45",
+   "e3cde54ca712cdecf1919b551f959b2decb247446bf7268f968f98ff0f0d90b7",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_056/P_056_ieeg.lw5",
+   9633,
+   "784581dc6b99ef8ac0d0c6fee0e2f54f4efad71832d5afe7635e8d65cdb249fd",
+   "012c50448d7d4e28c079a973aac65516191e67c2d6c5801788b6f51b216e1d76",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_056/P_056_ieeg.mat",
+   28518174,
+   "63e21f91bcbd3a07522f0f3943fb23c58d4de3d6c16135f02da615c8b9a710a7",
+   "23d3572ce5db6d5e33afc95700373cdd4bece9551691c160426c121eb686c071",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_057/P_057_ieeg.lw5",
+   9129,
+   "586c265c052f7449402f3746ea2c084dfbae687dd969a2a8d5a250ab6ab36b3b",
+   "ec7d0e31dfd37d1cc78eed5e4ee79cb4d1f0c6edb138d68d92b9e3edcf97680a",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_057/P_057_ieeg.mat",
+   30492304,
+   "ea3a6d3e142015ebed22074f529629a986e8ded26dab90d2042aa40609cc0f8e",
+   "338de52bd208527f6629180599288a204008f34a41c6a4863e1530fb1e27c5d2",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_058/P_058_ieeg.lw5",
+   7693,
+   "30228183c3391c1d3b90aafd4c23b3aff738e26c17beecdbad1494e341d76567",
+   "ccd7131238ad88c0f0b0f448f84d56d9d50e620594b8a620fd06a7ecb7cadee5",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_058/P_058_ieeg.mat",
+   19874761,
+   "c53a2c8d6900e41ea814868f72115b063f936c2094fc10224d681df54dd3b6da",
+   "ad5857a8b1c33be217be576e5d4d918a5c3b87f690fd35fb28b7a508bc6faaa7",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_059/P_059_ieeg.lw5",
+   9884,
+   "228b79978aedf613b9e60d937b95769e63afe8db10fe136c7a2e90b44c72e42f",
+   "524cb3e6f46f7ef5d7584fc7ef6b869a5753fc38d3e76e5b40db8b3968bef319",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_059/P_059_ieeg.mat",
+   61649803,
+   "83589764282bb423125971be90527c13dd96357758b5258454a65ec3bbe043a4",
+   "b8c6718a469dc555d72f9023868c00cd9efc599bd296f0f22198ada5173506cc",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_060/P_060_ieeg.lw5",
+   26685,
+   "2bb9489f77d09286a9a75e57cf25c7c3bc0d8978b73034fdbfd64c0a2c08a330",
+   "868b64378c2562866e247a2b0b50a054725dd778e33fa4728aebda89cbfa2c92",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_060/P_060_ieeg.mat",
+   56097321,
+   "f8819db8df9f8ec289d7169b783896c05bf2cf1db496a880d242f0c014ce5bbd",
+   "93b93ca416da8667db3e794c0104f9e20ba45fe6ba5a4e6a07452380ce24da24",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_061/P_061_ieeg.lw5",
+   10559,
+   "d0f66091d7ac3c163401d5e6c01c2eaef458c9ece380e685a1e9ce3442e1123f",
+   "d215a4c7eb4c9dbb54050243b837297150272dd3caea60f7a460552b05a53cfa",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_061/P_061_ieeg.mat",
+   66111392,
+   "b8f0fc9a4e1c748f4d1e0b429f1f374b43e7b973cedd98e683887ee031b3f676",
+   "253ca92b059a77fadc30f93d730d2fac01ac26da8fbe79d855a2d0b0c576d3ea",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_062/P_062_ieeg.lw5",
+   10674,
+   "5f091f41326aa30ae864e5c8d72334a6a69b8a9683ae2a037a8a64122fc5c1be",
+   "ccf4a42aed9ac52142f1e6ab81c5f03c044f980d327c863ae411eec31da79974",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_062/P_062_ieeg.mat",
+   34750298,
+   "9ec5327de78c411bc9287cb610805643df680892b4c1fa01213af02ed435c689",
+   "ea70d6da0c1e446778e2aae33d800ecd39744ff9175741b59dd8f804e9176df8",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_063/P_063_ieeg.lw5",
+   10604,
+   "d17ae30ee71fcfa629ca9b68a67ac442b15bbd7bd4b1123e18697769909f61c1",
+   "ccb2ef335960ad26b027c2f21213335d1ecbdc568a68c0c66d98b6fa230e483b",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_063/P_063_ieeg.mat",
+   69501638,
+   "a650eb72442286197a8e35c20d062cf78e417f472851f3d50eb947e9c486d2e4",
+   "6cf90156871e654dcf4d0b16f7730d5c39e33a78f913f388f07ada49edd482e3",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_064/P_064_ieeg.lw5",
+   11298,
+   "87ba4dc01ea33ae0ae6a4250cc6b9b857e94e16ac38def73cdd851e30bb5d21b",
+   "013272147bdaea4898ab7fb498107471686401c85c7b63c00d2d077382f2ef66",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_064/P_064_ieeg.mat",
+   71277520,
+   "65bff68d35b99393a9de005199c0d9e2c9aec014b8649afe64aba9a1b48e810a",
+   "5fdc6946009661c5408ec77566851647cf77e1034634803d7685c8946f3295a9",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_065/P_065_ieeg.lw5",
+   15322,
+   "102943697648c37a01aa2dcf7864b86636eb74049161e8388b6df60fca2e7b72",
+   "eaa6d24804a21b3ef0194aff4869e3a5ae9b45be774722faa10e663edaa3a716",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_065/P_065_ieeg.mat",
+   20055002,
+   "d4334f699c0cce1724550ef6eb6f7f8e209eadf68a498df612ee387ef7f5b240",
+   "7e593da0d5472c1cdcb797cf36073cb5413bb8c14c491b535828b7b4f4681810",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_066/P_066_ieeg.lw5",
+   10840,
+   "31b75af157532d195f280064c25332635afd901fb96e45421f1b49a29ad904f4",
+   "08ec5865e41c1373838776368413b03a4305dfae9793e38490eff0574fc2ca1e",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_066/P_066_ieeg.mat",
+   65225009,
+   "de389d501b04cec52e1ce35584a3586d04453d56837fe5881f06bb191bd495b2",
+   "3129a26a5fdd2da4ab5e5f797882e9cce03ba963be6b2630322735c48d71b19f",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_067/P_067_ieeg.lw5",
+   16205,
+   "e4f98dcfe2198711ce35a5067c4c037024e0f1df741b35b5c795d22408b2725b",
+   "794567ee39fd14b1d2b83b143db8ad9d5e5903c8a7672d5b0ca794aba31555c4",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_067/P_067_ieeg.mat",
+   28447612,
+   "70bd0ccddaed9d38f87cf85e9b2793a6a23ae30f862492ce611fd123c5cb0686",
+   "dc2639621eeba6956c9fbcd5b3813f4d7bd007ad3d80a47a9a357659346b4807",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_068/P_068_ieeg.lw5",
+   15608,
+   "17840ff7168b06e474b6763a7bc9bcf377d0d283987632a47337bf1fffa86506",
+   "35866410c1fbfca63d7306e80802515431f2696bd8a8d4c43dbe7064be2581cd",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_068/P_068_ieeg.mat",
+   27387778,
+   "df3c91de328822e852c6a00f9e18387781610122d7702799130c38d88550b2ac",
+   "29a95fb0dcb9a52e377152b96bfd953c41e38d7846714435e9bbf3597ac398ad",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_069/P_069_ieeg.lw5",
+   15001,
+   "53c451d06573d17500e3cc6daaf74051c1577b124d20d5004bda15a31260d1fe",
+   "b077ab4b5f8b7b1bad7ca319298f00387655fdb4e9690a9df644d8024e9551e4",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_069/P_069_ieeg.mat",
+   13981996,
+   "aa2aaa2c5e74a5c2f5959fdc172ef4c241b8ba1e0336ac2187e304fe2fd36e0c",
+   "836e1ea63caf7440e063758f898d314be18dfcb4f4b524fef87e67fa7c959318",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_070/P_070_ieeg.lw5",
+   20977,
+   "26d6cbea439788cddfe157b7a624a3763813d66b50d73b996ba245771e6bcdda",
+   "87621eaddbcc5296ce06a6609e9c9df573a3fe4545ffba170306d693a232cea5",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_070/P_070_ieeg.mat",
+   59455400,
+   "eb250084b0baafafa59bbeccd9978e165c17cce610af5e82d0c8f0848a570bcf",
+   "d70b61df7520a801c7fa88d97966decdd376ceea6990317c81d91389d4a2b307",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_071/P_071_ieeg.lw5",
+   15636,
+   "5e97d34e98ca7d2ee7e24e1a134632db2664cb940288dd095536d6157bb91423",
+   "b5969e67674e2e06d8317ce8490e8b934bb41c40275cba7881532f87ee92f9d8",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_071/P_071_ieeg.mat",
+   28007472,
+   "87b5fa9cff0a79441a7f070c1c12981da8943e622b2fe4acf049e8c84750b187",
+   "2e82d21303856fe3eff312c6863bf226e34f7bd009905b7005f647dcac744e85",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_072/P_072_ieeg.lw5",
+   16156,
+   "14399a1ef13c6ce1d2535fee220aa7e48cf1169b0b2f91d98a77224a7fd94989",
+   "4b8379fb23010401a5ee577eeee6770e9b7eff59d074c07403a2fd216783d4fc",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_072/P_072_ieeg.mat",
+   26644112,
+   "f9468846cc29b73b28a3c7574a5f83f72497c12e873ccb8d1e5f85a362ae72d3",
+   "ee6b972a856fd222b25cee90f0f17138b7de26a507b436b38de93712624fa906",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_073/P_073_ieeg.lw5",
+   15623,
+   "a974ae739df7e3198983633ec61db7e3d2c7c0457560ff20d39b2eff2c5e619b",
+   "734cca429f7a83d7470db0dbd90c03df5db2ae62089be61d913df108ab9279a0",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_073/P_073_ieeg.mat",
+   34098284,
+   "a38150e6ce345f3236b9f393247a7898c66d44368ac128cd4b10edec09037769",
+   "f8580b0d730e52f39a18ae8f7db0643f78e98ebfbc2092485be4dded9af620a6",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_074/P_074_ieeg.lw5",
+   29162,
+   "f514627cd26fd01bdbbe6d5dc355e4b3d2554cd2fa0ca37c5017203335059de5",
+   "1f3a99158e4c05dfd440af066f41b7c303e26fc5bdb5865bb297c2daf5f7f0f2",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_074/P_074_ieeg.mat",
+   76913276,
+   "83dd07d1e567607f9de687217e88bfc6d14d0b26d3028b373fc61bd9c3456c49",
+   "93ea363582ee06d2076d936d9cf3145d91ce30b244ca129f2a8558a9db42fee7",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_075/P_075_ieeg.lw5",
+   16582,
+   "a966089d9d5a5ac2ebeb09ac4fa90f02ac64182936750cff2ae1ddb348f4300c",
+   "6eb9b1a62ad3b622f991d919bb869f5a3c2f61855d5ff0d9db88b3de2c1d5063",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_075/P_075_ieeg.mat",
+   23728614,
+   "0388d0901f0b6f26026993645b5a6605a060424f88ca54e6f9bd7f56300f49c1",
+   "800e63a27837fdaf7447e412a0d6221dcd24446f0704a252f788096e6823cea4",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_076/P_076_ieeg.lw5",
+   29574,
+   "d69643bcb74b1c216e63f236093b20206994030c084940ae6e69108ba25df201",
+   "83ea8f6f2ddcc9365c0c03483e0e4863a33616c5606696a144f2bb6fd35710ba",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_076/P_076_ieeg.mat",
+   58953648,
+   "cae24afb97a67067255e9ab5b716873757dc3e1531502df6f607cf946037b1b4",
+   "7073443dccd88cebc4ac50e06ec496efe5c02bb81b6bb77012074462abb21967",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_077/P_077_ieeg.lw5",
+   15694,
+   "c6be84488c19ef742223a69b4a4a96677f809ed924db02a763f7276d90abbb19",
+   "e1fe91c535d30a80412bd5ed5e6412064a72bbee0dd43091313c83f32f46dbd4",
+   "Letswave header rewritten (scipy savemat): 0 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_077/P_077_ieeg.mat",
+   25579557,
+   "6c862ce2f18b50e171349aa5eb2af3586241e9b6ac2bebf0773f542835d81994",
+   "ac29ee560c3481756a460df17f63876b752a0d753e8e3049f35d2b33327f90aa",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_078/P_078_ieeg.lw5",
+   16524,
+   "363dcd422caed1a597c09add4640936acdded39f9bb171cd3670fde681b73766",
+   "57c34910e201f3c65f11950919a4c92128a5ef78d6a6526044a063fa06b89cda",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_078/P_078_ieeg.mat",
+   20239305,
+   "9b4e3dd8e749d82626df87d28387a560f0879faeaba4704b60289bb6e8734334",
+   "0aae1a2fbad15d27e7cb56accf0dc285a4aacf097f456a94393149528b3f88af",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_079/P_079_ieeg.lw5",
+   16320,
+   "b97acc86345f6d43dd36e461ae2a5008f258528163fb69ba9300a3b9d941707e",
+   "e676f26dda4190e3448191636ad4f835d82e3008618d94d00ee03858b38699f1",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_079/P_079_ieeg.mat",
+   26758109,
+   "14abce17e948921f06569585ec14ceb9990dfa886a68f42999104d682a28cb24",
+   "f669385dcb96f7417ae7cd471ef402338e162d4a3fb67bb6c60abba73217ed8f",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_080/P_080_ieeg.lw5",
+   17670,
+   "f352597b7be7c77d57c5020e35573922b8b9beef95512991193890cef699c054",
+   "70da4530a0b48b1d5463db03a042cefb69d2e956712e8fc84d6ec959fbc98550",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_080/P_080_ieeg.mat",
+   41716187,
+   "f78b72b0fe1505d297e30655d6d97ead116785a929b63589bcab78cb878c9214",
+   "da8f393c335c49777d637060eacebc69b2b32267b429184d8e2ffbe40e7ec5e3",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_081/P_081_ieeg.lw5",
+   10594,
+   "cd532da7bacf2cbfb5555720ffb339e7b2789d4da4d603500f58f1569025b4db",
+   "a817bce0b193609059f3e00156b4a32347dc1715d8ec6bf1467f1121c509ff94",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_081/P_081_ieeg.mat",
+   32258116,
+   "961da32e2c7828355b0a0c0529c7d8dd8b8988b0352be2334cd7cc4238c49eab",
+   "8b7849ce07fe3595d48028245b61b258ead339297c83577900c528ba5a041793",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_082/P_082_ieeg.lw5",
+   16201,
+   "02284df3c1b5d71fb49058e0e78f3017cc826905338c534a9c1e911899ac8915",
+   "2613a20f8fd43f05a3915a3386d36200e10502526c1a50f7cf04b220bb4c562b",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_082/P_082_ieeg.mat",
+   24637642,
+   "d10b2b1815c6d8df61b9e26e69bccb6d004e80de3702619a2b54620c969d6067",
+   "546f063ccfe85fee3d359475a6310064898d9ca0566fd6f51448adaf42b5ce8e",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_083/P_083_ieeg.lw5",
+   31187,
+   "23b02dce92ce53a1b8eba3959ed9b9d5ce494cddfc952fe3604a5ac8ce2926f4",
+   "ed421bf2890ac96f356392496984a0504400a2e44d2d7f66ae5636611ff9f16f",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_083/P_083_ieeg.mat",
+   78069026,
+   "8aef81d6607f97dcee974f89e2d44a1fa1ae334cecc81ab59d58617f55d06d70",
+   "72499426d90c0e864afed8e13bd675d530de3ed10ac7c71ab479372e240b0c6c",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_084/P_084_ieeg.lw5",
+   17178,
+   "0eba3ddc6c9cb869c0c9223f0ddf50bbd4742b4ee1ee0f988e8764881406ffe3",
+   "1e4a519f47c52922c94c09b1d2ab9706f5745f06c4e79130c3cedeaa93ccbff4",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_084/P_084_ieeg.mat",
+   33325074,
+   "2d62d3581dffbfc8ef5180ada98743fdf82b15f2f7cf7e062d2fe11d81fe9ebf",
+   "7a53e96a8253bd5d3ff3e38c9d7a210c597f17e6f0ef0c95ce2fea9b7f8033aa",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_085/P_085_ieeg.lw5",
+   30212,
+   "35537255f5774cdca4f5c4d277a8bea98087dcb0dcc110521d92e723a44f0a7d",
+   "64935a05b8cc292cfa1a795b65c59bad151d36317286ed762c803c92655a91ff",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_085/P_085_ieeg.mat",
+   53018813,
+   "2f8bac8d1f755f76b1409c32d27c657c2ed378022d4a9fd68b21eb5ce8e7142c",
+   "d6a15fb7ba20fda7f69674f93576fdead7024a73e2716f309c6e5d094cca0e46",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_086/P_086_ieeg.lw5",
+   17231,
+   "c2dc3ed94ad35d064fe91697a134feb083ea185ea0c8c00f7e61d7d9e659c505",
+   "0833484b9c11b966e902d8ff2a10ab750be3783cee6d7b5ec7c761bcddb371eb",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_086/P_086_ieeg.mat",
+   35962157,
+   "e57de140b95e45ddb1632f0140c5c72d109741af66b2e38e1b4e702d5ab1af60",
+   "051dcd1762ab19f2241b0121a0c8553f4966b3370400c9e6b9d22472c5591852",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_087/P_087_ieeg.lw5",
+   29395,
+   "ca28cfa119049c403e640764d609750cf676c63194865e9d0c9bbb105f1617c1",
+   "081ebbf5ea8cc1b80b48488d2b792e66ad06d5143d51d27bfc22102594a92cd1",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_087/P_087_ieeg.mat",
+   47176342,
+   "7d5673533d7f7c33ab1ada7f0d551e59383a32b99e6258cee2926e684d7b1d0b",
+   "ac801d7f30b1759d3d4bed707b429c9c7d7f3ade4117cdd87d5e290069a27aa2",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_088/P_088_ieeg.lw5",
+   15816,
+   "2a27f8ba33c9f504045bf04243a588f0d65b3540dc23fceca3d871cddd5791b9",
+   "65504b8153f9d06be9bc3390af8701b4f7c4f81a3a06f372ab3845acbae74086",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_088/P_088_ieeg.mat",
+   22412532,
+   "62e1b5fca4219faff6ddaaf72ab759dad3114cca4f989578b5675d794f8708ac",
+   "0f8dd245182fc97c8937dee016b84d08c17bb8b7805c03c68a96fb5de486b797",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_089/P_089_ieeg.lw5",
+   30544,
+   "d22f989f766aa8f2a5eda435abbd7e1f991e489b5b8cad2f58f48f26a0170c48",
+   "96f35ebdbff755f8b2f6d288a1042014a262a4bff238626464be83e7b3c04d83",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_089/P_089_ieeg.mat",
+   72626843,
+   "da239bcd37ab318c4b35d0db9c4beefd71cd7f433d1cf9c71d091846f59e21c0",
+   "a948a62b272f0c80602ed126b81b7ee1adf907a3420a8856864460e446619c6e",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_090/P_090_ieeg.lw5",
+   30464,
+   "5d7f33bce6de59cab1d7e6c36ba77f9c7e8089cc46fe87b3077332addd8e876e",
+   "221f525213ccb376f1a90d5a7af80bf995a3240842fcc19c0e6284e0b8530acf",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_090/P_090_ieeg.mat",
+   66280965,
+   "edfc97fcfa77fc4f8011a481a6f8f7a39a6cac01992b3f0a3eabe18d9a7ba34d",
+   "8bfdefa00a1bb8d16c306c814d3a4db7c3a92f79500eb93a3bb359bed6d9b42c",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_091/P_091_ieeg.lw5",
+   16612,
+   "275dee33a55f9382ead58c266a60fc39467efd024b1dd6ece7e729e9c5a75005",
+   "b856937a3f4aff69ae14267f58072979e2df38e4048ffd788030633e444e490e",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_091/P_091_ieeg.mat",
+   32098104,
+   "655bb119f883ab4ae20aecc34864515580635175899d8bbd5d6812bbdd1b2458",
+   "a43da63290258a797686c81ab56d79e20fd2777c36c52919f0ff0da22be36f7d",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_092/P_092_ieeg.lw5",
+   16725,
+   "48438873db6d4459f51c2e14d6dfb4879aa0cb6dfc1a787c61c350167283830b",
+   "e0a843026d43748ab091ec1f96c415afe78869d111ef1ca48991d4dd5bd7ddf9",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_092/P_092_ieeg.mat",
+   28976161,
+   "2ce68e4f37c4b2c6b7437d4b30175815f58d06a3bdc6f9348be8b437703c1568",
+   "ba585aa403b9286e3177b3e88fdd25517bd48bdcddc4df5b2c68b6176b8bfc66",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_093/P_093_ieeg.lw5",
+   29750,
+   "99a7ca31d867861b842fc3cadaed30af23e002167d4ad3c14f93cc09e5135941",
+   "15f99d43467f5f9152f708b314515f326e8d7593ebfa2c86a7ab4393a96b3a24",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_093/P_093_ieeg.mat",
+   64682171,
+   "12db28e80735d43dbec827539db9579a52390fa451154ec3105e198d801a430c",
+   "81860449b5339f917c8601ab410b314181a8de814424a31b8f8c0008a2833839",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_094/P_094_ieeg.lw5",
+   17046,
+   "ab22b8366ddb341439de8a3955d758db349bc23f15cd5157afd86a348339084c",
+   "2f2e6c8d7d41c5efe4c9224ef3d0424dc1af3bd5f5effc12e4fa44e562a09ec4",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_094/P_094_ieeg.mat",
+   28728996,
+   "b1f558c36d777d5e86650efce76f6f9d452450839e524c84fbc647237230a4da",
+   "8e9016185af8e55b5ebd58a56392e0827df2b46750dd471dd95c9817a818b299",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_095/P_095_ieeg.lw5",
+   16627,
+   "8f33fddbcfa057c067bad59269e9f72bca58c11a8e8a6cbdbf9fbadcae82275f",
+   "3ef2aecadc504c8bf3dd02a95bc1e3545f4b12aa5d47e482c55e06d671edda7f",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_095/P_095_ieeg.mat",
+   28519361,
+   "feceb037806a4553ef6d47273b84ecd29fa93ff7c286b977bd020861950bb3fa",
+   "f33a07311e1ef2c1b592c11e4d20c2c2dfe8915f1f3fd7d548315a6160abfd2a",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_096/P_096_ieeg.lw5",
+   22580,
+   "5aef9299a2cec10099d91df0b61a6eb31bb8a46995a780585897199b211d4196",
+   "95caa22e64158c19ad692afafd395c3da37be68dd642a2ca69c26fa296f1410c",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_096/P_096_ieeg.mat",
+   16292829,
+   "4ff0fa1c3cca80c20861817f51ea8a352cbd5a36c383d7fc089580ad28e1a015",
+   "4e6f6b15629c3a7229e2d40a3a1d70a1a5fc24ecc29e2e658bb5f24a60a2dcdb",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_097/P_097_ieeg.lw5",
+   16513,
+   "77f54f150fcb3ee4ed791a2d862a0733ff3b16b285be349198b50baa62f015bf",
+   "3661bc5269183ca7eaf27bf5a58832808d572e887d64329134b8c476d89695a4",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_097/P_097_ieeg.mat",
+   20651032,
+   "96ba98a82b70d1cdd9b5e72da89d775e66be9abb5dc1a00d2a60320011a453a8",
+   "182bf2aab45dce4c401f91941f1cc545eedc12d6d2902760999945036a161038",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_098/P_098_ieeg.lw5",
+   16417,
+   "1d083cdf6b21c0541817e60d0329e468ee01f24b38d71d025f4c02cc421afd6f",
+   "c7f9aef79b4b100067d1dd46d56a7906133468a430605bc717da1c643d4e546a",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_098/P_098_ieeg.mat",
+   28817593,
+   "7e459b21894bcae28d9b116d582332f759c45e2e12547c9c5b3510142e68520d",
+   "92896cab12e7a41d6e841d26b63f4247afa935f356a14429a04d0dfec33b33a4",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_099/P_099_ieeg.lw5",
+   16687,
+   "fb4178bca3df898482156a24368db3b28491dfb41539e52c4062e3e49d1a2914",
+   "9fc93dc74fb77a4a7ea8d6aed241c4a8843c8c8cbf911080f8e4f146e15d422b",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_099/P_099_ieeg.mat",
+   25735394,
+   "8553ea091edac17f2b5e4a0e793c121fc98acf2d5d11ecf6400e79b9d5a69500",
+   "60acd54460773b5075216a5e7d0101c7e94f9a8bf708d7b6f10234e59d880e34",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_100/P_100_ieeg.lw5",
+   17359,
+   "70ccd234c994c39ff7284a36fde4805aa2aa9ddc35cf79402c302e9c90ae0ac2",
+   "28514ba478ec870bd6bb88f3f1281a3bfcb73b9037c6d188f1fea414e474611f",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_100/P_100_ieeg.mat",
+   35887066,
+   "90d400736f0cf68a6e13754f66f16bba63cf1144ecf7e03419dca35e1f0457bf",
+   "713c7abe1a6382af40edc8d67d8db629739530a56aa4081b9553b2a7eb57b859",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_101/P_101_ieeg.lw5",
+   16180,
+   "a3396466cf47a741f4689f64c39b1e620630d184ea34f22736ce9f1c1ea8d798",
+   "a5236056e29bdf2d472b363ee2b8cad2244708d78724924c0c905224964ddc39",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_101/P_101_ieeg.mat",
+   21953548,
+   "f5925ddbace115946816167ab3af3fab541b085ad7e35353549d7b451ebdb779",
+   "a9859929b4d760927849e46516509bdea37e355b196efd1f57e3433ca7a3c574",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_102/P_102_ieeg.lw5",
+   17189,
+   "9bb305495a95b54f24c7f6a4ae429f45f2fae7f0faca1fc437c5f535bc538890",
+   "0d180d58a720f91397caccf9a9138ebe7f2ca325538ae1f92de2e680c565f95e",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_102/P_102_ieeg.mat",
+   31346090,
+   "394e7968ad4f7a3dce51251f1365a810aef2d2dac1b0c1c7ca9f1caae48c1bf5",
+   "1d6b77cffa1a613044a1ebd5dd3554818e722b18ccb71884a176de7eca1124c0",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_103/P_103_ieeg.lw5",
+   16494,
+   "44b0c53ffbf9bf779f388e8b7b06cc885ece47f222bdabeb934d6349fb1594ba",
+   "8e7825f9cce88329df1729d1dc29ee97b05a3da01c4f1636ddfabfa575e64df8",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_103/P_103_ieeg.mat",
+   25025478,
+   "75d29ad7341cec3e691fa7318ba60e02c08fa4bbe11bc1b611b12ef017433fa5",
+   "73b933336dda6b9e4d774df9385a2e9477e576404769fa1cb663ae2ce5e58e1b",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_104/P_104_ieeg.lw5",
+   16289,
+   "fcb079a086a677128a292972321a6e3c39dd862551793b23a95d6724d45ebd9b",
+   "b1e059660664bff5f8174ba8b1fb4b82923d6c8aac1ec8cea564c9f66b1bf409",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_104/P_104_ieeg.mat",
+   23472412,
+   "a8958874018fbbb162978aefceabf64d216b1f78a59edabfd7424d779982f1e8",
+   "6d0f63e778ee4dfc61f87de04d54b543df9d482b58faf6c9b54abb83249b8c01",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_105/P_105_ieeg.lw5",
+   30074,
+   "6fa9092cffa042c8119eb19f01a68e3e004551d7052007b44d6f98cbd3f3ae4b",
+   "8e145271a122b7c988b613bdd48223feb0685d708980e43d33ce451b8dc567b8",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_105/P_105_ieeg.mat",
+   56803740,
+   "d5d645a92223a4ffb112c240ea9d65c98cffc1d942c840c2e654dc70cfe8bcbe",
+   "5c799548e9624bfab258d3ef218908824685e2ec070f63bf37a5bb45543347ec",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_106/P_106_ieeg.lw5",
+   30110,
+   "b30905bdd9852c69d3d93035c80e26ce8a550d55fcbd27b9aa39b370b68bcf5a",
+   "e2fa0c01f06c281f58bf1d725eeeec3e9b22b9736112fb6de3763c43e3fd9f62",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_106/P_106_ieeg.mat",
+   68272241,
+   "a77a1a96241c3d8916f202822fee8c643f5132fb1e00c43b40dbc4ba94cb5c9c",
+   "a8684211bff2d191764ea6315af724cd7be009327816653c6e518db0fd6fba37",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_107/P_107_ieeg.lw5",
+   16510,
+   "9d0cc736f74e7ecc3e6b7949f682fcffcf88e1309b222162286b034b17011706",
+   "59f56c7723c57ef8cf94e6505faddd51671c96357fd0385b95b75776fb51aec7",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_107/P_107_ieeg.mat",
+   25547100,
+   "4b1c25128958d01a859408e99d21624c9699e43993961692b07a2f008d6e72b3",
+   "0f63e859b4057f0f2694a620c8de4701416215460b5e44e6ffbd869c6d2765dd",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_108/P_108_ieeg.lw5",
+   29448,
+   "6e399da4a7f6324e144902f4f41e60f6a61ec0198c2c34680fa7760dfe6ece60",
+   "b3c207ba3cbf3f80efc0de5bc96644d2d559e11a300583773efbf0e5fe81cbbc",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_108/P_108_ieeg.mat",
+   35493527,
+   "24b4dca9bc78b2e6d4eae246cad522e4ef62b06e364270b4bfe46500c153e24a",
+   "b55dd78fb7ddbd2294dfce4797f484c2199cf4038b390355df3204ff8d1785c7",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_109/P_109_ieeg.lw5",
+   30704,
+   "4e7e494e11117104389b92f1b216c16205e85ae39c8b98c0bf0cd2b80652f1f5",
+   "d59d0b17ba41c59b0a9248bc20d37f1db8de885fac28d247dc4e6922995aaf43",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_109/P_109_ieeg.mat",
+   55581950,
+   "b96bb64af1af71bc9b9415d928c3b4b755b509f965bbd70e7ce76d9adf00fb56",
+   "910e2477aa515bd6968266083a42b5f90a69f067051a6e459ee5f545646000c5",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_110/P_110_ieeg.lw5",
+   16750,
+   "e07ab0033a6de2230a56e89ba96c35d51121c7e4612223a6e505b38ed405d4c6",
+   "9c869b0368a1c8d76ee9a60100512dceb1788c7920f64f9e51f0a8e917cfd638",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_110/P_110_ieeg.mat",
+   24222133,
+   "d23fbbb24ac54e03dbaf371faf7d24c7848149f3eba03e64ba53b6f76e91d41e",
+   "8b71dcf36fa2c90e0f9c4c64c04077f113824efaa0e4a599c489cc94a1555275",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_111/P_111_ieeg.lw5",
+   30960,
+   "15f69caf3c246de1a8b881b8e95f5b8ed5c1cf3e5eec3dd13ed8ce54947b3180",
+   "2a678e030ad358b2e8e97a30bdacad09ede49b34f8e71de3e63fd191739e2b20",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_111/P_111_ieeg.mat",
+   65742553,
+   "290ec018ab438266a15e3a49629690914caec66b84574317157f709e339b35ea",
+   "431c830b4c1aa68b6604fc84dac5d79f558f4af5f9a4fa5a1111dbfa44834f18",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_112/P_112_ieeg.lw5",
+   9387,
+   "825a52255c9682ee44fb54cc328b4d82b9f619ee288f9b307cc76bd630ce3cc7",
+   "0f3c5828cd84afa751f857331005c6162a6f1441ff041c40893111b20292f5de",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_112/P_112_ieeg.mat",
+   32528497,
+   "40a92398186c898f285d5e7833bd02f2ed28efef3c2d82516372750cefc0328c",
+   "f1a28b6d50ef43046a8757046c82b54a8ef7397e8343f3f82e5c72a2a718d323",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_113/P_113_ieeg.lw5",
+   8875,
+   "dd8b93223bc25dab9ccef4b9f4f080830c3b159defffb49f2b0f449bf266ffe7",
+   "f26ee3a9312f72c4bf3b4f30806fbbba8d4fe5acd3a59dae3dd3502accfac076",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_113/P_113_ieeg.mat",
+   78938656,
+   "35bb8510a83bff1a58b0d41adfdf03633884178194d7415712e21a28bcd934aa",
+   "d4b91aa2ad351877a43efd57267aabf61a960387d171a539a320478f94ae5a50",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_114/P_114_ieeg.lw5",
+   9091,
+   "38310931d5cfe87767575948d2472c68bf69bf422e7e4a57316858bbbf6cefcf",
+   "eec7709997fb925671fbfd9c721a8ec435d370703856fee25f81ca28778409ea",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_114/P_114_ieeg.mat",
+   32906115,
+   "0ad765cfcea18f81d9f8ec56f75a071adc6154fceba025f2f04a15f83dd008b6",
+   "a04a3e85e06ce4d67f1c845dc8c33b56beaa6cf0e0de65a7f1c98513189d5bdc",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_115/P_115_ieeg.lw5",
+   8943,
+   "0327fd1e047d097c9551d1fe717bea7136618e383aa4265395dd5f1faee445e7",
+   "c6ba888294d2d580e43381137c6f4f9e13f88ae8ccf847fbd1dc69a408a9d8d0",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_115/P_115_ieeg.mat",
+   29979873,
+   "a255baeb13a76dc60e9de49b9eb9dfd7dda531f0ae3851eb53aa6fae9b61ff70",
+   "b97cf19cb4c41d222f02c90d256bcb0dcc24b47bf816dddd3609aa8918c3111b",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_116/P_116_ieeg.lw5",
+   6253,
+   "b69269283c3852782feab99b90682c491c053682d1cea7b62cf04c4bb0ad151d",
+   "192f312c9127e2afbe720adab70fa6a274c8f6fa291caa37eb522bd49017384c",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_116/P_116_ieeg.mat",
+   30140993,
+   "b1f5f83ef5afe9ba19fb0db0c20c39e523a89de94cef452a67ef5eb10f854c9e",
+   "bf3ac20be1f107b9e062ca90512ab2b84574507d8171ffc34960b73796a67876",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_117/P_117_ieeg.lw5",
+   16783,
+   "f2a96dff3354c844d0153867d05897c881a1250c6f74afa0e89b5c4ed5dd19ca",
+   "0b53053255e7d9b18798a7a9bbbab643595904fb3df9bbda37be055b7313f807",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_117/P_117_ieeg.mat",
+   53168914,
+   "8aab4b23c7b3e2c48eb9d646560d950687099f95f835d1d9e4a23f5f0003531a",
+   "9dbfbc26e18a6e665d94ce064b2a7b39976428f4ae2d398abd2b857223129c6b",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_118/P_118_ieeg.lw5",
+   17127,
+   "dd22e0c5ee8330e0803be862e378c32178aacb2d4c00b7b46fac6528c9ac098d",
+   "6e65a89896a1ad417cb48de44b2f81e983dd8dedd8d77fc41fed9e9584d4667c",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_118/P_118_ieeg.mat",
+   64952338,
+   "f56b2c13720b7fb3358b127805f00da483218e3e38f71ff0385c1c3b867a5b99",
+   "069c72c1c660ad351069f96cc380a457539b2193e2f4e31045969d712d5853f4",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_119/P_119_ieeg.lw5",
+   5886,
+   "23ba84ebb500a812292813ef3d1e7a26348a6db37590db5724ea601d07c2cd6d",
+   "36752d51813f0e54497ad199d7162576fc55c372f7eb909e18caf04992554499",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_119/P_119_ieeg.mat",
+   52620388,
+   "67a1683f1f686b59991e845f2e399ff797ba0c0907b895e3b2cbbe7bb2ff93b8",
+   "c829e1cf420179b6521e3ab0ff30a9ca4f385ec0f3c5b66cb3a173ccd9085a2a",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_120/P_120_ieeg.lw5",
+   9513,
+   "cca6503d1738f44671069d341b1a32242ac4fab4eff3afedfe74f6c15a7f6f7f",
+   "0f41b92ec0d729e4cb6060d862597a10071a19c69b31847938f2e0e5a9c1ac55",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_120/P_120_ieeg.mat",
+   36851447,
+   "44353aa5b3ec779dd4179f234a7e4ef7bf6203c2cac9979e76d342455c69b222",
+   "89632c6c80998953bc8b4946cef948be794402f5134b47d487d6a422abcc752e",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_121/P_121_ieeg.lw5",
+   8449,
+   "cc58cf848238a8471ed4e276282db00ca6aa8d5290efbde3d7a08ea56fbaab1b",
+   "2c82ce4af7e060f46c3419e08b3b25da593bdaf7ea3134abf086ffdd9a6d5a74",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_121/P_121_ieeg.mat",
+   24141127,
+   "204e3e5f63f1ae16247867e91f01fb0a849d9d8db608da90ce7f954d77017bd0",
+   "c8981f6ee5d3bd95e4bbf9646d4088222eaf180b3197a781cbaec87b6e7169d5",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_122/P_122_ieeg.lw5",
+   11139,
+   "6f2b8317f4b2d1b4993df5095730cddf817d95c5fb82f3a88046f09bfec45efc",
+   "ceadc8319ad063149e109e421eafd5a797f61be2840aba64f0bcbcf8941dd89d",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_122/P_122_ieeg.mat",
+   32182232,
+   "b9738abe4bd5fc5c43a5fae0b4252347438fe511cf86c88da2bd619973acb9e4",
+   "0e86c8d70794603e8590887cc32a26ec524eb74836b60f86809dc72f3da938ea",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_123/P_123_ieeg.lw5",
+   6347,
+   "481775196482fb83cac3fb2e1a2ffb19159d0e20bf16a6102a384f283884e5a4",
+   "2b974fb294629eee0fbb016ac57b62fab81b405b64a099cd2d8db47760c4380d",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_123/P_123_ieeg.mat",
+   32153670,
+   "db65169c8e92e22cda92a86c2b9ca75a067e6b2cc429abb58af54d81857bb872",
+   "6059660f9236e445395bf40729f07818adb34e5f1a10d3d3206ed04472b9b2d1",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_124/P_124_ieeg.lw5",
+   6570,
+   "e473fd6e0309ce15cbfbfa2644d0cf27f161955142a099ed07af91161b285e46",
+   "d31e19fdf9d7a11bd98a328b68898e0c68ac15f65daf26a77bf426d104b2e05a",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_124/P_124_ieeg.mat",
+   32577722,
+   "72f4d4bc9099fc244ab00441bcebc4fe49387be7ab19cf5553bbdace663ebacd",
+   "cd62b05b05553bcfad2206193be113725493b78aeb3468ad924870d1d73bc4a6",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_125/P_125_ieeg.lw5",
+   11185,
+   "052129be5dfea09e605784f4d7edfa67e7276acd62dbbbbd57273c61604bcc4c",
+   "18229e96922f5800bd9cb6f25ea40809cd964700c873d14469a99215a559eded",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_125/P_125_ieeg.mat",
+   40848977,
+   "2c18fb516b0e777128e1cacf62be99b36122843c9affa8b91c437ec346cbd8c4",
+   "528008481daf21c6d6b0d4c2797fe7ee787bf17b59fbeeece7f5a7c335f65695",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_126/P_126_ieeg.lw5",
+   10807,
+   "1b68678ffd764ac7f75a925a641819715601a700ed9618bfa51a81d79d69f9dc",
+   "724f1c5d9ed9d683cb5d3aa40209851043a7c9a69e5bb96ed845b3b3334b10a0",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_126/P_126_ieeg.mat",
+   35896348,
+   "467c69e08712ce7fa94ae05d4c5e13e7f1c3dd63a526c96e1767c377c7344e9c",
+   "e86ec034f261cdc6b112e89db472c977cb54f121774f8f028bbbdca33303db1d",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_127/P_127_ieeg.lw5",
+   9851,
+   "8aad5beaf5c66bc259d9511a9bad4bdfe6035cb26fe1c68ef85a5803f12b6769",
+   "e3eca017bf9ba33331e304eb888d47c072d5814c25f3b64c59cd66cc62a11481",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_127/P_127_ieeg.mat",
+   23640186,
+   "d5089a95907c3dde538363e2238f0aa82af3de2590736e33433c613af904c40c",
+   "03183270323c480dcdc0938d8db3b1ff2abc8783d451478eca242a893e1d1e73",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_128/P_128_ieeg.lw5",
+   14380,
+   "b97d4a4d6da84245edb423c4538f7ad43ec7afba1e801b17b5f7adf429714ee5",
+   "33b9f4bbcc73dadfcd9a993f462d18e2b8b6a0b2e1d035e44b76c59d96cead1f",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_128/P_128_ieeg.mat",
+   62104069,
+   "81042baab59f85561f60b9f03d9bd5a88cd97b83966450d0d5ee0cc36fcc04e6",
+   "16c573e8f59a64b098fe3f295b4a1c92f8507f41d82dcf742fb1274253b05e64",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_129/P_129_ieeg.lw5",
+   6882,
+   "ac046c1ddf667d5003c8f5c93449052ac9b26e9611e6894624a1b36605e140bd",
+   "49fbd490cb4d07f0aee02efc9d4c05aab0a60bfc5d8e2567812663e7e1ae16c4",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_129/P_129_ieeg.mat",
+   55471457,
+   "fe9aa7ba1976189eba1a4894abbbf62ee5d794172fc839c7d9d62e34d820a4ea",
+   "8c6fc98aec4e159af488c64b0f1df53f6ff08d8cf1d623461f5a476e7fab624e",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_130/P_130_ieeg.lw5",
+   57499,
+   "f7253bb2db44eab3fe8d149a216e30086ef54bea963d2f072afcadd03ced5e28",
+   "7531cf2cbfae5bb075f90a4b5a1ff721c36a19f19181230951664edf9e1b2ba0",
+   "Letswave header rewritten (scipy savemat): 4 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_130/P_130_ieeg.mat",
+   59325369,
+   "d973caf7aff96b8c9b98415f91d21a123abec04c0e683bec7b5f347c9a3fc727",
+   "4d9b102715fb0bdfd83f3741de18942d5141bd26f413690923c35d5b8c2130d5",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_131/P_131_ieeg.lw5",
+   2833,
+   "92ac7f832991f6e8252d93cf72ebe2ab36c07402aae236a24ebe6daf0463792b",
+   "c10391aa76b79fb2a9cf020fd3779e8dd80b61dad2edf7166a6b44dc082e5a1b",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_131/P_131_ieeg.mat",
+   63315274,
+   "865b6b720c8ec4b4fc776aedd823bbd8db80528f9b4f282e055d97868525a02f",
+   "376d655651c2ed9b38a623263b39db3363d3cb9501640db12fabe19642ce4aaa",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_132/P_132_ieeg.lw5",
+   5988,
+   "6075524a31236d59e7499867ebfe233d4ec5b7ffa3adcb2d25b5db860ba7669d",
+   "9ae9d11693b0be0aa36d37d706be22d3835d1d209a4e57ff0f9b3d5933b8c2b5",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_132/P_132_ieeg.mat",
+   58593228,
+   "42342b49607cec50885f2bd024abce7626f9691364cc0885e31a8650dc6401ed",
+   "e97e61b7ce17269c9008def9d638c71e034c9850f54ac5a6aec61a541369a0c8",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_133/P_133_ieeg.lw5",
+   7907,
+   "6ddbcd35373a7155b44f0249b08bcc7c9b6d0cea694f9db2000e58e0b83f3953",
+   "9b494a55e9538d834668910f7ab02a5d53d6aa83c5876cb101155527402808ff",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_133/P_133_ieeg.mat",
+   21703915,
+   "4a7d20dd6b4b4656a0b3efa6a4d41cac5da27c655000f386a4fed1c7256b6c94",
+   "b8b1d8ae03e4d30cebd3c94e366b259aada9afcc5cc9794882d8876c6780a717",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_134/P_134_ieeg.lw5",
+   12915,
+   "6974f98ed762402bc53d5a903f8764409882290041a98d0d63a7778f604be749",
+   "375e1209dcbaf724306bcf8d58886f039178db4914b1e76fa7ba9563eb59c3a8",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_134/P_134_ieeg.mat",
+   31907016,
+   "9f098ff83e06d294ba5e65d6e46b3ce7581e6fe43604362f968ef5ce904a1c8d",
+   "78a324fce6f370a42bb9b0dabf1179428ad126186a0834858f50d1ecb9a85da4",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_135/P_135_ieeg.lw5",
+   5265,
+   "69fc560d470cb836a774f890fcbf586a47a04563751c995a05139fa58c18bb62",
+   "f07dad85d0a9dff8c0d4e91c162b19b4f7f050ee321c9878827710c09c178fcb",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_135/P_135_ieeg.mat",
+   59970808,
+   "5d3ae8f3a2dc4cb099178d3f5cf14720cbeba31f729b3f51dc2869fb943f4ff1",
+   "dd7c69e7c6f0ff663bcfae798e419f662adb459811b0dd330f62a4ef7c59a036",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_136/P_136_ieeg.lw5",
+   7529,
+   "f5112766be0ecab9cb118d61f35a9909886143b20c6ad98a9184cb3c4f2cf17d",
+   "a0935d95e09abd1138de36370ab28ea3ab34be4daee1919eb865a04beed87892",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_136/P_136_ieeg.mat",
+   42423817,
+   "61d481dc3afc6499ff4ef0f7989441d5cbb42f2fc397268be25ee0ca9ce66820",
+   "0081d2da2bfd1c1a7e39ec0a13c3b460eaeb97e69fdb1e6380cf6f8fed44fc29",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_137/P_137_ieeg.lw5",
+   6335,
+   "68a2fcad07e852d8f7c84bce60c9605618c69b5d8ea1932070c871473b5b77fd",
+   "9a099f7d799d8d6a036a7f31d6e88c8022762f58e217f3242f408d1887a70485",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_137/P_137_ieeg.mat",
+   31653173,
+   "12f5b71831bd30a8cc68581d659866c366b89f6d9b655cbd7ec8608ffe949de2",
+   "87c236a0623e243bb1174e3d5ccbc3f43cb03f67016b0f8300338c6cc5cf6fd0",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_138/P_138_ieeg.lw5",
+   9751,
+   "f60af8571d93b83a46fc57323b88fc36d65836e40c2eac56c447e1b798b7a4ff",
+   "d18e0d7de1fd7324f143c973ca03bb62622d17eb67755e1b227159e210fd36ba",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_138/P_138_ieeg.mat",
+   60848545,
+   "2b091248813f5fe4bfe70c2ec809bd2050e7a6eed9517999f517af931b6b4b03",
+   "f7ee6d24362a8a3d5af67e6314c5b1e755503620b133cb4b14b0caa04501f746",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_139/P_139_ieeg.lw5",
+   8991,
+   "6f8f60eaf1e6ba60d3990cce966d6aa4fa935bea9d89d5c334f636863afdb871",
+   "50be360bfab4ffa84551071b58155392c94259f1d104aa676de70670424d1789",
+   "Letswave header rewritten (scipy savemat): 2 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_139/P_139_ieeg.mat",
+   31900727,
+   "b3b076f5216df445b18c480c88f24f0324cc746d6832593a0b9134c81a0e4a02",
+   "18b79244092575c657ddeda9e852446d59db8a011a783e0491b33e317ad8b55b",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "P_140/P_140_ieeg.lw5",
+   2833,
+   "130dc0df1f9062a7945efa3b7acd73448b11592fe6dc4667a3bf99af1ea1c68c",
+   "4cbfbd4a86dcac53863ab2a03fba4a489eab87d6a99a1e2f9f6618ce05e901b7",
+   "Letswave header rewritten (scipy savemat): 1 fields changed (event-code tokens, name, history dates/paths)"
+  ],
+  [
+   "P_140/P_140_ieeg.mat",
+   22811649,
+   "607fb903df7d33fe82dbc9a8e7c381ca2c6bd468c78f4dcfc62049989e17d4ea",
+   "fd90b7a5aa8c16257c067716a794fa016e11247ba95cd6157feea2f77a007930",
+   "MAT text header date -> Mmm 01 yyyy"
+  ],
+  [
+   "140_participants_demographics.txt",
+   2227,
+   "7d06e43f4c11dc75115361992b49c789197e8993a19ff91a0ebe3e77a89b1064",
+   "7d06e43f4c11dc75115361992b49c789197e8993a19ff91a0ebe3e77a89b1064",
+   "unchanged"
+  ],
+  [
+   "140_participants_seeg_info.txt",
+   1907,
+   "798245b1d0b0460fd497f7584e67c90db5971618ddf05948c87c92829a76e020",
+   "798245b1d0b0460fd497f7584e67c90db5971618ddf05948c87c92829a76e020",
+   "unchanged"
+  ],
+  [
+   "LW_load.m",
+   233,
+   "482d649a11f2cd613f8348739df1befbe320b7cf4234b037d551d45a45aa002c",
+   "482d649a11f2cd613f8348739df1befbe320b7cf4234b037d551d45a45aa002c",
+   "unchanged"
+  ],
+  [
+   "README.txt",
+   4494,
+   "008b78b7453dbceea7cad5feefa125f4236e5819145a86303d136bb1364adb25",
+   "008b78b7453dbceea7cad5feefa125f4236e5819145a86303d136bb1364adb25",
+   "unchanged"
+  ]
+ ],
+ "coords": {
+  "sub-001": {
+   "n_seeg": 103,
+   "n_talairach": 101
+  },
+  "sub-002": {
+   "n_seeg": 121,
+   "n_talairach": 119
+  },
+  "sub-003": {
+   "n_seeg": 111,
+   "n_talairach": 109
+  },
+  "sub-004": {
+   "n_seeg": 113,
+   "n_talairach": 109
+  },
+  "sub-005": {
+   "n_seeg": 104,
+   "n_talairach": 93
+  },
+  "sub-006": {
+   "n_seeg": 108,
+   "n_talairach": 108
+  },
+  "sub-007": {
+   "n_seeg": 120,
+   "n_talairach": 119
+  },
+  "sub-008": {
+   "n_seeg": 107,
+   "n_talairach": 97
+  },
+  "sub-009": {
+   "n_seeg": 155,
+   "n_talairach": 146
+  },
+  "sub-010": {
+   "n_seeg": 162,
+   "n_talairach": 144
+  },
+  "sub-011": {
+   "n_seeg": 211,
+   "n_talairach": 186
+  },
+  "sub-012": {
+   "n_seeg": 145,
+   "n_talairach": 138
+  },
+  "sub-013": {
+   "n_seeg": 165,
+   "n_talairach": 151
+  },
+  "sub-014": {
+   "n_seeg": 131,
+   "n_talairach": 113
+  },
+  "sub-015": {
+   "n_seeg": 136,
+   "n_talairach": 130
+  },
+  "sub-016": {
+   "n_seeg": 105,
+   "n_talairach": 101
+  },
+  "sub-017": {
+   "n_seeg": 174,
+   "n_talairach": 145
+  },
+  "sub-018": {
+   "n_seeg": 185,
+   "n_talairach": 157
+  },
+  "sub-019": {
+   "n_seeg": 181,
+   "n_talairach": 179
+  },
+  "sub-020": {
+   "n_seeg": 141,
+   "n_talairach": 131
+  },
+  "sub-021": {
+   "n_seeg": 204,
+   "n_talairach": 180
+  },
+  "sub-022": {
+   "n_seeg": 158,
+   "n_talairach": 147
+  },
+  "sub-023": {
+   "n_seeg": 186,
+   "n_talairach": 179
+  },
+  "sub-024": {
+   "n_seeg": 161,
+   "n_talairach": 150
+  },
+  "sub-025": {
+   "n_seeg": 161,
+   "n_talairach": 150
+  },
+  "sub-026": {
+   "n_seeg": 161,
+   "n_talairach": 144
+  },
+  "sub-027": {
+   "n_seeg": 160,
+   "n_talairach": 158
+  },
+  "sub-028": {
+   "n_seeg": 193,
+   "n_talairach": 187
+  },
+  "sub-029": {
+   "n_seeg": 165,
+   "n_talairach": 156
+  },
+  "sub-030": {
+   "n_seeg": 156,
+   "n_talairach": 124
+  },
+  "sub-031": {
+   "n_seeg": 154,
+   "n_talairach": 138
+  },
+  "sub-032": {
+   "n_seeg": 159,
+   "n_talairach": 146
+  },
+  "sub-033": {
+   "n_seeg": 179,
+   "n_talairach": 164
+  },
+  "sub-034": {
+   "n_seeg": 138,
+   "n_talairach": 124
+  },
+  "sub-035": {
+   "n_seeg": 178,
+   "n_talairach": 162
+  },
+  "sub-036": {
+   "n_seeg": 160,
+   "n_talairach": 144
+  },
+  "sub-037": {
+   "n_seeg": 145,
+   "n_talairach": 124
+  },
+  "sub-038": {
+   "n_seeg": 193,
+   "n_talairach": 180
+  },
+  "sub-039": {
+   "n_seeg": 151,
+   "n_talairach": 140
+  },
+  "sub-040": {
+   "n_seeg": 153,
+   "n_talairach": 144
+  },
+  "sub-041": {
+   "n_seeg": 166,
+   "n_talairach": 151
+  },
+  "sub-042": {
+   "n_seeg": 170,
+   "n_talairach": 150
+  },
+  "sub-043": {
+   "n_seeg": 110,
+   "n_talairach": 102
+  },
+  "sub-044": {
+   "n_seeg": 167,
+   "n_talairach": 153
+  },
+  "sub-045": {
+   "n_seeg": 159,
+   "n_talairach": 107
+  },
+  "sub-046": {
+   "n_seeg": 141,
+   "n_talairach": 128
+  },
+  "sub-047": {
+   "n_seeg": 150,
+   "n_talairach": 137
+  },
+  "sub-048": {
+   "n_seeg": 151,
+   "n_talairach": 137
+  },
+  "sub-049": {
+   "n_seeg": 180,
+   "n_talairach": 171
+  },
+  "sub-050": {
+   "n_seeg": 172,
+   "n_talairach": 172
+  },
+  "sub-051": {
+   "n_seeg": 163,
+   "n_talairach": 163
+  },
+  "sub-052": {
+   "n_seeg": 182,
+   "n_talairach": 173
+  },
+  "sub-053": {
+   "n_seeg": 195,
+   "n_talairach": 195
+  },
+  "sub-054": {
+   "n_seeg": 198,
+   "n_talairach": 180
+  },
+  "sub-055": {
+   "n_seeg": 104,
+   "n_talairach": 102
+  },
+  "sub-056": {
+   "n_seeg": 171,
+   "n_talairach": 159
+  },
+  "sub-057": {
+   "n_seeg": 167,
+   "n_talairach": 147
+  },
+  "sub-058": {
+   "n_seeg": 122,
+   "n_talairach": 112
+  },
+  "sub-059": {
+   "n_seeg": 181,
+   "n_talairach": 162
+  },
+  "sub-060": {
+   "n_seeg": 144,
+   "n_talairach": 141
+  },
+  "sub-061": {
+   "n_seeg": 195,
+   "n_talairach": 184
+  },
+  "sub-062": {
+   "n_seeg": 202,
+   "n_talairach": 195
+  },
+  "sub-063": {
+   "n_seeg": 191,
+   "n_talairach": 182
+  },
+  "sub-064": {
+   "n_seeg": 204,
+   "n_talairach": 192
+  },
+  "sub-065": {
+   "n_seeg": 123,
+   "n_talairach": 115
+  },
+  "sub-066": {
+   "n_seeg": 198,
+   "n_talairach": 182
+  },
+  "sub-067": {
+   "n_seeg": 171,
+   "n_talairach": 169
+  },
+  "sub-068": {
+   "n_seeg": 152,
+   "n_talairach": 121
+  },
+  "sub-069": {
+   "n_seeg": 117,
+   "n_talairach": 115
+  },
+  "sub-070": {
+   "n_seeg": 177,
+   "n_talairach": 167
+  },
+  "sub-071": {
+   "n_seeg": 157,
+   "n_talairach": 156
+  },
+  "sub-072": {
+   "n_seeg": 148,
+   "n_talairach": 129
+  },
+  "sub-073": {
+   "n_seeg": 198,
+   "n_talairach": 166
+  },
+  "sub-074": {
+   "n_seeg": 207,
+   "n_talairach": 198
+  },
+  "sub-075": {
+   "n_seeg": 138,
+   "n_talairach": 136
+  },
+  "sub-076": {
+   "n_seeg": 165,
+   "n_talairach": 157
+  },
+  "sub-077": {
+   "n_seeg": 138,
+   "n_talairach": 115
+  },
+  "sub-078": {
+   "n_seeg": 119,
+   "n_talairach": 112
+  },
+  "sub-079": {
+   "n_seeg": 156,
+   "n_talairach": 143
+  },
+  "sub-080": {
+   "n_seeg": 216,
+   "n_talairach": 202
+  },
+  "sub-081": {
+   "n_seeg": 189,
+   "n_talairach": 174
+  },
+  "sub-082": {
+   "n_seeg": 138,
+   "n_talairach": 135
+  },
+  "sub-083": {
+   "n_seeg": 220,
+   "n_talairach": 216
+  },
+  "sub-084": {
+   "n_seeg": 194,
+   "n_talairach": 182
+  },
+  "sub-085": {
+   "n_seeg": 147,
+   "n_talairach": 132
+  },
+  "sub-086": {
+   "n_seeg": 197,
+   "n_talairach": 179
+  },
+  "sub-087": {
+   "n_seeg": 126,
+   "n_talairach": 113
+  },
+  "sub-088": {
+   "n_seeg": 112,
+   "n_talairach": 96
+  },
+  "sub-089": {
+   "n_seeg": 193,
+   "n_talairach": 183
+  },
+  "sub-090": {
+   "n_seeg": 177,
+   "n_talairach": 169
+  },
+  "sub-091": {
+   "n_seeg": 172,
+   "n_talairach": 163
+  },
+  "sub-092": {
+   "n_seeg": 165,
+   "n_talairach": 152
+  },
+  "sub-093": {
+   "n_seeg": 174,
+   "n_talairach": 164
+  },
+  "sub-094": {
+   "n_seeg": 166,
+   "n_talairach": 152
+  },
+  "sub-095": {
+   "n_seeg": 163,
+   "n_talairach": 153
+  },
+  "sub-096": {
+   "n_seeg": 95,
+   "n_talairach": 87
+  },
+  "sub-097": {
+   "n_seeg": 116,
+   "n_talairach": 102
+  },
+  "sub-098": {
+   "n_seeg": 161,
+   "n_talairach": 157
+  },
+  "sub-099": {
+   "n_seeg": 151,
+   "n_talairach": 131
+  },
+  "sub-100": {
+   "n_seeg": 197,
+   "n_talairach": 193
+  },
+  "sub-101": {
+   "n_seeg": 124,
+   "n_talairach": 112
+  },
+  "sub-102": {
+   "n_seeg": 167,
+   "n_talairach": 159
+  },
+  "sub-103": {
+   "n_seeg": 145,
+   "n_talairach": 140
+  },
+  "sub-104": {
+   "n_seeg": 126,
+   "n_talairach": 115
+  },
+  "sub-105": {
+   "n_seeg": 150,
+   "n_talairach": 138
+  },
+  "sub-106": {
+   "n_seeg": 171,
+   "n_talairach": 156
+  },
+  "sub-107": {
+   "n_seeg": 143,
+   "n_talairach": 128
+  },
+  "sub-108": {
+   "n_seeg": 95,
+   "n_talairach": 93
+  },
+  "sub-109": {
+   "n_seeg": 157,
+   "n_talairach": 148
+  },
+  "sub-110": {
+   "n_seeg": 133,
+   "n_talairach": 122
+  },
+  "sub-111": {
+   "n_seeg": 182,
+   "n_talairach": 178
+  },
+  "sub-112": {
+   "n_seeg": 183,
+   "n_talairach": 179
+  },
+  "sub-113": {
+   "n_seeg": 150,
+   "n_talairach": 141
+  },
+  "sub-114": {
+   "n_seeg": 176,
+   "n_talairach": 158
+  },
+  "sub-115": {
+   "n_seeg": 167,
+   "n_talairach": 152
+  },
+  "sub-116": {
+   "n_seeg": 164,
+   "n_talairach": 149
+  },
+  "sub-117": {
+   "n_seeg": 146,
+   "n_talairach": 131
+  },
+  "sub-118": {
+   "n_seeg": 162,
+   "n_talairach": 146
+  },
+  "sub-119": {
+   "n_seeg": 141,
+   "n_talairach": 136
+  },
+  "sub-120": {
+   "n_seeg": 208,
+   "n_talairach": 192
+  },
+  "sub-121": {
+   "n_seeg": 137,
+   "n_talairach": 126
+  },
+  "sub-122": {
+   "n_seeg": 184,
+   "n_talairach": 170
+  },
+  "sub-123": {
+   "n_seeg": 178,
+   "n_talairach": 171
+  },
+  "sub-124": {
+   "n_seeg": 185,
+   "n_talairach": 174
+  },
+  "sub-125": {
+   "n_seeg": 198,
+   "n_talairach": 174
+  },
+  "sub-126": {
+   "n_seeg": 181,
+   "n_talairach": 138
+  },
+  "sub-127": {
+   "n_seeg": 136,
+   "n_talairach": 117
+  },
+  "sub-128": {
+   "n_seeg": 171,
+   "n_talairach": 156
+  },
+  "sub-129": {
+   "n_seeg": 199,
+   "n_talairach": 180
+  },
+  "sub-130": {
+   "n_seeg": 156,
+   "n_talairach": 133
+  },
+  "sub-131": {
+   "n_seeg": 120,
+   "n_talairach": 107
+  },
+  "sub-132": {
+   "n_seeg": 166,
+   "n_talairach": 162
+  },
+  "sub-133": {
+   "n_seeg": 121,
+   "n_talairach": 115
+  },
+  "sub-134": {
+   "n_seeg": 182,
+   "n_talairach": 179
+  },
+  "sub-135": {
+   "n_seeg": 115,
+   "n_talairach": 103
+  },
+  "sub-136": {
+   "n_seeg": 113,
+   "n_talairach": 108
+  },
+  "sub-137": {
+   "n_seeg": 169,
+   "n_talairach": 161
+  },
+  "sub-138": {
+   "n_seeg": 168,
+   "n_talairach": 163
+  },
+  "sub-139": {
+   "n_seeg": 162,
+   "n_talairach": 149
+  },
+  "sub-140": {
+   "n_seeg": 118,
+   "n_talairach": 108
+  }
+ },
+ "privacy": {
+  "patient_code_tokens_removed": 108,
+  "code_like_tokens": 100,
+  "token_hits_after_scrub": 0,
+  "word_token_hits_after_scrub": 0
+ },
+ "not_copied": [
+  "140_participants_info.xlsx"
+ ],
+ "xlsx_strings_sample": [],
+ "event_codes_after_scrub": {
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_1": 43,
+  "1": 29063,
+  "5": 7601,
+  "30": 87,
+  "endBlock": 93,
+  "startBlock": 22,
+  "s1": 110472,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_3": 36,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_4": 11,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_6": 36,
+  "65535": 18820,
+  "2": 4,
+  "6": 2,
+  "11": 47,
+  "170": 4,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_2": 17,
+  "65291": 25,
+  "65281": 8447,
+  "65285": 2118,
+  "65310": 25,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_5": 11,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_8": 5,
+  "18": 328,
+  "7": 5,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_9": 6,
+  "F_GREY_P": 4,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_7": 3,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_6bis": 1,
+  "seq_stimuli_to_use_sinstim_localizer2_objects_faces_periodic_3": 5,
+  "seq_stimuli_to_use_sinstim_localizer2_objects_faces_periodic_6": 4,
+  "seq_faces": 4,
+  "seq_scrambled_sinstim_Localiser_6Hz_ObjectsFaces_Per_GreyScr_2": 2,
+  "seq_scrambled_sinstim_Localiser_6Hz_ObjectsFaces_Per_GreyScr_4": 2,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_10": 2,
+  "3": 5,
+  "4": 1,
+  "8": 2,
+  "F_Grey_P": 2,
+  "seq_stimuli_to_use_sinstim_localizer2_objects_faces_periodic_7": 1,
+  "100": 2,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsHouses_Per_Grey_1": 1,
+  "seq_greyscale_sinstim_Localiser_6Hz_ObjectsHouses_Per_Grey_3": 1,
+  "seq_P_Grey": 2
+ }
+}

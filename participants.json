@@ -1,0 +1,47 @@
+{
+  "age": {
+    "Description": "Age at SEEG (140_participants_demographics.txt)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Sex (140_participants_demographics.txt)",
+    "Levels": {
+      "F": "female",
+      "M": "male"
+    }
+  },
+  "handedness": {
+    "Description": "Handedness (140_participants_demographics.txt)",
+    "Levels": {
+      "R": "right",
+      "L": "left",
+      "A": "ambidextrous"
+    }
+  },
+  "source_id": {
+    "Description": "Participant folder in the OSF release"
+  },
+  "reference_contact": {
+    "Description": "Reference contact during the recording (140_participants_seeg_info.txt)"
+  },
+  "first_trigger_missing": {
+    "Description": "1 if the first trigger of each sequence was missing (header.xstart corrected to -1.8333 s), 0 otherwise (140_participants_seeg_info.txt)"
+  },
+  "sequence_length": {
+    "Description": "Length of each stimulation sequence (140_participants_seeg_info.txt)",
+    "Units": "s"
+  },
+  "sampling_frequency": {
+    "Description": "Sampling rate of the recording",
+    "Units": "Hz"
+  },
+  "n_sequences": {
+    "Description": "Number of FPVS sequences in the participant's file"
+  },
+  "n_seeg_channels": {
+    "Description": "Channels typed SEEG"
+  },
+  "n_contacts_with_coordinates": {
+    "Description": "SEEG contacts with finite Talairach coordinates in the Letswave header"
+  }
+}

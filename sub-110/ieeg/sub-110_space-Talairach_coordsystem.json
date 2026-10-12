@@ -1,0 +1,6 @@
+{
+  "iEEGCoordinateSystem": "Talairach",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "3D Talairach coordinates of each intracerebral contact as stored by the authors in the Letswave header (chanlocs.xyz_coord_Talairach; README).",
+  "iEEGCoordinateProcessingDescription": "Copied from the Letswave header; no processing. Contacts without finite coordinates have x/y/z n/a."
+}

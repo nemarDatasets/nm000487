@@ -1,0 +1,12 @@
+{
+  "SpatialReference": "Talairach atlas space (authors' coordinates)",
+  "anatomy_main_region": {
+    "Description": "Authors' anatomical label of the main region of the contact (Letswave chanlocs anatomy_mainRegionLabel; e.g. OCC, PTL, ATL, MTL, TP; WM = white matter; empty in the release -> n/a)"
+  },
+  "anatomy_sub_region": {
+    "Description": "Authors' anatomical sub-region label of the contact (chanlocs anatomy_subRegionLabel; 'no_info' as released)"
+  },
+  "votc": {
+    "Description": "Whether the contact is within the ventral occipito-temporal cortex region as defined by the authors (chanlocs anatomy_VOTC: VOTC / not_VOTC)"
+  }
+}

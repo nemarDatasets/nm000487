@@ -1,0 +1,50 @@
+{
+  "Name": "s500-literature-164: Face-selective SEEG across the ventral occipito-temporal cortex in 140 participants, fast periodic visual stimulation (Jacques et al., 2025) (derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Corentin Jacques",
+    "Jacques Jonas",
+    "Sophie Colnat-Coulbois",
+    "Bruno Rossion"
+  ],
+  "HowToAcknowledge": "Cite Jacques C, Jonas J, Colnat-Coulbois S, Rossion B (2025) Concurrent category-selective neural activity across the ventral occipito-temporal cortex supports a non-hierarchical view of human visual recognition. eLife reviewed preprint, doi:10.7554/eLife.109640.1; and the OSF dataset doi:10.17605/OSF.IO/2QZYM.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.7554/eLife.109640.1",
+    "https://doi.org/10.17605/OSF.IO/2QZYM",
+    "https://osf.io/2qzym/",
+    "http://www.nocions.org/letswave/"
+  ],
+  "Keywords": [
+    "SEEG",
+    "intracerebral recordings",
+    "face recognition",
+    "fast periodic visual stimulation",
+    "frequency tagging",
+    "ventral occipito-temporal cortex",
+    "high-frequency broadband",
+    "epilepsy",
+    "Talairach"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.17605/OSF.IO/2QZYM",
+      "URL": "https://osf.io/2qzym/",
+      "Version": "OSF node 2qzym, files as listed 2026-10-11 (5 zips seeg_data_p*.zip + File information/; sha256 per file in sourcedata/osf-2qzym-deidentified/DEIDENTIFICATION_MANIFEST.tsv)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Authors' preprocessing in Letswave 5",
+      "Description": "Micromed TRC imported in Letswave 5, each recording segmented into FPVS sequences (2 s before onset to 2 s after the end) and merged per participant; no further transform (README)."
+    },
+    {
+      "Name": "o5c_A2_convert_lit164.py",
+      "Description": "Repackaging: Letswave float32 sequences back-to-back in BrainVision (values unchanged, MNE read-back checked); Letswave events to events.tsv; Talairach coordinates and anatomical labels from the Letswave chanlocs to electrodes.tsv; demographics and reference contact from the release tables. Code in code/."
+    }
+  ],
+  "EthicsApprovals": [
+    "Collected under the source study's approval (University Hospital of Nancy, presurgical SEEG evaluation; see the article doi:10.7554/eLife.109640.1)."
+  ]
+}

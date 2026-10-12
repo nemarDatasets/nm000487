@@ -1,0 +1,198 @@
+name	x	y	z	size	group	anatomy_main_region	anatomy_sub_region	votc
+L1	3.000	-64.000	33.000	n/a	L	n/a	no_info	not_VOTC
+L2	6.000	-65.000	33.000	n/a	L	n/a	no_info	not_VOTC
+L3	9.000	-67.000	33.000	n/a	L	out of VOTC	out of VOTC	not_VOTC
+L4	12.000	-68.000	33.000	n/a	L	out of VOTC	out of VOTC	not_VOTC
+L5	15.000	-70.000	33.000	n/a	L	out of VOTC	out of VOTC	not_VOTC
+L6	18.000	-71.000	33.000	n/a	L	out of VOTC	out of VOTC	not_VOTC
+L8	24.000	-74.000	33.000	n/a	L	out of VOTC	out of VOTC	not_VOTC
+L9	27.000	-76.000	33.000	n/a	L	out of VOTC	out of VOTC	not_VOTC
+L10	30.000	-77.000	33.000	n/a	L	out of VOTC	out of VOTC	not_VOTC
+L11	33.000	-79.000	33.000	n/a	L	out of VOTC	out of VOTC	not_VOTC
+L12	37.000	-80.000	33.000	n/a	L	out of VOTC	out of VOTC	not_VOTC
+N1	3.000	-32.000	28.000	n/a	N	n/a	no_info	not_VOTC
+N2	6.000	-33.000	29.000	n/a	N	n/a	no_info	not_VOTC
+N3	10.000	-33.000	29.000	n/a	N	n/a	no_info	not_VOTC
+N4	13.000	-34.000	29.000	n/a	N	n/a	no_info	not_VOTC
+N5	16.000	-34.000	29.000	n/a	N	n/a	no_info	not_VOTC
+N6	20.000	-35.000	30.000	n/a	N	n/a	no_info	not_VOTC
+N7	23.000	-35.000	30.000	n/a	N	n/a	no_info	not_VOTC
+N8	26.000	-36.000	30.000	n/a	N	n/a	no_info	not_VOTC
+N9	29.000	-36.000	30.000	n/a	N	n/a	no_info	not_VOTC
+N10	33.000	-36.000	31.000	n/a	N	n/a	no_info	not_VOTC
+N11	36.000	-37.000	31.000	n/a	N	n/a	no_info	not_VOTC
+N12	39.000	-37.000	31.000	n/a	N	n/a	no_info	not_VOTC
+N13	43.000	-38.000	31.000	n/a	N	n/a	no_info	not_VOTC
+N14	46.000	-38.000	32.000	n/a	N	n/a	no_info	not_VOTC
+N15	49.000	-39.000	32.000	n/a	N	n/a	no_info	not_VOTC
+N16	52.000	-39.000	32.000	n/a	N	n/a	no_info	not_VOTC
+N17	56.000	-40.000	32.000	n/a	N	n/a	no_info	not_VOTC
+J1	25.000	-59.000	-15.000	n/a	J	PTL	LFG+OTS	VOTC
+J2	28.000	-60.000	-14.000	n/a	J	PTL	LFG+OTS	VOTC
+J3	31.000	-62.000	-13.000	n/a	J	PTL	LFG+OTS	VOTC
+J4	34.000	-63.000	-13.000	n/a	J	OCC	IOG	VOTC
+J5	37.000	-64.000	-12.000	n/a	J	OCC	IOG	VOTC
+J6	40.000	-66.000	-11.000	n/a	J	OCC	IOG	VOTC
+J7	42.000	-67.000	-10.000	n/a	J	OCC	IOG	VOTC
+J8	45.000	-68.000	-9.000	n/a	J	OCC	IOG	VOTC
+J9	48.000	-70.000	-8.000	n/a	J	OCC	IOG	VOTC
+J10	51.000	-71.000	-7.000	n/a	J	OCC	IOG	VOTC
+T1	37.000	-4.000	-7.000	n/a	T	n/a	no_info	not_VOTC
+T2	40.000	-5.000	-6.000	n/a	T	n/a	no_info	not_VOTC
+T3	43.000	-5.000	-6.000	n/a	T	n/a	no_info	not_VOTC
+T4	47.000	-5.000	-5.000	n/a	T	n/a	no_info	not_VOTC
+T5	50.000	-5.000	-5.000	n/a	T	n/a	no_info	not_VOTC
+T6	53.000	-6.000	-4.000	n/a	T	n/a	no_info	not_VOTC
+T7	57.000	-6.000	-4.000	n/a	T	n/a	no_info	not_VOTC
+T8	60.000	-6.000	-3.000	n/a	T	n/a	no_info	not_VOTC
+T9	63.000	-6.000	-3.000	n/a	T	n/a	no_info	not_VOTC
+T10	67.000	-7.000	-2.000	n/a	T	n/a	no_info	not_VOTC
+A1	16.000	-3.000	-17.000	n/a	A	MTL	no_info	VOTC
+A2	19.000	-3.000	-18.000	n/a	A	MTL	AMG	VOTC
+A3	22.000	-3.000	-18.000	n/a	A	MTL	AMG	VOTC
+A4	26.000	-3.000	-18.000	n/a	A	MTL	AMG	VOTC
+A5	29.000	-3.000	-18.000	n/a	A	MTL	no_info	VOTC
+A6	32.000	-3.000	-18.000	n/a	A	MTL	no_info	VOTC
+A7	36.000	-2.000	-18.000	n/a	A	WM	WM	VOTC
+A8	39.000	-2.000	-19.000	n/a	A	WM	WM	VOTC
+A9	42.000	-2.000	-19.000	n/a	A	WM	WM	VOTC
+A10	46.000	-2.000	-19.000	n/a	A	WM	WM	VOTC
+A11	49.000	-2.000	-19.000	n/a	A	ATL	antMTG	VOTC
+A12	52.000	-2.000	-19.000	n/a	A	ATL	antMTG	VOTC
+A13	56.000	-1.000	-20.000	n/a	A	ATL	antMTG	VOTC
+A14	59.000	-1.000	-20.000	n/a	A	ATL	antMTG	VOTC
+A15	63.000	-1.000	-20.000	n/a	A	ATL	antMTG	VOTC
+B1	19.000	-15.000	-15.000	n/a	B	MTL	HIP	VOTC
+B2	22.000	-15.000	-15.000	n/a	B	MTL	no_info	VOTC
+B3	25.000	-15.000	-15.000	n/a	B	MTL	no_info	VOTC
+B4	29.000	-16.000	-15.000	n/a	B	MTL	no_info	VOTC
+B5	32.000	-16.000	-15.000	n/a	B	MTL	no_info	VOTC
+B6	35.000	-16.000	-15.000	n/a	B	MTL	no_info	VOTC
+B7	39.000	-16.000	-15.000	n/a	B	WM	WM	VOTC
+B8	42.000	-16.000	-15.000	n/a	B	WM	WM	VOTC
+B9	45.000	-16.000	-15.000	n/a	B	WM	WM	VOTC
+B10	49.000	-16.000	-15.000	n/a	B	WM	WM	VOTC
+B11	52.000	-17.000	-15.000	n/a	B	WM	WM	VOTC
+B12	55.000	-17.000	-16.000	n/a	B	n/a	no_info	VOTC
+B13	59.000	-17.000	-16.000	n/a	B	n/a	no_info	VOTC
+B14	62.000	-17.000	-16.000	n/a	B	n/a	no_info	VOTC
+B15	66.000	-17.000	-16.000	n/a	B	n/a	no_info	VOTC
+TM1	28.000	-25.000	-21.000	n/a	TM	ATL	antCOS	VOTC
+TM2	32.000	-24.000	-21.000	n/a	TM	ATL	antCOS	VOTC
+TM3	35.000	-23.000	-21.000	n/a	TM	ATL	antCOS	VOTC
+TM4	38.000	-22.000	-22.000	n/a	TM	ATL	antOTS	VOTC
+TM5	41.000	-21.000	-22.000	n/a	TM	ATL	antOTS	VOTC
+TM6	44.000	-20.000	-22.000	n/a	TM	ATL	antOTS	VOTC
+TM7	47.000	-19.000	-22.000	n/a	TM	ATL	antOTS	VOTC
+TM8	50.000	-18.000	-22.000	n/a	TM	WM	WM	VOTC
+TM9	54.000	-17.000	-22.000	n/a	TM	WM	WM	VOTC
+TM10	57.000	-16.000	-22.000	n/a	TM	ATL	antMTG	VOTC
+TM11	60.000	-15.000	-23.000	n/a	TM	ATL	antMTG	VOTC
+TM12	n/a	n/a	n/a	n/a	TM	ATL	antMTG	VOTC
+C1	21.000	-28.000	-16.000	n/a	C	ATL	antCOS	VOTC
+C2	24.000	-28.000	-15.000	n/a	C	ATL	antCOS	VOTC
+C3	28.000	-28.000	-15.000	n/a	C	ATL	antCOS	VOTC
+C4	31.000	-28.000	-14.000	n/a	C	ATL	antCOS	VOTC
+C5	34.000	-28.000	-14.000	n/a	C	ATL	antCOS	VOTC
+C6	38.000	-28.000	-13.000	n/a	C	WM	WM	VOTC
+C7	41.000	-28.000	-12.000	n/a	C	WM	WM	VOTC
+C8	44.000	-28.000	-12.000	n/a	C	WM	WM	VOTC
+C9	47.000	-29.000	-11.000	n/a	C	WM	WM	VOTC
+C10	51.000	-29.000	-10.000	n/a	C	ATL	antMTG	VOTC
+C11	54.000	-29.000	-10.000	n/a	C	ATL	antMTG	VOTC
+C12	57.000	-29.000	-9.000	n/a	C	ATL	antMTG	VOTC
+C13	60.000	-29.000	-9.000	n/a	C	ATL	antMTG	VOTC
+C14	n/a	n/a	n/a	n/a	C	out of the brain	out of the brain	VOTC
+C15	n/a	n/a	n/a	n/a	C	no_info	no_info	no_info
+W1	39.000	-45.000	16.000	n/a	W	n/a	no_info	not_VOTC
+W2	42.000	-46.000	16.000	n/a	W	n/a	no_info	not_VOTC
+W3	45.000	-48.000	16.000	n/a	W	n/a	no_info	not_VOTC
+W4	48.000	-49.000	16.000	n/a	W	n/a	no_info	not_VOTC
+W5	52.000	-50.000	16.000	n/a	W	n/a	no_info	not_VOTC
+W6	55.000	-51.000	15.000	n/a	W	n/a	no_info	not_VOTC
+W7	58.000	-53.000	15.000	n/a	W	n/a	no_info	not_VOTC
+W8	61.000	-54.000	15.000	n/a	W	n/a	no_info	not_VOTC
+F1	20.000	-45.000	-10.000	n/a	F	PTL	MFG+COS	VOTC
+F2	23.000	-45.000	-10.000	n/a	F	PTL	MFG+COS	VOTC
+F3	26.000	-45.000	-11.000	n/a	F	PTL	MFG+COS	VOTC
+F4	30.000	-45.000	-11.000	n/a	F	PTL	LFG+OTS	VOTC
+F5	33.000	-45.000	-11.000	n/a	F	PTL	LFG+OTS	VOTC
+F6	36.000	-45.000	-12.000	n/a	F	PTL	LFG+OTS	VOTC
+F7	40.000	-45.000	-12.000	n/a	F	WM	WM	VOTC
+F8	43.000	-45.000	-13.000	n/a	F	WM	WM	VOTC
+F9	46.000	-45.000	-13.000	n/a	F	WM	WM	VOTC
+F10	50.000	-45.000	-14.000	n/a	F	n/a	no_info	VOTC
+F11	53.000	-45.000	-14.000	n/a	F	PTL	MTG	VOTC
+F12	56.000	-45.000	-15.000	n/a	F	PTL	MTG	VOTC
+H1	32.000	-20.000	1.000	n/a	H	n/a	no_info	not_VOTC
+H2	35.000	-21.000	1.000	n/a	H	n/a	no_info	not_VOTC
+H3	39.000	-21.000	2.000	n/a	H	n/a	no_info	not_VOTC
+H4	42.000	-22.000	2.000	n/a	H	n/a	no_info	not_VOTC
+H5	45.000	-22.000	2.000	n/a	H	n/a	no_info	not_VOTC
+H6	48.000	-23.000	3.000	n/a	H	n/a	no_info	not_VOTC
+H7	52.000	-24.000	3.000	n/a	H	n/a	no_info	not_VOTC
+H8	55.000	-24.000	4.000	n/a	H	n/a	no_info	not_VOTC
+H9	58.000	-25.000	4.000	n/a	H	n/a	no_info	not_VOTC
+H10	61.000	-25.000	4.000	n/a	H	n/a	no_info	not_VOTC
+H11	65.000	-26.000	5.000	n/a	H	n/a	no_info	not_VOTC
+H12	n/a	n/a	n/a	n/a	H	no_info	no_info	no_info
+O1	3.000	-81.000	1.000	n/a	O	OCC	VMO	VOTC
+O2	6.000	-83.000	1.000	n/a	O	OCC	VMO	VOTC
+O3	8.000	-85.000	1.000	n/a	O	OCC	VMO	VOTC
+O4	11.000	-87.000	1.000	n/a	O	OCC	VMO	VOTC
+O5	13.000	-89.000	1.000	n/a	O	OCC	VMO	VOTC
+O6	16.000	-92.000	0.000	n/a	O	OCC	VMO	VOTC
+O7	19.000	-94.000	0.000	n/a	O	OCC	VMO	VOTC
+O8	21.000	-96.000	0.000	n/a	O	OCC	VMO	VOTC
+O9	23.750	-98.179	-0.179	n/a	O	OCC	VMO	VOTC
+O10	26.333	-100.357	-0.357	n/a	O	OCC	VMO	VOTC
+X1	4.000	-53.000	22.000	n/a	X	n/a	no_info	not_VOTC
+X2	7.000	-55.000	22.000	n/a	X	n/a	no_info	not_VOTC
+X3	10.000	-57.000	22.000	n/a	X	n/a	no_info	not_VOTC
+X4	13.000	-58.000	23.000	n/a	X	n/a	no_info	not_VOTC
+X5	16.000	-60.000	23.000	n/a	X	n/a	no_info	not_VOTC
+X6	19.000	-61.000	23.000	n/a	X	n/a	no_info	not_VOTC
+X7	22.000	-63.000	23.000	n/a	X	n/a	no_info	not_VOTC
+X8	25.000	-64.000	23.000	n/a	X	n/a	no_info	not_VOTC
+X9	28.000	-66.000	24.000	n/a	X	n/a	no_info	not_VOTC
+X10	31.000	-67.000	24.000	n/a	X	n/a	no_info	not_VOTC
+X11	34.000	-69.000	24.000	n/a	X	n/a	no_info	not_VOTC
+X12	37.000	-70.000	24.000	n/a	X	n/a	no_info	not_VOTC
+X13	40.000	-72.000	24.000	n/a	X	n/a	no_info	not_VOTC
+X14	43.000	-73.000	25.000	n/a	X	n/a	no_info	not_VOTC
+X15	46.000	-75.000	25.000	n/a	X	n/a	no_info	not_VOTC
+P1	2.000	-52.000	30.000	n/a	P	n/a	no_info	not_VOTC
+P2	5.000	-53.000	31.000	n/a	P	n/a	no_info	not_VOTC
+P3	8.000	-54.000	32.000	n/a	P	n/a	no_info	not_VOTC
+P4	11.000	-54.000	33.000	n/a	P	n/a	no_info	not_VOTC
+P5	14.000	-55.000	33.000	n/a	P	n/a	no_info	not_VOTC
+P6	18.000	-56.000	34.000	n/a	P	n/a	no_info	not_VOTC
+P7	21.000	-56.000	35.000	n/a	P	n/a	no_info	not_VOTC
+P8	24.000	-57.000	36.000	n/a	P	n/a	no_info	not_VOTC
+P9	27.000	-58.000	37.000	n/a	P	n/a	no_info	not_VOTC
+P10	30.000	-58.000	38.000	n/a	P	n/a	no_info	not_VOTC
+P11	33.000	-59.000	39.000	n/a	P	n/a	no_info	not_VOTC
+P12	37.000	-60.000	40.000	n/a	P	n/a	no_info	not_VOTC
+P13	40.000	-60.000	40.000	n/a	P	n/a	no_info	not_VOTC
+P14	43.000	-61.000	41.000	n/a	P	n/a	no_info	not_VOTC
+P15	46.000	-62.000	42.000	n/a	P	n/a	no_info	not_VOTC
+R1	36.000	-16.000	16.000	n/a	R	n/a	no_info	not_VOTC
+R2	39.000	-15.000	17.000	n/a	R	n/a	no_info	not_VOTC
+R3	43.000	-14.000	17.000	n/a	R	n/a	no_info	not_VOTC
+R4	46.000	-14.000	17.000	n/a	R	n/a	no_info	not_VOTC
+R5	49.000	-13.000	17.000	n/a	R	n/a	no_info	not_VOTC
+R6	52.000	-12.000	17.000	n/a	R	n/a	no_info	not_VOTC
+R7	56.000	-11.000	17.000	n/a	R	n/a	no_info	not_VOTC
+R8	59.000	-11.000	17.000	n/a	R	n/a	no_info	not_VOTC
+R9	62.000	-10.000	17.000	n/a	R	n/a	no_info	not_VOTC
+R10	65.000	-9.000	17.000	n/a	R	n/a	no_info	not_VOTC
+Q1	3.000	-70.000	14.000	n/a	Q	out of VOTC	out of VOTC	not_VOTC
+Q2	5.000	-72.000	15.000	n/a	Q	out of VOTC	out of VOTC	not_VOTC
+Q3	8.000	-74.000	16.000	n/a	Q	out of VOTC	out of VOTC	not_VOTC
+Q4	10.000	-76.000	16.000	n/a	Q	out of VOTC	out of VOTC	not_VOTC
+Q5	13.000	-78.000	17.000	n/a	Q	out of VOTC	out of VOTC	not_VOTC
+Q6	15.000	-80.000	18.000	n/a	Q	out of VOTC	out of VOTC	not_VOTC
+Q7	18.000	-82.000	19.000	n/a	Q	out of VOTC	out of VOTC	not_VOTC
+Q8	21.000	-84.000	19.000	n/a	Q	out of VOTC	out of VOTC	not_VOTC
+Q9	23.000	-87.000	20.000	n/a	Q	out of VOTC	out of VOTC	not_VOTC
+Q10	26.000	-89.000	21.000	n/a	Q	out of VOTC	out of VOTC	not_VOTC
