@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "s500-literature-164: Face-selective SEEG across the ventral occipito-temporal cortex in 140 participants, fast periodic visual stimulation (Jacques et al., 2025) (derivative)",
+  "description": "Intracerebral EEG (SEEG) recordings from 140 patients with refractory epilepsy undergoing presurgical evaluation at the University Hospital of Nancy, collected during fast periodic visual stimulation. Natural object images were presented at 6 Hz with a face image every fifth item (1.2 Hz) to probe face-selective responses across the ventral occipito-temporal cortex. This derivative release contains minimally preprocessed Letswave sequences repackaged in BrainVision format, with Talairach electrode coordinates and anatomical labels.",
+  "methods_description": "Micromed TRC recordings were imported in Letswave 5, segmented into FPVS sequences (2 s before onset to 2 s after the end) and merged per participant. The sequences were repackaged as BrainVision files with unchanged float32 values. Talairach coordinates and anatomical labels were taken from the Letswave channel locations.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Corentin Jacques": {
       "orcid": "0000-0001-8917-4346"
@@ -28,6 +33,31 @@
       "orcid": "0000-0002-1845-3935"
     }
   },
+  "keywords": [
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "intracerebral recordings"
+    },
+    {
+      "term": "face recognition"
+    },
+    {
+      "term": "fast periodic visual stimulation"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "ventral occipito-temporal cortex"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.17605/OSF.IO/2QZYM",
@@ -50,14 +80,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "s500-literature-164: Face-selective SEEG across the ventral occipito-temporal cortex in 140 participants, fast periodic visual stimulation (Jacques et al., 2025) (derivative)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "17.07 GB (421 files)"
   ],
@@ -67,44 +94,13 @@
     ".lw5",
     ".m",
     ".mat",
+    ".md",
     ".py",
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Stereo-electroencephalography (SEEG) recordings from 140 patients with refractory epilepsy undergoing presurgical evaluation at the University Hospital of Nancy. Participants viewed fast periodic visual stimulation, with natural object images presented at 6 Hz and a face every fifth image (1.2 Hz). The dataset covers 22,160 intracerebral channels, most with Talairach coordinates and anatomical labels, sampling the ventral occipito-temporal cortex to study category-selective face responses. It is a BIDS derivative of the authors' minimally preprocessed Letswave 5 release.",
-  "methods_description": "Micromed TRC recordings were imported in Letswave 5, segmented into FPVS stimulation sequences (2 s before onset to 2 s after the end) and merged per participant. They were repackaged in BrainVision format with float32 values unchanged. Talairach coordinates and anatomical labels were taken from the Letswave channel locations. Files were de-identified by replacing event codes and cleaning headers.",
-  "keywords": [
-    {
-      "term": "SEEG"
-    },
-    {
-      "term": "intracerebral recordings"
-    },
-    {
-      "term": "face recognition"
-    },
-    {
-      "term": "fast periodic visual stimulation"
-    },
-    {
-      "term": "frequency tagging"
-    },
-    {
-      "term": "ventral occipito-temporal cortex"
-    },
-    {
-      "term": "high-frequency broadband"
-    },
-    {
-      "term": "Talairach"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    }
-  ],
-  "source_hash": "7ac76d2a1d40964c7d6966b20e9d63b46a4a1920f18f26678b40c6b9702fef13"
+  "source_hash": "bd328e8b6904bf503f990e73ea116da275429cd45f8e21342492243ceb2a0752"
 }
