@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "s500-literature-164: Face-selective SEEG across the ventral occipito-temporal cortex in 140 participants, fast periodic visual stimulation (Jacques et al., 2025) (derivative)",
-  "description": "Intracerebral EEG (SEEG) recordings from 140 patients with refractory epilepsy undergoing presurgical evaluation at the University Hospital of Nancy, collected during fast periodic visual stimulation. Natural object images were presented at 6 Hz with a face image every fifth item (1.2 Hz) to probe face-selective responses across the ventral occipito-temporal cortex. This derivative release contains minimally preprocessed Letswave sequences repackaged in BrainVision format, with Talairach electrode coordinates and anatomical labels.",
-  "methods_description": "Micromed TRC recordings were imported in Letswave 5, segmented into FPVS sequences (2 s before onset to 2 s after the end) and merged per participant. The sequences were repackaged as BrainVision files with unchanged float32 values. Talairach coordinates and anatomical labels were taken from the Letswave channel locations.",
+  "description": "Stereo-electroencephalography (SEEG) recordings from 140 patients with refractory epilepsy undergoing presurgical evaluation at the University Hospital of Nancy. Participants viewed fast periodic visual stimulation sequences of natural object images at 6 Hz with a face every fifth image (1.2 Hz). The derivative release contains minimally preprocessed, sequence-segmented recordings with Talairach electrode coordinates and anatomical labels, supporting study of face-selective responses across the ventral occipito-temporal cortex.",
+  "methods_description": "Intracerebral SEEG was recorded with Micromed systems during fast periodic visual stimulation (objects at 6 Hz, faces every 5th image). The authors imported the recordings into Letswave 5, segmented them into stimulation sequences (2 s before onset to 2 s after the end) and merged them per participant. The data were then repackaged in BrainVision format with Talairach electrode coordinates and anatomical labels.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -51,6 +51,12 @@
     },
     {
       "term": "ventral occipito-temporal cortex"
+    },
+    {
+      "term": "high-frequency broadband"
+    },
+    {
+      "term": "Talairach"
     },
     {
       "term": "Epilepsy",
