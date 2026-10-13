@@ -1,0 +1,38 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000487-blue)](https://doi.org/10.82901/nemar.nm000487)
+
+# Jacques, Jonas, Colnat-Coulbois & Rossion (2025): face-selective SEEG across the ventral occipito-temporal cortex (140 participants)
+
+Intracerebral EEG (SEEG) from 140 patients with refractory epilepsy (University Hospital of Nancy) viewing fast periodic
+visual stimulation: natural images of objects at 6 Hz with a face every 5th image (1.2 Hz). 140 files, 9.67 h of
+sequences, 22160 SEEG channels in total (20495 with Talairach coordinates). Sampling rate {512.0: 126, 256.0: 3, 500.0: 11} (files per rate).
+Released by the authors on OSF (https://osf.io/2qzym/, CC-BY 4.0) with the Letswave loader and participant tables.
+
+THIS IS A DERIVATIVE DATASET: the release holds the authors' minimally preprocessed Letswave 5 files (segmented into
+stimulation sequences and merged per participant; no filtering stated), not the raw Micromed recordings.
+
+## Contents
+- `sub-NNN/ieeg/sub-NNN_task-fpvsfaces_run-1_ieeg.*`: the participant's FPVS sequences back-to-back (one BrainVision segment per
+  sequence; `RecordingType` epoched, `EpochLength` = sequence length incl. the 2 s before and after). Values are the release's
+  float32 values, unchanged. The sequence time axis starts at `xstart` (-2 s, or -1.8333 s for participants whose first trigger
+  was missing; `participants.tsv` first_trigger_missing, `ieeg.json` SequenceStartTime).
+- `channels.tsv`: labels from the Letswave header (a prime ' marks the left hemisphere); all contacts typed SEEG; unit µV
+  assumed (Letswave import of Micromed TRC; not stated in the release); reference = the participant's reference contact from
+  `140_participants_seeg_info.txt`.
+- `sub-NNN_space-Talairach_electrodes.tsv`: Talairach x/y/z per contact from the Letswave header (chanlocs.xyz_coord_Talairach)
+  plus the authors' anatomical labels: `anatomy_main_region` (OCC, PTL, ATL, MTL, TP, WM...), `anatomy_sub_region` and `votc`
+  (inside the authors' VOTC region or not). Contacts without finite coordinates have n/a.
+- `events.tsv`: Letswave events (trigger codes, sequence, latency); the README says the codes are meaningless for most
+  participants (stimulus onsets are periodic).
+- `participants.tsv`: age at SEEG, sex, handedness (release demographics), reference contact, first-trigger flag, sequence
+  length, sampling rate, number of sequences and of channels.
+- `sourcedata/osf-2qzym-deidentified/`: the release's Letswave files per participant (headers rewritten, see Privacy), the README,
+  loader and the two participant .txt tables (`140_participants_info.xlsx` is not copied: it could not be inspected in the
+  conversion environment; the .txt tables carry the same information); `DEIDENTIFICATION_MANIFEST.tsv` lists original and
+  new sha-256 per file.
+
+## Privacy
+- Letswave event codes with a leading participant-code token were replaced ('seq_...'; other free-text codes 'unk') in
+  events.tsv and in the de-identified .lw5 headers (108 distinct tokens; a byte
+  search of the output found 0 remaining occurrences). Header `name` fields were
+  blanked, history dates reduced to month/year and file paths removed; MAT text-header dates reduced to month/year.
+- Participants are identified by number only; demographics are age, sex and handedness as released.
