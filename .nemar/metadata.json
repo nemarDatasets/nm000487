@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "s500-literature-164: Face-selective SEEG across the ventral occipito-temporal cortex in 140 participants, fast periodic visual stimulation (Jacques et al., 2025) (derivative)",
-  "description": "Stereo-electroencephalography (SEEG) recordings from 140 patients with refractory epilepsy undergoing presurgical evaluation at the University Hospital of Nancy. Participants viewed fast periodic visual stimulation with natural object images at 6 Hz and a face every fifth image (1.2 Hz). The derivative release contains minimally preprocessed, sequence-segmented data with Talairach contact coordinates and anatomical labels, supporting study of face-selective activity across the ventral occipito-temporal cortex.",
-  "methods_description": "SEEG was recorded with Micromed systems at 256, 500 or 512 Hz during fast periodic visual stimulation (6 Hz object images, face every 5th image). Recordings were imported in Letswave 5, segmented into stimulation sequences (2 s before onset to 2 s after the end), merged per participant, and repackaged in BrainVision format with Talairach electrode coordinates.",
+  "description": "Stereo-EEG (SEEG) recordings from 140 patients with refractory epilepsy undergoing presurgical evaluation, collected during fast periodic visual stimulation. Natural object images were presented at 6 Hz with a face every fifth image (1.2 Hz) to measure face-selective responses across the ventral occipito-temporal cortex. The derivative release contains the authors' minimally preprocessed Letswave sequences repackaged in BrainVision format, with Talairach electrode coordinates and anatomical labels.",
+  "methods_description": "Intracerebral recordings were acquired with Micromed systems at 256, 500 or 512 Hz during fast periodic visual stimulation (objects at 6 Hz, faces every 5th image). Recordings were imported in Letswave 5, segmented into stimulation sequences (2 s before onset to 2 s after the end) and merged per participant. Contact positions are given in Talairach space with anatomical labels.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -38,7 +38,7 @@
       "term": "SEEG"
     },
     {
-      "term": "intracerebral recordings"
+      "term": "intracerebral EEG"
     },
     {
       "term": "face recognition"
@@ -47,21 +47,15 @@
       "term": "fast periodic visual stimulation"
     },
     {
-      "term": "frequency tagging"
-    },
-    {
       "term": "ventral occipito-temporal cortex"
-    },
-    {
-      "term": "high-frequency broadband"
-    },
-    {
-      "term": "Talairach"
     },
     {
       "term": "Epilepsy",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "frequency tagging"
     }
   ],
   "related_identifiers": [
@@ -73,7 +67,7 @@
     {
       "identifier": "10.7554/eLife.109640.1",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000487",
