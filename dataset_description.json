@@ -1,5 +1,5 @@
 {
-  "Name": "s500-literature-164: Face-selective SEEG across the ventral occipito-temporal cortex in 140 participants, fast periodic visual stimulation (Jacques et al., 2025) (derivative)",
+  "Name": "Jacques-2026-concurrent-10.7554/elife.109640",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -48,5 +48,5 @@
     "Collected under the source study's approval (University Hospital of Nancy, presurgical SEEG evaluation; see the article doi:10.7554/eLife.109640.1)."
   ],
   "DatasetDOI": "10.82901/nemar.nm000487",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
