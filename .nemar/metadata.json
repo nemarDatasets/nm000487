@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
-  "title": "Jacques-2026-concurrent-10.7554/elife.109640",
+  "title": "s500-literature-164: Face-selective SEEG across the ventral occipito-temporal cortex in 140 participants, fast periodic visual stimulation (Jacques et al., 2025) (derivative)",
   "description": "Stereo-electroencephalography (SEEG) recordings from 140 patients with refractory epilepsy undergoing presurgical evaluation at the University Hospital of Nancy. Participants viewed fast periodic visual stimulation with natural object images at 6 Hz and a face every fifth image (1.2 Hz). The derivative release contains minimally preprocessed, sequence-segmented data with Talairach contact coordinates and anatomical labels, supporting study of face-selective activity across the ventral occipito-temporal cortex.",
   "methods_description": "SEEG was recorded with Micromed systems at 256, 500 or 512 Hz during fast periodic visual stimulation (6 Hz object images, face every 5th image). Recordings were imported in Letswave 5, segmented into stimulation sequences (2 s before onset to 2 s after the end), merged per participant, and repackaged in BrainVision format with Talairach electrode coordinates.",
   "license": "CC-BY-4.0",
@@ -108,5 +108,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "4a73420e24656f032e9f295473ff04460eb9e900016064fe6bb5cd788ff7a902"
+  "source_hash": "b4526da8ec788248e5246f29ece2b69ff5ff657e7d9e48de79f82b92c276e459"
 }
