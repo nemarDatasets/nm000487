@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
-  "title": "s500-literature-164: Face-selective SEEG across the ventral occipito-temporal cortex in 140 participants, fast periodic visual stimulation (Jacques et al., 2025) (derivative)",
-  "description": "Stereo-electroencephalography (SEEG) recordings from 140 patients with refractory epilepsy undergoing presurgical evaluation at the University Hospital of Nancy. Participants viewed fast periodic visual stimulation sequences of natural object images at 6 Hz with a face every fifth image (1.2 Hz). The derivative release contains minimally preprocessed, sequence-segmented recordings with Talairach electrode coordinates and anatomical labels, supporting study of face-selective responses across the ventral occipito-temporal cortex.",
-  "methods_description": "Intracerebral SEEG was recorded with Micromed systems during fast periodic visual stimulation (objects at 6 Hz, faces every 5th image). The authors imported the recordings into Letswave 5, segmented them into stimulation sequences (2 s before onset to 2 s after the end) and merged them per participant. The data were then repackaged in BrainVision format with Talairach electrode coordinates and anatomical labels.",
+  "pipeline_stage": "enriched",
+  "title": "Jacques-2026-concurrent-10.7554/elife.109640",
+  "description": "Stereo-electroencephalography (SEEG) recordings from 140 patients with refractory epilepsy undergoing presurgical evaluation at the University Hospital of Nancy. Participants viewed fast periodic visual stimulation with natural object images at 6 Hz and a face every fifth image (1.2 Hz). The derivative release contains minimally preprocessed, sequence-segmented data with Talairach contact coordinates and anatomical labels, supporting study of face-selective activity across the ventral occipito-temporal cortex.",
+  "methods_description": "SEEG was recorded with Micromed systems at 256, 500 or 512 Hz during fast periodic visual stimulation (6 Hz object images, face every 5th image). Recordings were imported in Letswave 5, segmented into stimulation sequences (2 s before onset to 2 s after the end), merged per participant, and repackaged in BrainVision format with Talairach electrode coordinates.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -73,7 +73,7 @@
     {
       "identifier": "10.7554/eLife.109640.1",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000487",
@@ -108,5 +108,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "bd328e8b6904bf503f990e73ea116da275429cd45f8e21342492243ceb2a0752"
+  "source_hash": "4a73420e24656f032e9f295473ff04460eb9e900016064fe6bb5cd788ff7a902"
 }
