@@ -1,5 +1,5 @@
 onset	duration	trial_type	sequence	latency_in_sequence	sample
-2.0	0	s1	1	0.0	1024
-80.001953	0	s1	2	0.0	40961
-158.003906	0	s1	3	0.0	80898
-236.005859	0	s1	4	0.0	120835
+0.0	78.001953125	sequence_start	1	-2.0	0
+78.001953	78.001953125	sequence_start	2	-2.0	39937
+156.003906	78.001953125	sequence_start	3	-2.0	79874
+234.005859	78.001953125	sequence_start	4	-2.0	119811

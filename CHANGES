@@ -2,6 +2,9 @@
   - events.tsv: removed 35,685 Letswave event rows that are not on the file's time axis from 120 of 140 files (68 files: rows outside their own sequence or after the end of the recording, 14,679 rows; 52 files: the whole event block is on another clock, 21,006 rows); those 52 files now hold one 'sequence_start' row per sequence. Removed rows kept in sourcedata/events-removed-2026-10-17/. Signal files unchanged.
   - task-fpvsfaces_events.json: trial_type description mentions 'sequence_start'.
   - README.md: section "Events outside the data".
+  - events.tsv: exact duplicate rows (identical in every column) dropped: 61,229 rows in 56 files; no information lost.
+  - events.tsv: every file now holds exactly one 'sequence_start' row per sequence (epoch), so mne_bids.read_epochs_bids loads each file as its sequences (452 rows in 140 files; number of sequences per file from the data headers, code/fix-20261017_epochs_from_headers.*). The stimulus-level rows of the other 88 files (80,458 rows after de-duplication) moved unchanged to derivatives/stimulus_events/ (same file names, columns and onsets; events JSON sidecar, dataset_description.json, per-file summary). Code: code/fix-20261017_split_stimulus_events.py.
+  - task-fpvsfaces_events.json: describes the sequence_start rows. README.md: section "Events and epochs" (where the stimulus events are and how to load them).
 
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.

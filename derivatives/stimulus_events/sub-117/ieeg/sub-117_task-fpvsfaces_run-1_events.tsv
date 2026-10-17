@@ -1,0 +1,5 @@
+onset	duration	trial_type	sequence	latency_in_sequence	sample
+2.0	0	s1	1	0.0	1024
+80.001953	0	s1	2	0.0	40961
+158.003906	0	s1	3	0.0	80898
+236.005859	0	s1	4	0.0	120835

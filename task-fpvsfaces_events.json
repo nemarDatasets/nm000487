@@ -1,23 +1,26 @@
 {
   "onset": {
-    "Description": "Event time in this file (sequences back-to-back)",
+    "Description": "Start of one sequence (epoch) in this file: (sequence - 1) x EpochLength (sequences back-to-back)",
     "Units": "s"
   },
   "duration": {
-    "Description": "0 (instantaneous Letswave event)",
+    "Description": "EpochLength (length of the sequence, including the time before and after stimulation)",
     "Units": "s"
   },
   "trial_type": {
-    "Description": "Letswave event code as stored (numeric Micromed trigger codes; a leading participant-code token before '_' is replaced by 'seq'; other free-text codes by 'unk'). The README states the event codes are meaningless for most participants; stimulus onsets are periodic (6 Hz, faces at 1.2 Hz). Since version 1.0.3, files whose Letswave events were not on the file's time axis hold 'sequence_start' rows instead: start of one sequence (epoch) of the file, onset = (sequence - 1) x EpochLength, duration = EpochLength; not a stimulus event (README, 'Events outside the data')."
+    "Description": "Since version 1.0.3 every events.tsv holds exactly one row per sequence (epoch) of the data file, so that readers of epoched data (mne_bids.read_epochs_bids) load each file as its sequences. The stimulus-level Letswave events are in derivatives/stimulus_events/ (README, 'Events and epochs').",
+    "Levels": {
+      "sequence_start": "Start of one sequence (epoch) of the file; not a stimulus event"
+    }
   },
   "sequence": {
     "Description": "Sequence (Letswave epoch) number, 1-based"
   },
   "latency_in_sequence": {
-    "Description": "Letswave event latency on the sequence time axis (header xstart = -2 or -1.8333 s)",
+    "Description": "Time of the epoch start on the Letswave sequence time axis (= SequenceStartTime in ieeg.json: -2, -1.834 or -3 s; 0 = stimulation onset)",
     "Units": "s"
   },
   "sample": {
-    "Description": "Sample index in this file (0-based)"
+    "Description": "First sample of the sequence in this file (0-based) = (sequence - 1) x round(EpochLength x SamplingFrequency)"
   }
 }

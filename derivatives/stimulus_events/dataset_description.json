@@ -1,0 +1,27 @@
+{
+  "Name": "nm000487 stimulus-level Letswave events (moved out of the epoch-defining events.tsv, version 1.0.3)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Corentin Jacques",
+    "Jacques Jonas",
+    "Sophie Colnat-Coulbois",
+    "Bruno Rossion"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "nm000487 fix-20261017 events split",
+      "Version": "1.0.3",
+      "Description": "Stimulus-level Letswave event rows of the 88 sub-*/ieeg/*_events.tsv files that held them in nm000487 1.0.3 before this change, moved here unchanged (same columns, same line text, same order, onsets in seconds from the start of the recording) after dropping exact duplicate rows (identical in every column; 61,229 rows in 56 files). The raw events.tsv now holds one sequence_start row per epoch so that mne_bids.read_epochs_bids loads each file as its sequences. Code: ../../code/fix-20261017_split_stimulus_events.py; epochs per file from the data headers: ../../code/fix-20261017_epochs_from_headers.py (.json); per-file counts: stimulus_events_summary.tsv."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.82901/nemar.nm000487",
+      "URL": "https://github.com/nemarDatasets/nm000487",
+      "Version": "1.0.3"
+    }
+  ],
+  "HowToAcknowledge": "Cite Jacques C, Jonas J, Colnat-Coulbois S, Rossion B (2025) eLife reviewed preprint, doi:10.7554/eLife.109640.1; and the OSF dataset doi:10.17605/OSF.IO/2QZYM."
+}
