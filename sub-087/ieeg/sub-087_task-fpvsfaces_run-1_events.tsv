@@ -2551,7 +2551,6 @@ onset	duration	trial_type	sequence	latency_in_sequence	sample
 238.167959	0	s1	4	2.3281	121942
 238.337859	0	s1	4	2.498	122029
 238.337859	0	s1	4	2.498	122029
-238.402359	0	seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_3	1	236.568359	122062
 238.501959	0	s1	4	2.6621	122113
 238.501959	0	s1	4	2.6621	122113
 238.667959	0	s1	4	2.8281	122198
@@ -3360,6 +3359,3 @@ onset	duration	trial_type	sequence	latency_in_sequence	sample
 305.464859	0	s1	4	69.625	156398
 305.632859	0	s1	4	69.793	156484
 305.632859	0	s1	4	69.793	156484
-505.484391	0	seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_3	3	347.646484	258808
-574.42775	0	seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_6	2	494.591797	294107
-877.855484	0	seq_greyscale_sinstim_Localiser_6Hz_ObjectsFaces_Per_Grey_6	4	642.015625	449462

@@ -1,3 +1,8 @@
+1.0.3 2026-10-17
+  - events.tsv: removed 35,685 Letswave event rows that are not on the file's time axis from 120 of 140 files (68 files: rows outside their own sequence or after the end of the recording, 14,679 rows; 52 files: the whole event block is on another clock, 21,006 rows); those 52 files now hold one 'sequence_start' row per sequence. Removed rows kept in sourcedata/events-removed-2026-10-17/. Signal files unchanged.
+  - task-fpvsfaces_events.json: trial_type description mentions 'sequence_start'.
+  - README.md: section "Events outside the data".
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 

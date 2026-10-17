@@ -8,7 +8,7 @@
     "Units": "s"
   },
   "trial_type": {
-    "Description": "Letswave event code as stored (numeric Micromed trigger codes; a leading participant-code token before '_' is replaced by 'seq'; other free-text codes by 'unk'). The README states the event codes are meaningless for most participants; stimulus onsets are periodic (6 Hz, faces at 1.2 Hz)."
+    "Description": "Letswave event code as stored (numeric Micromed trigger codes; a leading participant-code token before '_' is replaced by 'seq'; other free-text codes by 'unk'). The README states the event codes are meaningless for most participants; stimulus onsets are periodic (6 Hz, faces at 1.2 Hz). Since version 1.0.3, files whose Letswave events were not on the file's time axis hold 'sequence_start' rows instead: start of one sequence (epoch) of the file, onset = (sequence - 1) x EpochLength, duration = EpochLength; not a stimulus event (README, 'Events outside the data')."
   },
   "sequence": {
     "Description": "Sequence (Letswave epoch) number, 1-based"

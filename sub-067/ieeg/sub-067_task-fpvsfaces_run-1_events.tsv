@@ -1675,5 +1675,3 @@ onset	duration	trial_type	sequence	latency_in_sequence	sample
 145.0371	0	s1	2	69.5156	74259
 145.2051	0	s1	2	69.6836	74345
 145.2051	0	s1	2	69.6836	74345
-386.2715	0	seq_stimuli_to_use_sinstim_localizer2_objects_faces_periodic_3	1	384.4375	197771
-1055.234391	0	seq_stimuli_to_use_sinstim_localizer2_objects_faces_periodic_6	2	979.712891	540280

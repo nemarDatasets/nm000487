@@ -23,6 +23,8 @@ stimulation sequences and merged per participant; no filtering stated), not the 
   (inside the authors' VOTC region or not). Contacts without finite coordinates have n/a.
 - `events.tsv`: Letswave events (trigger codes, sequence, latency); the README says the codes are meaningless for most
   participants (stimulus onsets are periodic).
+  Since version 1.0.3 events that are not on the file's time axis are removed, and 52 files hold one `sequence_start`
+  row per sequence instead (see "Events outside the data").
 - `participants.tsv`: age at SEEG, sex, handedness (release demographics), reference contact, first-trigger flag, sequence
   length, sampling rate, number of sequences and of channels.
 - `sourcedata/osf-2qzym-deidentified/`: the release's Letswave files per participant (headers rewritten, see Privacy), the README,
@@ -36,3 +38,29 @@ stimulation sequences and merged per participant; no filtering stated), not the 
   search of the output found 0 remaining occurrences). Header `name` fields were
   blanked, history dates reduced to month/year and file paths removed; MAT text-header dates reduced to month/year.
 - Participants are identified by number only; demographics are age, sex and handedness as released.
+
+## Events outside the data (corrected 2026-10-17, version 1.0.3)
+
+Up to version 1.0.2, 120 of the 140 `events.tsv` files held Letswave events that are not on the time axis of the data
+file: 88 files had onsets after the end of the recording (for example 684 s in a 312 s file), and many more rows fell
+inside the file but outside the sequence they are listed in. Each file holds `RecordingDuration` / `EpochLength`
+sequences back to back, so the position of a row within its own sequence is `onset` - (`sequence` - 1) x `EpochLength`,
+and the sequence covers `latency_in_sequence` from `SequenceStartTime` (-2 s or -1.83 s) to the end of the epoch. Two
+rules were applied (35,685 rows removed in total; no row was moved or edited):
+
+- **Outside its own sequence** (68 files, 14,679 rows): a row whose position within its sequence is negative or not
+  shorter than `EpochLength` (it lies after the end of its sequence or of the file).
+- **Event block on another time axis** (52 files, 21,006 rows; all rows of the file): the file's events form one block
+  of about 70 s (`startBlock` ... `endBlock`, ~420 rows), all listed as sequence 1, whose first latency is 9-407 s
+  instead of about 0 s and which runs 3-401 s past the end of sequence 1. Because the sequences were cut from 2 s before
+  their onset (release README), a block that starts this late and does not fit inside its sequence was recorded on
+  another clock (most likely the original continuous recording); its true position in the file cannot be recovered
+  from the release. These files are: sub-009, sub-011, sub-012, sub-014, sub-015, sub-018, sub-019, sub-021, sub-023, sub-026, sub-027, sub-028, sub-032, sub-033, sub-035, sub-038, sub-039, sub-040, sub-042, sub-043, sub-044, sub-045, sub-046, sub-047, sub-048, sub-049, sub-050, sub-051, sub-053, sub-054, sub-055, sub-056, sub-057, sub-058, sub-059, sub-061, sub-062, sub-063, sub-064, sub-113, sub-119, sub-123, sub-124, sub-129, sub-131, sub-132, sub-133, sub-135, sub-136, sub-137, sub-138, sub-140.
+
+The 52 files of the second group would otherwise have an empty `events.tsv`. They now hold one row per sequence with
+`trial_type` `sequence_start` (`onset` = (k - 1) x `EpochLength`, `duration` = `EpochLength`, `latency_in_sequence` =
+`SequenceStartTime`, `sample` = onset x sampling rate), which marks the start of each epoch exactly as the file
+structure defines it; no stimulus timing is implied. The stimulation is periodic (6 Hz, faces every 5th image, release
+README), so stimulus times within a sequence follow from its onset. All removed rows are kept, with the file name and the
+rule, in `sourcedata/events-removed-2026-10-17/removed_events.tsv` (per-file counts in `removed_events_summary.json`). The
+other 20 files are unchanged.
