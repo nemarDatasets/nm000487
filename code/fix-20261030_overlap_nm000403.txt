@@ -1,0 +1,29 @@
+sub-P03 103 -> best sub-001 jaccard 0.609  | 2nd 0.239 P_001
+sub-P04 126 -> best sub-002 jaccard 0.960  | 2nd 0.524 P_002
+sub-P05 118 -> best sub-003 jaccard 0.722  | 2nd 0.386 P_003
+sub-P06 113 -> best sub-004 jaccard 1.000 identical_order | 2nd 0.578 P_004
+sub-P08 108 -> best sub-006 jaccard 1.000 identical_order | 2nd 0.482 P_006
+sub-P09 126 -> best sub-007 jaccard 0.922  | 2nd 0.673 P_007
+sub-P10 107 -> best sub-008 jaccard 1.000 identical_order | 2nd 0.639 P_008
+sub-P11 105 -> best sub-016 jaccard 0.875  | 2nd 0.592 P_016
+sub-P14 226 -> best sub-140 jaccard 0.000  | 2nd 0.000 P_140
+sub-P16 224 -> best sub-008 jaccard 0.038  | 2nd 0.036 P_008
+sub-P18 222 -> best sub-067 jaccard 0.770  | 2nd 0.647 P_067
+sub-P19 223 -> best sub-068 jaccard 0.081  | 2nd 0.000 P_068
+sub-P21 222 -> best sub-070 jaccard 0.797  | 2nd 0.518 P_070
+sub-P22 248 -> best sub-071 jaccard 0.582  | 2nd 0.326 P_071
+sub-P23 221 -> best sub-072 jaccard 0.670  | 2nd 0.601 P_072
+sub-P26 248 -> best sub-140 jaccard 0.000  | 2nd 0.000 P_140
+sub-P28 246 -> best sub-085 jaccard 0.280  | 2nd 0.278 P_085
+sub-P29 228 -> best sub-077 jaccard 0.458  | 2nd 0.278 P_077
+sub-P30 224 -> best sub-078 jaccard 0.389  | 2nd 0.258 P_078
+sub-P31 184 -> best sub-057 jaccard 0.035  | 2nd 0.034 P_057
+sub-P32 157 -> best sub-079 jaccard 0.830  | 2nd 0.616 P_079
+sub-P33 216 -> best sub-008 jaccard 0.084  | 2nd 0.078 P_008
+sub-P34 189 -> best sub-009 jaccard 0.128  | 2nd 0.128 P_009
+sub-P35 138 -> best sub-006 jaccard 0.038  | 2nd 0.038 P_006
+sub-P36 220 -> best sub-140 jaccard 0.000  | 2nd 0.000 P_140
+sub-P37 194 -> best sub-008 jaccard 0.083  | 2nd 0.081 P_008
+sub-P38 147 -> best sub-008 jaccard 0.100  | 2nd 0.096 P_008
+sub-P39 197 -> best sub-140 jaccard 0.000  | 2nd 0.000 P_140
+identical SEEG label lists: 3 of 28

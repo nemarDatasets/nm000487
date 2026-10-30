@@ -110,3 +110,15 @@ stim["time_in_epoch"] = (stim["sample"] - stim["epoch"] * n_per) / epochs.info["
 raw = mne.io.read_raw_brainvision(bp.fpath)
 raw.set_annotations(mne.Annotations(stim["onset"], stim["duration"], stim["trial_type"].astype(str)))
 ```
+
+## Participant overlap with nm000403 (fix-20261030, Oct 2026)
+
+nm000403 (Jonas et al. 2016, 28 participants, University Hospital of Nancy, Dec 2012 - Mar 2015, same laboratory and
+paradigm family) very likely shares participants with this dataset. Comparing the SEEG contact-label lists of the two
+copies (`code/fix-20261030_overlap_nm000403.txt`): three nm000403 participants have exactly the same contact list, in the
+same order, as one participant here (nm000403 sub-P06 = sub-004, sub-P08 = sub-006, sub-P10 = sub-008), and eight more
+have their best match at Jaccard 0.72-0.96 with the next best at most 0.67 (sub-P04 / sub-002, sub-P05 / sub-003,
+sub-P09 / sub-007, sub-P11 / sub-016, sub-P18 / sub-067, sub-P21 / sub-070, sub-P32 / sub-079; sub-P03 / sub-001 at 0.61).
+The remaining nm000403 participants use other label formats and were not matched. Neither release maps its participant
+codes to the other, so this mapping is a likely overlap, not a confirmed identity. When pooling the two datasets, treat
+these participants as the same people.
