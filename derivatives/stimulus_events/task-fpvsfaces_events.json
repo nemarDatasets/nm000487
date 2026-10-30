@@ -1,0 +1,23 @@
+{
+  "onset": {
+    "Description": "Event time in the data file of the same subject (sub-NNN/ieeg/sub-NNN_task-fpvsfaces_run-1_ieeg.*), in seconds from the start of the recording (sequences back-to-back), as in the raw events.tsv up to this change",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "0 (instantaneous Letswave event)",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Letswave event code as stored (numeric Micromed trigger codes; a leading participant-code token before '_' is replaced by 'seq'; other free-text codes by 'unk'). The release README states the event codes are meaningless for most participants; stimulus onsets are periodic (6 Hz, faces at 1.2 Hz)."
+  },
+  "sequence": {
+    "Description": "Sequence (= epoch of the data file, = sequence_start row of the raw events.tsv) number, 1-based"
+  },
+  "latency_in_sequence": {
+    "Description": "Letswave event latency on the sequence time axis (the epoch starts at the subject's SequenceStartTime in ieeg.json: -2, -1.834 or -3 s)",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "Sample index in the data file (0-based); epoch k covers samples (k-1) x n .. k x n - 1 with n = round(EpochLength x SamplingFrequency)"
+  }
+}
