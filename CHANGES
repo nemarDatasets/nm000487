@@ -1,9 +1,12 @@
-Unreleased (branch fix-20261030, Oct 2026)
-  - README: likely participant overlap with nm000403 (3 identical SEEG contact lists, 7 near matches plus 1 weaker); evidence in code/fix-20261030_overlap_nm000403.txt. No data or sidecar change.
-
 1.0.4 2026-10-30
 
-  - Note likely participant overlap with another dataset
+  - README: the published text is kept unchanged; a section added on the likely participant overlap with nm000403
+    (3 identical SEEG contact lists, 7 near matches plus 1 weaker; evidence in
+    code/fix-20261030_overlap_nm000403.txt).
+  - Version 1.0.4 also contains the 1.0.3 events rework below, which was never released on its own: all 140
+    events.tsv files are rewritten (177,372 rows removed, 452 sequence_start rows added). So that no published row
+    is lost, the 140 events.tsv files of version 1.0.2 are kept byte for byte at the same relative path under
+    sourcedata/events-v1.0.2/ (with a README).
 
 1.0.3 2026-10-17
   - events.tsv: removed 35,685 Letswave event rows that are not on the file's time axis from 120 of 140 files (68 files: rows outside their own sequence or after the end of the recording, 14,679 rows; 52 files: the whole event block is on another clock, 21,006 rows); those 52 files now hold one 'sequence_start' row per sequence. Removed rows kept in sourcedata/events-removed-2026-10-17/. Signal files unchanged.
