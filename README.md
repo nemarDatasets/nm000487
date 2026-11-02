@@ -21,18 +21,23 @@ stimulation sequences and merged per participant; no filtering stated), not the 
 - `sub-NNN_space-Talairach_electrodes.tsv`: Talairach x/y/z per contact from the Letswave header (chanlocs.xyz_coord_Talairach)
   plus the authors' anatomical labels: `anatomy_main_region` (OCC, PTL, ATL, MTL, TP, WM...), `anatomy_sub_region` and `votc`
   (inside the authors' VOTC region or not). Contacts without finite coordinates have n/a.
-- `events.tsv`: since version 1.0.3, exactly one `sequence_start` row per sequence (epoch) of the data file, so that
-  `mne_bids.read_epochs_bids` loads each file as its sequences (see "Events and epochs").
-- `derivatives/stimulus_events/`: the stimulus-level Letswave events (trigger codes, sequence, latency) of the 88 files
-  that have them, with onsets in seconds from the start of the recording; the release README says the codes are
-  meaningless for most participants (stimulus onsets are periodic). Events that are not on the file's time axis were
-  removed in 1.0.3 (see "Events outside the data").
+- `events.tsv`: Letswave events (trigger codes, sequence, latency); the README says the codes are meaningless for most
+  participants (stimulus onsets are periodic).
 - `participants.tsv`: age at SEEG, sex, handedness (release demographics), reference contact, first-trigger flag, sequence
   length, sampling rate, number of sequences and of channels.
 - `sourcedata/osf-2qzym-deidentified/`: the release's Letswave files per participant (headers rewritten, see Privacy), the README,
   loader and the two participant .txt tables (`140_participants_info.xlsx` is not copied: it could not be inspected in the
   conversion environment; the .txt tables carry the same information); `DEIDENTIFICATION_MANIFEST.tsv` lists original and
   new sha-256 per file.
+
+Updated in version 1.0.4 by the depositors of this NEMAR copy (the published text above is kept unchanged; these items replace or extend it):
+
+- `events.tsv`: since version 1.0.3, exactly one `sequence_start` row per sequence (epoch) of the data file, so that
+  `mne_bids.read_epochs_bids` loads each file as its sequences (see "Events and epochs").
+- `derivatives/stimulus_events/`: the stimulus-level Letswave events (trigger codes, sequence, latency) of the 88 files
+  that have them, with onsets in seconds from the start of the recording; the release README says the codes are
+  meaningless for most participants (stimulus onsets are periodic). Events that are not on the file's time axis were
+  removed in 1.0.3 (see "Events outside the data").
 
 ## Privacy
 - Letswave event codes with a leading participant-code token were replaced ('seq_...'; other free-text codes 'unk') in
@@ -111,7 +116,7 @@ raw = mne.io.read_raw_brainvision(bp.fpath)
 raw.set_annotations(mne.Annotations(stim["onset"], stim["duration"], stim["trial_type"].astype(str)))
 ```
 
-## Participant overlap with nm000403 (fix-20261030, Oct 2026)
+## Participant overlap with nm000403 (version 1.0.4, Oct 2026)
 
 nm000403 (Jonas et al. 2016, 28 participants, University Hospital of Nancy, Dec 2012 - Mar 2015, same laboratory and
 paradigm family) very likely shares participants with this dataset. Comparing the SEEG contact-label lists of the two
